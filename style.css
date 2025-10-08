@@ -4,6 +4,7 @@ body {
   margin: 0;
   padding: 0;
 }
+
 .container {
   max-width: 700px;
   margin: 40px auto;
@@ -12,31 +13,40 @@ body {
   border-radius: 8px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
+
 h1 {
   text-align: center;
   color: #2c3e50;
+  font-weight: 400;  /* Reduced boldness */
 }
+
 #assignment-select {
   margin-bottom: 20px;
   text-align: center;
 }
+
 #quiz {
   margin-top: 20px;
 }
+
 .question {
   margin-bottom: 18px;
   padding: 12px;
   background: #f9f9f9;
   border-radius: 6px;
   font-size: 1.2rem;
-  font-weight: 600;
+  font-weight: 400;  /* Reduced boldness */
+  word-wrap: break-word; /* Ensure long words wrap properly */
 }
+
 .options label {
   display: block;
   margin-bottom: 6px;
   cursor: pointer;
-  font-size: 1rem;
+  font-size: 1.1rem;
+  font-weight: 400;  /* Normal weight for options */
 }
+
 button {
   background: #2980b9;
   color: #fff;
@@ -45,31 +55,39 @@ button {
   border-radius: 5px;
   cursor: pointer;
   font-size: 16px;
+  font-weight: 500;  /* Slightly bold button text for better contrast */
 }
+
 button:disabled {
   background: #aaa;
   cursor: not-allowed;
 }
+
 #result {
   margin-top: 30px;
   padding: 18px;
   background: #eafaf1;
   border-radius: 6px;
 }
+
 .explanation {
   margin-top: 8px;
   font-size: 15px;
   color: #34495e;
+  font-weight: 400;  /* Normal weight */
 }
+
 .correct {
   color: green;
 }
+
 .incorrect {
   color: red;
 }
+
 .score {
   font-size: 20px;
-  font-weight: bold;
+  font-weight: 400;  /* Reduced boldness */
   color: #27ae60;
   margin-bottom: 12px;
 }
@@ -77,9 +95,21 @@ button:disabled {
 /* Responsive adjustments for phones */
 @media (max-width: 600px) {
   .question {
-    font-size: 1.2rem;
+    font-size: 1.1rem;  /* Slightly reduced size for mobile */
+    padding: 10px;      /* Reduce padding to fit smaller screens */
   }
+
   .options label {
-    font-size: 1.1rem;
+    font-size: 1rem;    /* Keep it consistent with the default size */
+  }
+
+  /* Ensuring buttons fit well on mobile */
+  button {
+    padding: 12px 20px; /* Increased padding for easier tap */
+    font-size: 15px;     /* Adjust button font size slightly */
+  }
+
+  .score {
+    font-size: 18px;     /* Reduce score font size slightly for smaller screens */
   }
 }
