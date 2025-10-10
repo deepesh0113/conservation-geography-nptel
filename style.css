@@ -11,18 +11,27 @@ body {
   background: #fff;
   padding: 30px;
   border-radius: 8px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
 h1 {
   text-align: center;
   color: #2c3e50;
-  font-weight: 400;  /* Reduced boldness */
 }
 
+#year-select,
 #assignment-select {
   margin-bottom: 20px;
   text-align: center;
+}
+
+#year,
+#assignment {
+  padding: 8px 12px;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin: 0 8px;
 }
 
 #quiz {
@@ -32,11 +41,10 @@ h1 {
 .question {
   margin-bottom: 18px;
   padding: 12px;
-  font-size: 15px;
-  font-weight: 400;
   background: #f9f9f9;
   border-radius: 6px;
-  word-wrap: break-word; /* Ensure long words wrap properly */
+  font-size: 15px;
+  font-weight: 400;
 }
 
 .options label {
@@ -44,7 +52,7 @@ h1 {
   margin-bottom: 6px;
   cursor: pointer;
   font-size: 15px;
-  font-weight: 400;  /* Normal weight for options */
+  font-weight: 400;
 }
 
 button {
@@ -55,7 +63,6 @@ button {
   border-radius: 5px;
   cursor: pointer;
   font-size: 16px;
-  font-weight: 500;  /* Slightly bold button text for better contrast */
 }
 
 button:disabled {
@@ -87,29 +94,28 @@ button:disabled {
 
 .score {
   font-size: 20px;
-  font-weight: 400;  /* Reduced boldness */
+  font-weight: bold;
   color: #27ae60;
   margin-bottom: 12px;
 }
 
 /* Responsive adjustments for phones */
 @media (max-width: 600px) {
+  .container {
+    padding: 10px;
+  }
+
   .question {
-    font-size: 1.1rem;  /* Slightly reduced size for mobile */
-    padding: 10px;      /* Reduce padding to fit smaller screens */
+    font-size: 1.4rem;
   }
 
   .options label {
-    font-size: 1rem;    /* Keep it consistent with the default size */
+    font-size: 1.1rem;
   }
 
-  /* Ensuring buttons fit well on mobile */
-  button {
-    padding: 12px 20px; /* Increased padding for easier tap */
-    font-size: 15px;     /* Adjust button font size slightly */
-  }
-
-  .score {
-    font-size: 18px;     /* Reduce score font size slightly for smaller screens */
+  #year,
+  #assignment {
+    font-size: 1.1rem;
+    padding: 10px 8px;
   }
 }
