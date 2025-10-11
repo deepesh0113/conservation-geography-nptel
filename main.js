@@ -693,7 +693,6 @@ const years = [
                     }
                 ]
             },
-            // add assignements 7, 8, 9, 10, 11 as needed
             {
                 name: "Assignment 7",
                 questions: [
@@ -1396,12 +1395,12 @@ const years = [
                     {
                         text: "The movement of individuals away from their place of birth or hatching or seed production into a new habitat or area to survive and reproduce is called",
                         options: [
+                            "Dispersal",
                             "Translocation",
                             "Migration",
-                            "Drifting",
-                            "Dispersal"
+                            "Drifting"
                         ],
-                        answer: 3,
+                        answer: 0,
                         explanation: "Dispersal means spreading of organisms to new areas for survival and reproduction. Translocation is artificial movement by humans. Migration is regular, seasonal movement. Drifting is passive movement by air or water."
                     },
                     {
@@ -1418,23 +1417,25 @@ const years = [
                     {
                         text: "The Geographical discipline of Climatology is most closely related to:",
                         options: [
+                            "Meteorology",
                             "Geology",
                             "Hydrology",
-                            "Pedology",
-                            "Meteorology"
+                            "Pedology"
+
                         ],
-                        answer: 3,
+                        answer: 0,
                         explanation: "Climatology is long-term study of weather patterns; meteorology focuses on short-term atmospheric processes. Geology is study of Earth's crust. Hydrology is study of water. Pedology is study of soils."
                     },
                     {
                         text: "The systematic approach to Geography was developed by:",
                         options: [
                             "Karl Ritter",
+                            "Alexander von Humboldt",
                             "Rene Descartes",
-                            "Eratosthenes",
-                            "Alexander von Humboldt"
+                            "Eratosthenes"
+
                         ],
-                        answer: 3,
+                        answer: 1,
                         explanation: "Humboldt focused on systematic geography—relationships between environment and distribution of phenomena. Karl Ritter developed regional geography. Rene Descartes was a philosopher. Eratosthenes coined the term geography, but not the systematic approach."
                     },
                     {
@@ -1453,10 +1454,10 @@ const years = [
                         options: [
                             "Together",
                             "House",
-                            "Manage",
-                            "To keep"
+                            "To keep",
+                            "Manage"
                         ],
-                        answer: 3,
+                        answer: 2,
                         explanation: "Servare (Latin) means to keep or preserve. Together means con. House is eco. Manage is administer."
                     },
                     {
@@ -1464,21 +1465,22 @@ const years = [
                         options: [
                             "Conservation",
                             "Environmentalism",
-                            "Ecology",
-                            "Preservation"
+                            "Preservation",
+                            "Ecology"
                         ],
-                        answer: 3,
+                        answer: 2,
                         explanation: "Preservation = protection of nature from human use or change. Conservation is sustainable use. Environmentalism is activism. Ecology is the scientific study of interactions."
                     },
                     {
                         text: "I tried growing vegetables under my teak plantation, but the vegetable plants died out. I should be concerned about",
                         options: [
+                            "Allelopathy",
                             "Autophagy",
                             "Allelophagy",
-                            "Autopathy",
-                            "Allelopathy"
+                            "Autopathy"
+
                         ],
-                        answer: 3,
+                        answer: 0,
                         explanation: "Allelopathy is chemical inhibition of one plant by another via toxins. Autophagy is self-digestion. Allelophagy is not a valid term. Autopathy is self-disease."
                     },
                     {
@@ -1486,21 +1488,22 @@ const years = [
                         options: [
                             "Translocation",
                             "Dispersal",
-                            "Drifting",
-                            "Migration"
+                            "Migration",
+                            "Drifting"
+
                         ],
-                        answer: 3,
+                        answer: 2,
                         explanation: "Migration = periodic movement for feeding, breeding, or climate adaptation. Translocation is human relocation. Dispersal is one-way expansion. Drifting is passive movement."
                     },
                     {
                         text: "In the word root for conservation, con stands for",
                         options: [
+                            "Together",
                             "To keep",
                             "House",
-                            "Manage",
-                            "Together"
+                            "Manage"
                         ],
-                        answer: 3,
+                        answer: 0,
                         explanation: "Con (Latin prefix) = together, combined, jointly. To keep is servare. House is eco. Manage is not relevant."
                     }
                 ]
@@ -1856,23 +1859,23 @@ const years = [
                     {
                         text: "Which of these air masses is generally cool and moist?",
                         options: [
+                            "mP",
                             "cP",
                             "cT",
-                            "mT",
-                            "mP"
+                            "mT"
                         ],
-                        answer: 3,
+                        answer: 0,
                         explanation: "Maritime Polar (mP) forms over cold ocean waters; hence cool and moist. cP is cold and dry (continental origin). cT is hot and dry (formed over deserts). mT is warm and moist (tropical oceans)."
                     },
                     {
                         text: "Which of these air masses is generally cold and dry?",
                         options: [
-                            "cT",
+                            "cP",
                             "mP",
                             "mT",
-                            "cP"
+                            "cT"
                         ],
-                        answer: 3,
+                        answer: 0,
                         explanation: "Continental Polar (cP) originates over cold landmasses; cold and dry in nature. cT is warm and dry. mP is cool and moist. mT is warm and moist."
                     },
                     {
@@ -1880,54 +1883,56 @@ const years = [
                         options: [
                             "Troposphere",
                             "Stratosphere",
-                            "Mesosphere",
-                            "Thermosphere"
+                            "Thermosphere",
+                            "Mesosphere"
+
                         ],
-                        answer: 3,
+                        answer: 2,
                         explanation: "The International Space Station orbits around 400 km altitude within the thermosphere. Troposphere is where weather occurs, too low for ISS. Stratosphere includes ozone layer, still below ISS orbit. Mesosphere lies below thermosphere, too low for satellites."
                     },
                     {
                         text: "The government came up with a regulation that incandescent bulbs be replaced by LED bulbs, so that electricity consumption and release of carbon dioxide from power plants is reduced. In the context of climate change, such an action would be calledRegulation to replace incandescent bulbs with LEDs is an example of",
                         options: [
                             "Adaptation",
+                            "Mitigation",
                             "Deceleration",
-                            "Maladaptation",
-                            "Mitigation"
+                            "Maladaptation"
                         ],
-                        answer: 3,
+                        answer: 1,
                         explanation: "Mitigation aims to reduce greenhouse gas emissions to slow climate change. Adaptation means adjusting to climate impacts, not reducing causes. Deceleration is not a climate term. Maladaptation refers to poor or counterproductive adaptation."
                     },
                     {
                         text: "Surplus seed and sperm banking is an adaptation option to facilitate",
                         options: [
+                            "Resilience to climate changes",
                             "Resistance",
                             "Response",
-                            "None of these",
-                            "Resilience to climate changes"
+                            "None of these"
+
                         ],
-                        answer: 3,
+                        answer: 0,
                         explanation: "Resilience to climate changes – helps species recover from population loss and adapt to environmental stress. Resistance means avoiding change, not recovering from it. Response is general; doesn’t imply long-term recovery. None of these is incorrect as resilience fits precisely."
                     },
                     {
                         text: "The classical period for taking climate averages is",
                         options: [
-                            "10 years",
+                            "30 years",
                             "20 years",
                             "40 years",
-                            "30 years"
+                            "10 years"
                         ],
-                        answer: 3,
+                        answer: 0,
                         explanation: "30 years – as per World Meteorological Organization (WMO) standard for climate normals. 10 and 20 years are too short, 40 years is longer than standard."
                     },
                     {
                         text: "Noctilucent clouds are present in which layer?",
                         options: [
                             "Troposphere",
+                            "Mesosphere",
                             "Stratosphere",
-                            "Thermosphere",
-                            "Mesosphere"
+                            "Thermosphere"
                         ],
-                        answer: 3,
+                        answer: 1,
                         explanation: "Mesosphere – highest known clouds, form from ice crystals in the mesosphere. Troposphere hosts regular weather clouds. Stratosphere contains ozone but no noctilucent clouds. Thermosphere is too hot and thin for cloud formation."
                     },
                     {
@@ -1935,32 +1940,35 @@ const years = [
                         options: [
                             "Mitigation",
                             "Deceleration",
-                            "Maladaptation",
-                            "Adaptation"
+                            "Adaptation",
+                            "Maladaptation"
+
                         ],
-                        answer: 3,
+                        answer: 2,
                         explanation: "Adaptation – adjusting to the impacts of climate change to maintain ecosystem function. Mitigation deals with emission reduction, not local coping. Deceleration is not a valid climate term. Maladaptation would worsen vulnerability, not reduce it."
                     },
                     {
                         text: "Which layer is home to the ozone layer?",
                         options: [
+                            "Stratosphere",
                             "Troposphere",
                             "Mesosphere",
-                            "Thermosphere",
-                            "Stratosphere"
+                            "Thermosphere"
+
                         ],
-                        answer: 3,
+                        answer: 0,
                         explanation: "Stratosphere contains the ozone layer that absorbs harmful UV radiation. Troposphere has weather but little ozone. Mesosphere is above ozone layer, little ozone present. Thermosphere contains ionized gases, not ozone."
                     },
                     {
                         text: "Most weather phenomena occur in",
                         options: [
+                            "Troposphere",
                             "Stratosphere",
                             "Mesosphere",
-                            "Thermosphere",
-                            "Troposphere"
+                            "Thermosphere"
+
                         ],
-                        answer: 3,
+                        answer: 0,
                         explanation: "Troposphere is the lowest layer where clouds, rainfall, and storms develop. Stratosphere is a stable layer above weather zone. Mesosphere is too cold and thin for weather. Thermosphere has no weather due to extremely low density."
                     }
                 ]
@@ -1972,22 +1980,24 @@ const years = [
                         text: "Equal density curves are called",
                         options: [
                             "Isohaline",
+                            "Isopycnal curves",
                             "Isotherm",
-                            "Isobuoyant",
-                            "Isopycnal curves"
+                            "Isobuoyant"
+
                         ],
-                        answer: 3,
+                        answer: 1,
                         explanation: "Isopycnal curves – “pycnal” means density; these lines connect points of equal density in the ocean. Isohaline is equal salinity. Isotherm is equal temperature. Isobuoyant is not a standard oceanographic term."
                     },
                     {
                         text: "Which of these is a minor feature of the ocean floor?",
                         options: [
                             "Continental shelf",
+                            "Guyot",
                             "Continental slope",
-                            "Abyssal plain",
-                            "Guyot"
+                            "Abyssal plain"
+
                         ],
-                        answer: 3,
+                        answer: 1,
                         explanation: "Guyot – flat-topped seamounts; smaller features compared to major oceanic structures. Continental shelf, slope, and abyssal plain are major features."
                     },
                     {
@@ -2006,10 +2016,11 @@ const years = [
                         options: [
                             "Continental shelf",
                             "Continental slope",
-                            "Guyot",
-                            "Abyssal plain"
+                            "Abyssal plain",
+                            "Guyot"
+
                         ],
-                        answer: 3,
+                        answer: 2,
                         explanation: "Abyssal plain covers more than 50% of Earth’s surface; the world’s largest ecosystem. Continental shelf is a shallow margin, not largest. Continental slope is a narrow zone. Guyot is an individual undersea feature."
                     },
                     {
@@ -2027,11 +2038,12 @@ const years = [
                         text: "“Deep valleys, often cutting across continental shelves and slopes” is a description of",
                         options: [
                             "Oceanic trench",
+                            "Submarine canyon",
                             "Mid-oceanic ridge",
                             "Guyot",
-                            "Submarine canyon"
+
                         ],
-                        answer: 3,
+                        answer: 1,
                         explanation: "Submarine canyon – steep-sided underwater valleys carved by turbidity currents. Oceanic trench is found in deep ocean basins. Mid-oceanic ridge is an underwater mountain system. Guyot is a flat-topped volcanic mountain."
                     },
                     {
@@ -2039,21 +2051,23 @@ const years = [
                         options: [
                             "0–1°",
                             "1–2°",
-                            "5–10°",
-                            "2–5 degrees"
+                            "2–5 degrees",
+                            "5–10°"
+
                         ],
-                        answer: 3,
+                        answer: 2,
                         explanation: "2–5 degrees is the typical gradient for continental slope. 0–1° and 1–2° are too gentle, 5–10° is steeper than typical."
                     },
                     {
                         text: "Which of these is not a prominent tidal pattern?",
                         options: [
                             "Diurnal",
+                            "Mixed diurnal",
                             "Mixed semidiurnal",
-                            "Semidiurnal",
-                            "Mixed diurnal"
+                            "Semidiurnal"
+
                         ],
-                        answer: 3,
+                        answer: 1,
                         explanation: "Mixed diurnal is not a recognized tidal type. Diurnal is one high and one low tide per day. Mixed semidiurnal is two highs and two lows of unequal height. Semidiurnal is two nearly equal highs and lows daily."
                     },
                     {
@@ -2119,34 +2133,34 @@ const years = [
                     {
                         text: "In Köppen classification, which is cold arid temperature?",
                         options: [
-                            "k",
                             "h",
+                            "k",
                             "a",
                             "b"
                         ],
-                        answer: 0,
+                        answer: 1,
                         explanation: "‘k’ denotes cold arid (mean annual temperature below 18°C). ‘h’ indicates hot arid (above 18°C). ‘a’ is hot summer type in humid climates. ‘b’ is warm summer, not arid."
                     },
                     {
                         text: "In Köppen classification, which is winter dry precipitation?",
                         options: [
-                            "w",
                             "S",
+                            "w",
                             "f",
                             "s"
                         ],
-                        answer: 0,
+                        answer: 1,
                         explanation: "‘w’ represents dry winter climate (most rainfall in summer). ‘S’ stands for steppe/semi-arid. ‘f’ is fully humid, no dry season. ‘s’ is dry summer."
                     },
                     {
                         text: "In Köppen classification, which is cool summer temperature?",
                         options: [
-                            "c",
                             "d",
                             "F",
+                            "c",
                             "T"
                         ],
-                        answer: 0,
+                        answer: 2,
                         explanation: "‘c’ means cool summer, warmest month <22°C but at least 4 months >10°C. ‘d’ is very cold winter (continental/subarctic). ‘F’ is no dry season. ‘T’ is tundra climate, extremely cold."
                     },
                     {
@@ -2163,12 +2177,12 @@ const years = [
                     {
                         text: "In Köppen classification, which is monsoonal precipitation?",
                         options: [
-                            "m",
                             "W",
+                            "m",
                             "S",
                             "s"
                         ],
-                        answer: 0,
+                        answer: 1,
                         explanation: "‘m’ denotes monsoonal rainfall, with short dry season and heavy summer rains. ‘W’ is desert. ‘S’ is steppe. ‘s’ is dry summer, Mediterranean type."
                     },
                     {
@@ -2212,45 +2226,49 @@ const years = [
                     {
                         text: "Which of these is not a characteristic of pioneer species",
                         options: [
+                            "Large size",
                             "Ability to grow on bare rocks",
                             "Tolerance to extreme conditions",
-                            "Short life span",
-                            "Large size"
+                            "Short life span"
+
                         ],
-                        answer: 3,
+                        answer: 0,
                         explanation: "Pioneer species (like lichens, mosses) are small, hardy, and fast-growing organisms that first colonize barren areas. Large size is not a characteristic."
                     },
                     {
-                        text: "“Groups of actually or potentially interbreeding natural populations, which are reproductively isolated from other such groups” refers to",
+                        text: "“groups of actually or potentially interbreeding natural populations, which are reproductively isolated from other such groups” is a definition of",
                         options: [
+                            "Species",
                             "Cells",
                             "Ecosystems",
-                            "Biomes",
-                            "Species"
+                            "Biomes"
+
                         ],
-                        answer: 3,
+                        answer: 0,
                         explanation: "This is the Biological Species Concept by Ernst Mayr. Cells are the basic unit of life, not population-level concept. Ecosystems include abiotic + biotic components. Biomes are large ecological regions."
                     },
                     {
                         text: "Mechanical action of ocean waves is an example of",
                         options: [
                             "Chemical weathering",
+                            "Physical weathering",
                             "Biological weathering",
-                            "None",
-                            "Physical weathering"
+                            "None of the above",
+
                         ],
-                        answer: 3,
-                        explanation: "It breaks rocks by mechanical force (abrasion, impact) without chemical change. Chemical weathering alters mineral composition. Biological weathering is caused by living organisms."
+                        answer: 1,
+                        explanation: "Physical weathering breaks rocks by mechanical force (abrasion, impact) without chemical change. Chemical weathering alters mineral composition. Biological weathering is caused by living organisms."
                     },
                     {
-                        text: "The climax near Tindni village is being controlled by disturbance by cattle.",
+                        text: "The climax near Tindni village is being controlled by disturbance by cattle. This is an example of",
                         options: [
                             "Climatic climax",
                             "Edaphic climax",
-                            "Catastrophic climax",
-                            "Disclimax"
+                            "Disclimax",
+                            "Catastrophic climax"
+
                         ],
-                        answer: 3,
+                        answer: 2,
                         explanation: "Disclimax occurs when human or animal interference (like grazing) prevents the natural climax community. Climatic climax is determined by regional climate, not interference. Edaphic climax is determined by soil conditions. Catastrophic climax is due to disasters."
                     },
                     {
@@ -2258,43 +2276,47 @@ const years = [
                         options: [
                             "Physical weathering",
                             "Biological weathering",
-                            "None",
-                            "Chemical weathering"
+                            "Chemical weathering",
+                            "None"
+
                         ],
-                        answer: 3,
+                        answer: 2,
                         explanation: "Carbonation involves CO₂ + water forming carbonic acid, which dissolves rocks like limestone (CaCO₃)."
                     },
                     {
                         text: "In soil profile, ‘C’ refers to",
                         options: [
                             "Organic surface layer",
+                            "Substratum layer",
                             "Topsoil",
-                            "Subsoil",
-                            "Substratum layer"
+                            "Subsoil"
+
                         ],
-                        answer: 3,
+                        answer: 1,
                         explanation: "The C-horizon is the partially weathered parent material, below A (topsoil) and B (subsoil)."
                     },
                     {
                         text: "A climax caused by wildfires is an example of",
                         options: [
                             "Climatic climax",
+                            "Catastrophic climax",
                             "Edaphic climax",
                             "Disclimax",
-                            "Catastrophic climax"
+
                         ],
-                        answer: 3,
+                        answer: 1,
                         explanation: "Catastrophic climax results when sudden large-scale disturbances like fire or storm reset succession."
                     },
                     {
                         text: "Regur is a term for",
                         options: [
+                            "Black cotton soil",
                             "Alluvial soil",
                             "Saline soil",
-                            "Red and yellow soil",
-                            "Black cotton soil"
+                            "Red and yellow soil"
+
                         ],
-                        answer: 3,
+                        answer: 0,
                         explanation: "Regur soils are clayey, rich in iron and lime, formed from basalt in the Deccan Plateau — ideal for cotton."
                     },
                     {
@@ -2314,7 +2336,7 @@ const years = [
                 name: "Assignment 8",
                 questions: [
                     {
-                        text: "The fig tree bears fruits in times when animals do not have much access to food.",
+                        text: "The fig tree bears fruits in times when animals do not have much access to food. In this context, it would be a good example of",
                         options: [
                             "Least concern species",
                             "Flagship species",
@@ -2325,18 +2347,19 @@ const years = [
                         explanation: "Keystone species have a disproportionately large effect on their ecosystem — fig trees sustain animals during food-scarce periods. Least concern is a conservation status, not ecological role. Flagship species are chosen for awareness, not ecosystem impact. Extinct species no longer exist."
                     },
                     {
-                        text: "“Subset of physical and biotic environmental factors that permit an animal (or plant) to survive and reproduce”",
+                        text: "The “subset of physical and biotic environmental factors that permit an animal (or plant) to survive and reproduce” is the definition of",
                         options: [
                             "Ecosystem",
+                            "Habitat",
                             "Biome",
-                            "Biosphere",
-                            "Habitat"
+                            "Biosphere"
+
                         ],
-                        answer: 3,
+                        answer: 1,
                         explanation: "A habitat provides all conditions and resources necessary for an organism’s survival and reproduction. Ecosystem includes interactions between biotic and abiotic components. Biome is a large ecological region. Biosphere is the global sum of all ecosystems."
                     },
                     {
-                        text: "Process of habitat fragmentation and loss",
+                        text: "Which of these correctly represents the process of habitat fragmentation and loss?",
                         options: [
                             "Original forest → Dissection → Perforation → Fragmentation → Attrition",
                             "Original forest → Perforation → Dissection → Fragmentation → Attrition",
@@ -2362,10 +2385,11 @@ const years = [
                         options: [
                             "Provisioning service",
                             "Supporting service",
-                            "Cultural service",
-                            "Regulating service"
+                            "Regulating service",
+                            "Cultural service"
+
                         ],
-                        answer: 3,
+                        answer: 2,
                         explanation: "Regulating services maintain ecosystem balance, such as pest control, flood regulation, and pollination. Provisioning provides direct products. Supporting underpins all other services. Cultural relates to heritage or tourism."
                     },
                     {
@@ -2380,7 +2404,7 @@ const years = [
                         explanation: "HIPPO = Habitat loss, Invasive species, Pollution, Population, Overexploitation — key biodiversity threats. Pollination is an ecological service, not a threat."
                     },
                     {
-                        text: "The tiger has a large home range and regulates herbivores; people also visit reserves to see it.",
+                        text: "The tiger has a home range of several square kilometres, regulates the ecosystem through controlling herbivore populations and trophic cascades, and people come to tiger reserves to watch tigers. Thus, the tiger can be called as",
                         options: [
                             "Keystone species",
                             "Umbrella species",
@@ -2391,14 +2415,15 @@ const years = [
                         explanation: "Tiger is a Keystone species (regulates prey), an Umbrella species (protecting it safeguards others), and a Flagship species (symbol for conservation awareness)."
                     },
                     {
-                        text: "People visit Sessa Orchid Sanctuary to see orchids.",
+                        text: "People come to Sessa orchid sanctuary in Arunachal Pradesh to witness orchids, which in this context would be classified as",
                         options: [
                             "Umbrella species",
+                            "Flagship species",
                             "Keystone species",
-                            "Extinct species",
-                            "Flagship species"
+                            "Extinct species"
+
                         ],
-                        answer: 3,
+                        answer: 1,
                         explanation: "Flagship species are charismatic organisms that attract public attention and conservation funding. Umbrella species indirectly protect others by wide habitat needs. Keystone species are ecologically crucial, not necessarily attractive. Extinct species no longer exist."
                     },
                     {
@@ -2413,7 +2438,7 @@ const years = [
                         explanation: "Ex-situ means “outside the natural habitat” — like zoos, botanical gardens, gene banks. In-situ is protecting species in their natural habitats. Preservation implies non-interference, not active conservation."
                     },
                     {
-                        text: "We prefer areas for conservation reserves where threat level is",
+                        text: "We prefer those areas for the creation of a conservation reserve where the level of threat is",
                         options: [
                             "Very high",
                             "Very low",
@@ -2431,27 +2456,29 @@ const years = [
                     {
                         text: "According to Malthusian model",
                         options: [
+                            "Population grows in geometric progression, food supply increases in arithmetic progression",
                             "Both geometric",
                             "Both arithmetic",
-                            "Population arithmetic, food geometric",
-                            "Population grows in geometric progression, food supply increases in arithmetic progression"
+                            "Population arithmetic, food geometric"
+
                         ],
-                        answer: 3,
+                        answer: 0,
                         explanation: "Malthus proposed that population grows exponentially, while food supply grows linearly, leading to scarcity. Both geometric is unrealistic; food production is limited by land/resources. Both arithmetic ignores exponential population potential. Population arithmetic, food geometric is opposite of Malthus’ theory."
                     },
                     {
-                        text: "Commonly observed during humanising of nature",
+                        text: "Which of these is commonly observed during humanising of nature?",
                         options: [
+                            "Possibilism",
                             "Environmental determinism",
                             "Neodeterminism",
-                            "Stop and go determinism",
-                            "Possibilism"
+                            "Stop and go determinism"
+
                         ],
-                        answer: 3,
+                        answer: 0,
                         explanation: "Possibilism suggests humans modify and adapt the environment using technology and culture. Environmental determinism is nature controls humans. Neodeterminism is a balance. Stop and go determinism is a modern variant."
                     },
                     {
-                        text: "A pillar of sustainability",
+                        text: "Which of these is a pillar of sustainability",
                         options: [
                             "Industrial sustainability",
                             "Agricultural sustainability",
@@ -2462,18 +2489,19 @@ const years = [
                         explanation: "Sustainability stands on three pillars — social, economic, and environmental. Industrial and agricultural are sectoral, not pillars. Trans-boundary relates to boundaries, not the framework."
                     },
                     {
-                        text: "Commonly observed in primitive societies",
+                        text: "Which of these is commonly observed in primitive societies?",
                         options: [
                             "Possibilism",
+                            "Environmental determinism",
                             "Neodeterminism",
-                            "Stop and go determinism",
-                            "Environmental determinism"
+                            "Stop and go determinism"
+
                         ],
-                        answer: 3,
+                        answer: 1,
                         explanation: "Primitive societies were strongly controlled by nature, climate, and physical surroundings (environmental determinism)."
                     },
                     {
-                        text: "Demographic transition sees society move from",
+                        text: "The demographic transition sees a society move from",
                         options: [
                             "High birth rate, low death rate → low birth rate, high death rate",
                             "Low birth rate, high death rate → high birth rate, low death rate",
@@ -2484,7 +2512,7 @@ const years = [
                         explanation: "This model explains population growth through stages of development — from primitive to industrial societies."
                     },
                     {
-                        text: "Logistic growth equation curve is",
+                        text: "The logistic growth equation curve is",
                         options: [
                             "I-shaped",
                             "J-shaped",
@@ -2495,7 +2523,7 @@ const years = [
                         explanation: "Logistic growth (Verhulst model) shows population initially growing fast, then slowing as it nears carrying capacity (S-shaped curve)."
                     },
                     {
-                        text: "Preventive check according to Malthus",
+                        text: "Which of these is a preventive check according to Malthus?",
                         options: [
                             "Vice",
                             "Misery",
@@ -2506,36 +2534,39 @@ const years = [
                         explanation: "Preventive checks are voluntary measures (like delayed marriage, family planning) to limit population before crisis. Vice and misery are positive checks (increase death rate). Flood is a natural calamity, not preventive."
                     },
                     {
-                        text: "Not a pillar of sustainability",
+                        text: "Which of these is not a pillar of sustainability?",
                         options: [
                             "Environmental sustainability",
                             "Economic sustainability",
-                            "Social sustainability",
-                            "Trans-boundary sustainability"
+                            "Trans-boundary sustainability",
+                            "Social sustainability"
+
                         ],
-                        answer: 3,
+                        answer: 2,
                         explanation: "The recognized three pillars are social, economic, and environmental. Trans-boundary is not a pillar."
                     },
                     {
-                        text: "“An Essay on the Principle of Population” was written by",
+                        text: "The book An Essay on the Principle of Population was written by",
                         options: [
                             "Darwin",
                             "Spencer",
-                            "Owens",
-                            "Thomas Malthus"
+                            "Thomas Malthus",
+                            "Owens"
+
                         ],
-                        answer: 3,
+                        answer: 2,
                         explanation: "Published in 1798, the book warned about unchecked population growth leading to famine and poverty. Darwin developed theory of evolution. Spencer coined “survival of the fittest”. Owens was a social reformer."
                     },
                     {
-                        text: "Positive check according to Malthus",
+                        text: "Which of these is a positive check according to Malthus?",
                         options: [
                             "Late marriage",
+                            "War",
                             "Celibacy",
-                            "Moral restraint",
-                            "War"
+                            "Moral restraint"
+
                         ],
-                        answer: 3,
+                        answer: 1,
                         explanation: "Positive checks are factors increasing death rate — war, famine, epidemics. Late marriage, celibacy, moral restraint are preventive checks reducing birth rate."
                     }
                 ]
@@ -2546,27 +2577,29 @@ const years = [
                     {
                         text: "Hydrogen for nuclear fusion comes under the category of",
                         options: [
+                            "Stock resources",
                             "Potential resources",
                             "Actual resources",
-                            "Reserve resources",
-                            "Stock resources"
+                            "Reserve resources"
+
                         ],
-                        answer: 3,
+                        answer: 0,
                         explanation: "Stock resources are those exist in nature but cannot be used currently due to technology or economics. Potential resources can be developed in future, but stock is not yet usable. Actual resources are currently in use. Reserve resources are portion of actual resources available for future use."
                     },
                     {
-                        text: "Largest source of ammonia (NH₃) in the atmosphere",
+                        text: "Which of these is the largest source of ammonia (NH3) in the atmosphere?",
                         options: [
                             "Mineral fertiliser",
                             "Crops and decomposition",
-                            "Human waste",
-                            "Animal manure"
+                            "Animal manure",
+                            "Human waste"
+
                         ],
-                        answer: 3,
+                        answer: 2,
                         explanation: "Livestock waste releases ammonia directly into the air, making it the major natural source. Mineral fertiliser is a secondary contribution. Crops and decomposition are smaller sources. Human waste is a minor contributor."
                     },
                     {
-                        text: "“Part of actual resources that can be developed profitably in the future”",
+                        text: "“The part of actual resources that can be developed profitably in the future” is a definition of”",
                         options: [
                             "Potential resources",
                             "Actual resources",
@@ -2577,80 +2610,86 @@ const years = [
                         explanation: "Reserves are economically exploitable portions of actual resources. Potential resources are not yet surveyed or quantified. Actual resources are currently used. Stock resources are not usable with current technology."
                     },
                     {
-                        text: "Timber from forests being harvested",
+                        text: "Timber from forests that is being harvested can be categorised under",
                         options: [
                             "Potential resources",
+                            "Actual resources",
                             "Reserve resources",
-                            "Stock resources",
-                            "Actual resources"
+                            "Stock resources"
+
                         ],
-                        answer: 3,
+                        answer: 1,
                         explanation: "Resources currently in use are classified as actual. Potential resources are not yet used. Reserve resources are actual resources set aside for future. Stock resources exist but cannot be used now."
                     },
                     {
                         text: "Rain gardens are primarily meant to",
                         options: [
+                            "Increase recharge to groundwater",
                             "Reduce water usage",
                             "Protect existing water sources",
-                            "Increase flow to streams",
-                            "Increase recharge to groundwater"
+                            "Increase flow to streams"
+
                         ],
-                        answer: 3,
+                        answer: 0,
                         explanation: "Rain gardens capture runoff, allowing water to percolate into aquifers. Reduce water usage is an indirect effect. Protect existing water sources is not the primary function. Increase flow to streams is the opposite."
                     },
                     {
-                        text: "Oil that has not been drilled",
+                        text: "Oil that has not been drilled can be categorised under",
                         options: [
+                            "Potential resources",
                             "Actual resources",
                             "Reserve resources",
                             "Stock resources",
-                            "Potential resources"
+
                         ],
-                        answer: 3,
+                        answer: 0,
                         explanation: "Potential resources are known to exist but not yet exploited. Actual resources are currently in use. Reserve resources are set aside for future exploitation. Stock resources cannot be used now."
                     },
                     {
-                        text: "Largest source of nitrogen oxides in the atmosphere",
+                        text: "Which of these is the largest source of nitrogen oxides in the atmosphere?",
                         options: [
                             "Electricity generation",
+                            "Mobile sources",
                             "Industrial processes",
-                            "Waste disposal",
-                            "Mobile sources"
+                            "Waste disposal"
                         ],
-                        answer: 3,
-                        explanation: "Vehicles emit the majority of NOx pollutants via combustion engines. Electricity generation and industrial processes are secondary sources. Waste disposal is a minor contributor."
+                        answer: 1,
+                        explanation: "The largest source of nitrogen oxides (NOx) in the atmosphere is mobile sources, primarily from vehicles with internal combustion engines. These emit the majority of NOx pollutants. Electricity generation and industrial processes are also significant sources, but to a lesser extent. Waste disposal contributes a relatively small amount to NOx emissions."
                     },
                     {
-                        text: "“Resources currently being used after surveying, quantification, and qualification”",
+                        text: "“Those resources that are currently being used after surveying, quantification and qualification” is a definition of",
                         options: [
                             "Potential resources",
                             "Reserve resources",
-                            "Stock resources",
-                            "Actual resources"
+                            "Actual resources",
+                            "Stock resources"
+
                         ],
-                        answer: 3,
+                        answer: 2,
                         explanation: "These are resources under active utilization. Potential resources are not yet used. Reserve resources are set aside for future. Stock resources exist but are not usable yet."
                     },
                     {
-                        text: "“Resources that may be used in the future”",
+                        text: "“Those resources that may be used in the future” is a definition of",
                         options: [
                             "Actual resources",
                             "Reserve resources",
-                            "Stock resources",
-                            "Potential resources"
+                            "Potential resources",
+                            "Stock resources"
+
                         ],
-                        answer: 3,
+                        answer: 2,
                         explanation: "Potential resources can be exploited in the future once technology or economics allow. Actual resources are already in use. Reserve resources are a subset of actual resources for future use. Stock resources cannot be used with current technology."
                     },
                     {
                         text: "Low concentration ores come in the category of",
                         options: [
                             "Potential resources",
+                            "Reserve resources",
                             "Actual resources",
-                            "Stock resources",
-                            "Reserve resources"
+                            "Stock resources"
+
                         ],
-                        answer: 3,
+                        answer: 1,
                         explanation: "Low-grade ores are currently uneconomical, but part of reserves as they may be exploited when extraction becomes profitable. Potential resources refers to unsurveyed or undiscovered. Actual resources are being exploited now. Stock resources exist but cannot be used at all currently."
                     }
                 ]
@@ -2661,12 +2700,12 @@ const years = [
                     {
                         text: "New Delhi can best be categorised as",
                         options: [
+                            "Administrative town",
                             "Industrial town",
                             "Transport town",
-                            "Commercial town",
-                            "Administrative town"
+                            "Commercial town"
                         ],
-                        answer: 3,
+                        answer: 0,
                         explanation: "New Delhi is primarily the capital city, hosting central government offices. Industrial, transport, and commercial activities exist, but administration dominates."
                     },
                     {
@@ -2694,34 +2733,37 @@ const years = [
                     {
                         text: "Varanasi can best be categorised as",
                         options: [
+                            "Religious town",
                             "Mining town",
                             "Garrison town",
-                            "Educational town",
-                            "Religious town"
+                            "Educational town"
+                            
                         ],
-                        answer: 3,
+                        answer: 0,
                         explanation: "Varanasi is famous for temples and pilgrimage. Mining and garrison roles are not significant. Educational is secondary; religious tourism dominates."
                     },
                     {
                         text: "“The ability to produce a good using fewer inputs than another producer”is ",
                         options: [
                             "Comparative advantage",
+                            "Absolute advantage",
                             "Production advantage",
-                            "Resource advantage",
-                            "Absolute advantage"
+                            "Resource advantage"
+                            
                         ],
-                        answer: 3,
+                        answer: 1,
                         explanation: "Absolute advantage = higher productivity with same resources. Comparative advantage is based on lower opportunity cost, not absolute efficiency. Production/resource advantage are not standard economic terms."
                     },
                     {
                         text: "The price of a good that prevails in the world market for that good” is the definition of",
                         options: [
                             "Export price",
+                            "World price",
                             "Import price",
-                            "Domestic price",
-                            "World price"
+                            "Domestic price"
+                            
                         ],
-                        answer: 3,
+                        answer: 1,
                         explanation: "World price reflects global market equilibrium. Export price is when selling abroad, may differ from world price. Import price is price paid when buying abroad. Domestic price is internal market price."
                     },
                     {
@@ -2729,10 +2771,11 @@ const years = [
                         options: [
                             "Administrative town",
                             "Industrial town",
-                            "Commercial town",
-                            "Transport town"
+                            "Transport town",
+                            "Commercial town"
+                            
                         ],
-                        answer: 3,
+                        answer: 2,
                         explanation: "Visakhapatnam is a major port city, facilitating trade and movement of goods. Administrative, industrial, and commercial roles exist but transport dominates."
                     },
                     {
@@ -2749,23 +2792,25 @@ const years = [
                     {
                         text: "Bhilai can best be categorised as",
                         options: [
+                            "Industrial town",
                             "Administrative town",
                             "Transport town",
                             "Commercial town",
-                            "Industrial town"
+                            
                         ],
-                        answer: 3,
+                        answer: 0,
                         explanation: "Bhilai is known for steel plants and heavy industries. Administrative, transport, and commercial roles are secondary."
                     },
                     {
                         text: "“The ability to produce a good at a lower opportunity cost than another producer” is a definition of",
                         options: [
                             "Real advantage",
+                            "Comparative advantage",
                             "Monetary advantage",
-                            "Opportunity advantage",
-                            "Comparative advantage"
+                            "Opportunity advantage"
+                            
                         ],
-                        answer: 3,
+                        answer: 1,
                         explanation: "Comparative advantage = lower sacrifice of other goods for production, forms basis of trade. Real/Monetary/Opportunity advantage are not standard economic definitions."
                     }
                 ]
@@ -2778,10 +2823,11 @@ const years = [
                         options: [
                             "500 m",
                             "1000 m",
-                            "2000 m",
-                            "1500 m"
+                            "1500 m",
+                            "2000 m"
+                            
                         ],
-                        answer: 3,
+                        answer: 2,
                         explanation: "Distance = (Speed of light × Time) ÷ 2 = (3 × 10⁸ × 0.00001) ÷ 2 = 1500 m. Other options are calculation mismatches."
                     },
                     {
@@ -2811,21 +2857,23 @@ const years = [
                         options: [
                             "Exposure",
                             "Vulnerability",
-                            "Disaster",
-                            "Hazard"
+                            "Hazard",
+                            "Disaster"
+                            
                         ],
-                        answer: 3,
+                        answer: 2,
                         explanation: "Hazards are potentially damaging events. Exposure is presence in hazard-prone area. Vulnerability is susceptibility to harm. Disaster is realized damage from hazard."
                     },
                     {
                         text: "“A Serious disruption of the functioning of a community…”",
                         options: [
                             "Hazard",
+                            "Disaster",
                             "Exposure",
                             "Vulnerability",
-                            "Disaster"
+                            
                         ],
-                        answer: 3,
+                        answer: 1,
                         explanation: "The Disaster occurs when hazard interacts with exposure and vulnerability, causing losses. Hazard is only the threat. Exposure is objects or people at risk. Vulnerability is degree of susceptibility."
                     },
                     {
@@ -2842,12 +2890,13 @@ const years = [
                     {
                         text: "Bathymetric LiDAR uses",
                         options: [
+                            "Green light",
                             "Far infrared",
                             "Near infrared",
-                            "Orange",
-                            "Green light"
+                            "Orange"
+                            
                         ],
-                        answer: 3,
+                        answer: 0,
                         explanation: "Green wavelength penetrates water for mapping underwater topography. Far infrared, near infrared, orange are absorbed by water, unsuitable for bathymetry."
                     },
                     {
@@ -2865,22 +2914,24 @@ const years = [
                         text: "Which of these is not a consumptive value?",
                         options: [
                             "Timber",
+                            "Education",
                             "Firewood",
-                            "Non-timber forest products",
-                            "Education"
+                            "Non-timber forest products"
+                            
                         ],
-                        answer: 3,
+                        answer: 1,
                         explanation: "Consumptive values are goods extracted or used directly, like timber, firewood, NTFPs. Education is not a consumptive value."
                     },
                     {
                         text: "The frequency of flyovers is an indicator of",
                         options: [
+                            "Temporal resolution",
                             "Spatial resolution",
                             "Spectral resolution",
-                            "Radiometric resolution",
-                            "Temporal resolution"
+                            "Radiometric resolution"
+                            
                         ],
-                        answer: 3,
+                        answer: 0,
                         explanation: "Temporal resolution = how often a satellite revisits a location. Spatial resolution is pixel size on ground. Spectral is wavelength sensitivity. Radiometric is ability to detect slight differences in energy."
                     }
                 ]
@@ -2939,7 +2990,7 @@ function loadAssignment(yearIdx, assignIdx) {
     assignment.questions.forEach((q, qi) => {
         const qDiv = document.createElement('div');
         qDiv.className = 'question';
-        qDiv.innerHTML = `<div>Q${qi + 1}: ${q.text}</div>`;
+        qDiv.innerHTML = `<div><b>Q${qi + 1}:</b> ${q.text}</div>`;
         const optsDiv = document.createElement('div');
         optsDiv.className = 'options';
         q.options.forEach((opt, oi) => {
