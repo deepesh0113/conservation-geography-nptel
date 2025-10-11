@@ -5,6 +5,146 @@ body {
   padding: 0;
 }
 
+
+.container {
+  max-width: 700px;
+  margin: 40px auto;
+  background: #fff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+h1 {
+  text-align: center;
+  color: #2c3e50;
+}
+
+
+#year-select,
+#assignment-select {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+
+#year,
+#assignment {
+  padding: 8px 12px;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin: 0 8px;
+}
+
+
+#quiz {
+  margin-top: 20px;
+}
+
+
+.question {
+  margin-bottom: 18px;
+  padding: 12px;
+  background: #f9f9f9;
+  border-radius: 6px;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+
+.options label {
+  display: block;
+  margin-bottom: 6px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+
+button {
+  background: #2980b9;
+  color: #fff;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+
+button:disabled {
+  background: #aaa;
+  cursor: not-allowed;
+}
+
+
+#result {
+  margin-top: 30px;
+  padding: 18px;
+  background: #eafaf1;
+  border-radius: 6px;
+}
+
+
+.explanation {
+  margin-top: 8px;
+  font-size: 15px;
+  color: #34495e;
+  font-weight: 400;
+}
+
+
+.correct {
+  color: green;
+}
+
+
+.incorrect {
+  color: red;
+}
+
+
+.score {
+  font-size: 20px;
+  font-weight: bold;
+  color: #27ae60;
+  margin-bottom: 12px;
+}
+
+
+
+@media (max-width: 600px) {
+  .container {
+    padding: 10px;
+  }
+
+
+  .question {
+    font-size: 1.4rem;
+  }
+
+
+  .options label {
+    font-size: 1.1rem;
+  }
+
+
+  #year,
+  #assignment {
+    font-size: 1.1rem;
+    padding: 10px 8px;
+  }
+}
+/* 
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
 .container {
   max-width: 700px;
   margin: 40px auto;
@@ -32,6 +172,15 @@ h1 {
   border-radius: 5px;
   border: 1px solid #ccc;
   margin: 0 8px;
+  background: #fff;
+  color: #222;
+  transition: border-color 0.2s ease;
+}
+
+#year:focus,
+#assignment:focus {
+  outline: none;
+  border-color: #2980b9;
 }
 
 #quiz {
@@ -40,19 +189,28 @@ h1 {
 
 .question {
   margin-bottom: 18px;
-  padding: 12px;
   background: #f9f9f9;
   border-radius: 6px;
-  font-size: 15px;
-  font-weight: 400;
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #222;
+  padding: 10px 12px;
 }
 
 .options label {
   display: block;
-  margin-bottom: 6px;
+  margin-bottom: 8px;
   cursor: pointer;
-  font-size: 15px;
-  font-weight: 400;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #222;
+  padding: 6px 8px;
+  border-radius: 5px;
+  transition: background-color 0.15s ease;
+}
+
+.options label:hover {
+  background-color: #e0e0e0;
 }
 
 button {
@@ -63,6 +221,12 @@ button {
   border-radius: 5px;
   cursor: pointer;
   font-size: 16px;
+  font-weight: 600;
+  transition: background-color 0.2s ease;
+}
+
+button:hover:not(:disabled) {
+  background: #2464a0;
 }
 
 button:disabled {
@@ -75,21 +239,27 @@ button:disabled {
   padding: 18px;
   background: #eafaf1;
   border-radius: 6px;
+  color: #34495e;
 }
 
 .explanation {
   margin-top: 8px;
-  font-size: 15px;
+  font-size: 1rem;
+  font-weight: 400;
   color: #34495e;
-  font-weight: 400;  /* Normal weight */
+  background: #f0f9f6;
+  padding: 10px 12px;
+  border-radius: 5px;
 }
 
 .correct {
   color: green;
+  font-weight: 600;
 }
 
 .incorrect {
   color: red;
+  font-weight: 600;
 }
 
 .score {
@@ -99,23 +269,24 @@ button:disabled {
   margin-bottom: 12px;
 }
 
-/* Responsive adjustments for phones */
 @media (max-width: 600px) {
   .container {
-    padding: 10px;
+    padding: 10px 12px;
   }
 
   .question {
-    font-size: 1.4rem;
+    font-size: 1.1rem;
+    padding: 10px 12px;
   }
 
   .options label {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
+    padding: 8px 10px;
   }
 
   #year,
   #assignment {
-    font-size: 1.1rem;
-    padding: 10px 8px;
+    font-size: 1.2rem;
+    padding: 10px 12px;
   }
-}
+} */

@@ -1394,7 +1394,7 @@ const years = [
                 name: "Assignment 0",
                 questions: [
                     {
-                        text: "Movement of individuals away from birthplace into new habitat",
+                        text: "The movement of individuals away from their place of birth or hatching or seed production into a new habitat or area to survive and reproduce is called",
                         options: [
                             "Translocation",
                             "Migration",
@@ -1405,7 +1405,7 @@ const years = [
                         explanation: "Dispersal means spreading of organisms to new areas for survival and reproduction. Translocation is artificial movement by humans. Migration is regular, seasonal movement. Drifting is passive movement by air or water."
                     },
                     {
-                        text: "Movement of lions across the Gir landscape",
+                        text: "The movement of lions across the Gir landscape is an example of",
                         options: [
                             "Secular dispersal",
                             "Jump dispersal",
@@ -1416,7 +1416,7 @@ const years = [
                         explanation: "Diffusion is the gradual expansion of a species' range over contiguous areas. Secular dispersal is very slow, evolutionary timescale. Jump dispersal is across large, non-contiguous gaps (e.g., islands). Drifting is not active movement."
                     },
                     {
-                        text: "Climatology is most closely related to:",
+                        text: "The Geographical discipline of Climatology is most closely related to:",
                         options: [
                             "Geology",
                             "Hydrology",
@@ -1427,7 +1427,7 @@ const years = [
                         explanation: "Climatology is long-term study of weather patterns; meteorology focuses on short-term atmospheric processes. Geology is study of Earth's crust. Hydrology is study of water. Pedology is study of soils."
                     },
                     {
-                        text: "Systematic approach to Geography developed by:",
+                        text: "The systematic approach to Geography was developed by:",
                         options: [
                             "Karl Ritter",
                             "Rene Descartes",
@@ -1460,7 +1460,7 @@ const years = [
                         explanation: "Servare (Latin) means to keep or preserve. Together means con. House is eco. Manage is administer."
                     },
                     {
-                        text: "Allowing some places and creatures to exist without interference",
+                        text: "“Allowing some places and some creatures to exist without significant human interference” is the definition of:",
                         options: [
                             "Conservation",
                             "Environmentalism",
@@ -1471,7 +1471,7 @@ const years = [
                         explanation: "Preservation = protection of nature from human use or change. Conservation is sustainable use. Environmentalism is activism. Ecology is the scientific study of interactions."
                     },
                     {
-                        text: "Growing vegetables under teak trees and plants died → due to:",
+                        text: "I tried growing vegetables under my teak plantation, but the vegetable plants died out. I should be concerned about",
                         options: [
                             "Autophagy",
                             "Allelophagy",
@@ -1482,7 +1482,7 @@ const years = [
                         explanation: "Allelopathy is chemical inhibition of one plant by another via toxins. Autophagy is self-digestion. Allelophagy is not a valid term. Autopathy is self-disease."
                     },
                     {
-                        text: "Regular, seasonal movement of animals along fixed routes",
+                        text: "The regular, seasonal movement of animals, often along fixed routes is called",
                         options: [
                             "Translocation",
                             "Dispersal",
@@ -1493,7 +1493,7 @@ const years = [
                         explanation: "Migration = periodic movement for feeding, breeding, or climate adaptation. Translocation is human relocation. Dispersal is one-way expansion. Drifting is passive movement."
                     },
                     {
-                        text: "In the word root for conservation, con means:",
+                        text: "In the word root for conservation, con stands for",
                         options: [
                             "To keep",
                             "House",
@@ -1509,7 +1509,7 @@ const years = [
                 name: "Assignment 1",
                 questions: [
                     {
-                        text: "Science of relationships between organisms and their environments",
+                        text: "“Science of relationships between organisms and their environments” is the definition of:",
                         options: [
                             "Conservation",
                             "Preservation",
@@ -1520,7 +1520,7 @@ const years = [
                         explanation: "Ecology studies interactions between organisms and their environment. Conservation focuses on resource protection, not relationships. Preservation means keeping nature untouched, not studying it. Environmentalism is a social movement, not a scientific discipline."
                     },
                     {
-                        text: "The Trinity explosion of 1945 marks the beginning of",
+                        text: "The Trinity explosion of 1945 is taken as the beginning of the",
                         options: [
                             "Holocene",
                             "Cenocene",
@@ -1531,7 +1531,7 @@ const years = [
                         explanation: "Anthropocene is the age of significant human impact on Earth's systems. Holocene began ~11,700 years ago after the Ice Age. Cenocene is not a recognized geological epoch. Eocene occurred around 56 million years ago, long before humans."
                     },
                     {
-                        text: "Sustainable harvest of resources falls under",
+                        text: "Sustainable harvest of resources falls under the category of:",
                         options: [
                             "Conservation",
                             "Preservation",
@@ -1542,7 +1542,7 @@ const years = [
                         explanation: "Conservation ensures resource use without depleting them. Preservation prohibits use of natural resources entirely. Environmentalism is advocacy for environmental protection, not resource use. 'None of the above' is incorrect since conservation fits best."
                     },
                     {
-                        text: "Quantum of human impacts can be written as",
+                        text: "The quantum of human impacts can be written as",
                         options: [
                             "I = P + A + T",
                             "I = P × A + T",
@@ -1553,7 +1553,7 @@ const years = [
                         explanation: "Impact = Population × Affluence × Technology (I = P × A × T). Other options ignore the multiplicative relationship or mix addition and multiplication wrongly."
                     },
                     {
-                        text: "Discipline of Demography is most closely related to",
+                        text: "The discipline of Demography is most closely related to:",
                         options: [
                             "Phytogeography",
                             "Zoogeography",
@@ -1564,10 +1564,10 @@ const years = [
                         explanation: "Population Geography and Demography both study population size, structure, and distribution. Phytogeography deals with plant distribution. Zoogeography deals with animal distribution. Economic Geography focuses on production and resources, not population."
                     },
                     {
-                        text: "Rate of any biological process is limited by the factor in least amount…",
+                        text: "The rate of any biological process is limited by that factor in least amount relative to requirement, so there is a single limiting factor. This is the statement for",
                         options: [
-                            "Liebig’s Law of the Minimum",
-                            "Law of the Maximum",
+                            "Liebig’s law of the minimum",
+                            "Liebig’s law of the maximum",
                             "Shelford’s Law of Tolerance",
                             "Shelford’s Law of Intolerance"
                         ],
@@ -1575,18 +1575,18 @@ const years = [
                         explanation: "Liebig’s Law of the Minimum: growth depends on the scarcest resource. Law of the Maximum is not a concept; Shelford’s Law of Tolerance talks about tolerance range, not minimum."
                     },
                     {
-                        text: "Distribution of a species controlled by factor with narrowest range of tolerance",
+                        text: "The geographical distribution of a species will be controlled by that environmental factor for which the organism has the narrowest range of tolerance. This is the statement for",
                         options: [
                             "Liebig’s Law of Minimum",
-                            "Law of Maximum",
+                            "Liebig’s law of the maximum",
                             "Shelford’s Law of Tolerance",
-                            "Law of Intolerance"
+                            "Shelford’s Law of Intolerance"
                         ],
                         answer: 2,
                         explanation: "Shelford’s Law of Tolerance emphasizes environmental limits for species survival. Liebig’s Law deals with limiting nutrients, not range. Law of Maximum is invalid. Law of Intolerance is not a defined ecological law."
                     },
                     {
-                        text: "Regional approach to Geography developed by",
+                        text: "The regional approach to Geography was developed by:",
                         options: [
                             "Alexander von Humboldt",
                             "Karl Ritter",
@@ -1624,7 +1624,7 @@ const years = [
                 name: "Assignment 2",
                 questions: [
                     {
-                        text: "In undisturbed sedimentary strata, bottom layers are older than the layers above them.",
+                        text: "In an undisturbed sedimentary strata, bottom layers are older than layers above them. This is known as",
                         options: [
                             "Principle of Superposition",
                             "Original horizontality",
@@ -1690,7 +1690,7 @@ const years = [
                         explanation: "Shield volcanoes: broad, gently sloping, basaltic lava. Others don't fit Hawaiian volcanoes."
                     },
                     {
-                        text: "Within a depositional basin, strata are laterally continuous till the edge.",
+                        text: "Within a depositional basin, strata are laterally continuous in all directions till the edge of the basin. This is known as",
                         options: [
                             "Superposition",
                             "Original horizontality",
@@ -1712,7 +1712,7 @@ const years = [
                         explanation: "Saturn: gas giant. Mercury, Venus, Mars: rocky planets."
                     },
                     {
-                        text: "Assemblage of fossils unique to their time helps age rocks across regions.",
+                        text: "Assemblage of fossils are unique to the time that they lived in, and so can be used to age rocks across a wide geographic distribution. This is known as",
                         options: [
                             "Principle of Fossil Succession",
                             "Original horizontality",
@@ -1739,7 +1739,7 @@ const years = [
                 name: "Assignment 3",
                 questions: [
                     {
-                        text: "The points where three or more cirques meet",
+                        text: "The points where three or more cirques meet is the definition of",
                         options: [
                             "Cirque",
                             "Arete",
@@ -1772,7 +1772,7 @@ const years = [
                         explanation: "Siliciclastic: silicate minerals cemented together. Carbonate: from calcium carbonate. Evaporite: by evaporation. Phosphatic: phosphate minerals."
                     },
                     {
-                        text: "Smooth oval-shaped ridge-like features... parallel to direction of ice movement",
+                        text: "Smooth oval-shaped ridge-like features comprised of glacial till, gravel and sand arranged parallel to the direction of ice movement” is the definition of",
                         options: [
                             "Glacial till",
                             "Outwash deposit",
@@ -1794,7 +1794,7 @@ const years = [
                         explanation: "Deposition: external agent deposits sediments. Others are endogenic (internal) processes."
                     },
                     {
-                        text: "White or colourless hard mineral virtually insoluble in water",
+                        text: "White or colourless hard mineral virtually insoluble in water” is a description of",
                         options: [
                             "Amphiboles",
                             "Quartz",
@@ -1816,7 +1816,7 @@ const years = [
                         explanation: "Dolomite: carbonate composed of CaMg(CO₃)₂. Others: different rock types."
                     },
                     {
-                        text: "Green or black coloured inosilicate minerals forming prism or needle-like crystals",
+                        text: "Green or or black coloured inosilicate minerals forming prism or needle-like crystals is a description of",
                         options: [
                             "Amphiboles",
                             "Feldspar",
@@ -1827,7 +1827,7 @@ const years = [
                         explanation: "Amphiboles: dark green/black, prismatic inosilicates. Others: different color/habit."
                     },
                     {
-                        text: "Deep, long and wide troughs or basins... steep concave walls",
+                        text: "Deep, long and wide troughs or basins with very steep concave to vertically dropping high walls as its head and sides is the definition of",
                         options: [
                             "Cirque",
                             "Arete",
@@ -1838,7 +1838,7 @@ const years = [
                         explanation: "Cirque: amphitheater-like hollow formed by glacial erosion. Others: different glacial features."
                     },
                     {
-                        text: "Magnesium iron silicate; primary component of Earth’s upper mantle",
+                        text: "“Magnesium iron silicate; a primary component of the Earth’s upper mantle” is a description of",
                         options: [
                             "Amphiboles",
                             "Feldspar",
@@ -1887,7 +1887,7 @@ const years = [
                         explanation: "The International Space Station orbits around 400 km altitude within the thermosphere. Troposphere is where weather occurs, too low for ISS. Stratosphere includes ozone layer, still below ISS orbit. Mesosphere lies below thermosphere, too low for satellites."
                     },
                     {
-                        text: "Regulation to replace incandescent bulbs with LEDs is an example of",
+                        text: "The government came up with a regulation that incandescent bulbs be replaced by LED bulbs, so that electricity consumption and release of carbon dioxide from power plants is reduced. In the context of climate change, such an action would be calledRegulation to replace incandescent bulbs with LEDs is an example of",
                         options: [
                             "Adaptation",
                             "Deceleration",
@@ -1898,7 +1898,7 @@ const years = [
                         explanation: "Mitigation aims to reduce greenhouse gas emissions to slow climate change. Adaptation means adjusting to climate impacts, not reducing causes. Deceleration is not a climate term. Maladaptation refers to poor or counterproductive adaptation."
                     },
                     {
-                        text: "Surplus seed and sperm banking facilitates",
+                        text: "Surplus seed and sperm banking is an adaptation option to facilitate",
                         options: [
                             "Resistance",
                             "Response",
@@ -1931,7 +1931,7 @@ const years = [
                         explanation: "Mesosphere – highest known clouds, form from ice crystals in the mesosphere. Troposphere hosts regular weather clouds. Stratosphere contains ozone but no noctilucent clouds. Thermosphere is too hot and thin for cloud formation."
                     },
                     {
-                        text: "Artificial water holes built in Mudumalai Tiger Reserve to counter droughts are an example of",
+                        text: "Because of climate change, Mudumalai Tiger Reserve is suffering from frequent droughts. The management has built several artificial water holes for animals, and fills them up regularly with tankers. In the context of climate change, such an action would be called",
                         options: [
                             "Mitigation",
                             "Deceleration",
@@ -1991,7 +1991,7 @@ const years = [
                         explanation: "Guyot – flat-topped seamounts; smaller features compared to major oceanic structures. Continental shelf, slope, and abyssal plain are major features."
                     },
                     {
-                        text: "Mountains with pointed summits rising from the sea floor, but not reaching the surface",
+                        text: "“Mountains with pointed summits rising from the sea floor, but not reaching the surface of the ocean” is a description of",
                         options: [
                             "Oceanic deep/trench",
                             "Mid-oceanic ridge",
@@ -2024,7 +2024,7 @@ const years = [
                         explanation: "Mid-oceanic ridge is a continuous undersea chain (~65,000 km long), the Earth’s longest mountain system. Oceanic trench is a deep narrow depression, not a ridge. Seamount is an isolated peak. Atoll is a coral formation."
                     },
                     {
-                        text: "Deep valleys, often cutting across continental shelves and slopes",
+                        text: "“Deep valleys, often cutting across continental shelves and slopes” is a description of",
                         options: [
                             "Oceanic trench",
                             "Mid-oceanic ridge",
@@ -2057,7 +2057,7 @@ const years = [
                         explanation: "Mixed diurnal is not a recognized tidal type. Diurnal is one high and one low tide per day. Mixed semidiurnal is two highs and two lows of unequal height. Semidiurnal is two nearly equal highs and lows daily."
                     },
                     {
-                        text: "Relatively steep-sided, narrow, deep basins",
+                        text: "“Relatively steep-sided, narrow, deep basins” is a description of",
                         options: [
                             "Mid-oceanic ridge",
                             "Seamount",
@@ -2068,7 +2068,7 @@ const years = [
                         explanation: "Oceanic deep / trench are long, narrow depressions formed by subduction at convergent plate boundaries. Mid-oceanic ridge is an elevated ridge. Seamount is an isolated volcanic mountain. Atoll is a coral ring around a lagoon."
                     },
                     {
-                        text: "In the sea, a layer where temperature decreases rapidly with depth is called",
+                        text: "In the sea, a layer where the temperature decreases rapidly from the mixed upper layer to the cold deeper layer is called",
                         options: [
                             "Isopycnal",
                             "Thermophil",
@@ -2670,10 +2670,10 @@ const years = [
                         explanation: "New Delhi is primarily the capital city, hosting central government offices. Industrial, transport, and commercial activities exist, but administration dominates."
                     },
                     {
-                        text: "Factor governing barrier effect of roads",
+                        text: "Which of these is a factor governing barrier effect of roads?",
                         options: [
                             "Traffic intensity",
-                            "Speed",
+                            "Speed of vehicles",
                             "Driver sensitivity",
                             "All of these"
                         ],
@@ -2681,11 +2681,11 @@ const years = [
                         explanation: "Barrier effect depends on how busy the road is, speed of vehicles, and human response to animals. Choosing any single factor ignores the combined effect."
                     },
                     {
-                        text: "Factor governing barrier effect of roads (wildlife)",
+                        text: "Which of these is a factor governing barrier effect of roads?",
                         options: [
-                            "Animal crossings",
-                            "Movement patterns",
-                            "Species preference",
+                            "presence and location of animal crossingse",
+                            " movement pattern of species",
+                            " species specific preference of road use",
                             "All of these"
                         ],
                         answer: 3,
@@ -2703,7 +2703,7 @@ const years = [
                         explanation: "Varanasi is famous for temples and pilgrimage. Mining and garrison roles are not significant. Educational is secondary; religious tourism dominates."
                     },
                     {
-                        text: "“The ability to produce a good using fewer inputs than another producer”",
+                        text: "“The ability to produce a good using fewer inputs than another producer”is ",
                         options: [
                             "Comparative advantage",
                             "Production advantage",
@@ -2714,7 +2714,7 @@ const years = [
                         explanation: "Absolute advantage = higher productivity with same resources. Comparative advantage is based on lower opportunity cost, not absolute efficiency. Production/resource advantage are not standard economic terms."
                     },
                     {
-                        text: "“The price of a good that prevails in the world market”",
+                        text: "The price of a good that prevails in the world market for that good” is the definition of",
                         options: [
                             "Export price",
                             "Import price",
@@ -2736,7 +2736,7 @@ const years = [
                         explanation: "Visakhapatnam is a major port city, facilitating trade and movement of goods. Administrative, industrial, and commercial roles exist but transport dominates."
                     },
                     {
-                        text: "Examples of mitigation measures for linear infrastructure on wildlife",
+                        text: "Which of these is / are example(s) of mitigation measures to mitigate impacts of linear infrastructure on wildlife?",
                         options: [
                             "Land bridges",
                             "Canopy bridges",
@@ -2758,7 +2758,7 @@ const years = [
                         explanation: "Bhilai is known for steel plants and heavy industries. Administrative, transport, and commercial roles are secondary."
                     },
                     {
-                        text: "“The ability to produce a good at a lower opportunity cost than another producer”",
+                        text: "“The ability to produce a good at a lower opportunity cost than another producer” is a definition of",
                         options: [
                             "Real advantage",
                             "Monetary advantage",
@@ -2774,7 +2774,7 @@ const years = [
                 name: "Assignment 12",
                 questions: [
                     {
-                        text: "Time of flight for LiDAR is 0.00001 sec. Distance from the instrument",
+                        text: "The time of flight for LiDAR is 0.00001 sec. Find the distance of the object from the instrument.",
                         options: [
                             "500 m",
                             "1000 m",
@@ -2785,18 +2785,18 @@ const years = [
                         explanation: "Distance = (Speed of light × Time) ÷ 2 = (3 × 10⁸ × 0.00001) ÷ 2 = 1500 m. Other options are calculation mismatches."
                     },
                     {
-                        text: "Method using imputed willingness to pay",
+                        text: "Which of these uses imputed willingness to pay?",
                         options: [
-                            "Market price",
-                            "Replacement cost",
-                            "Travel cost",
+                            "Market price method",
+                            "Replacement cost method",
+                            "Travel cost method",
                             "Contingent valuation method"
                         ],
-                        answer: 3,
-                        explanation: "Contingent valuation method estimates the value people assign to non-market goods by asking their willingness to pay. Market price is actual transaction price. Replacement cost is cost to replace a resource. Travel cost estimates value using expenditure to reach site."
+                        answer: 1,
+                        explanation: "Replacement cost method estimates value based on costs to replace; market price uses actual prices, travel cost uses visits, contingent valuation uses surveys."
                     },
                     {
-                        text: "“Situation of people, infrastructure… in hazard-prone areas”",
+                        text: "“The Situation of people, infrastructure… in hazard-prone areas”",
                         options: [
                             "Hazard",
                             "Vulnerability",
@@ -2807,7 +2807,7 @@ const years = [
                         explanation: "Exposure measures what and who are present in hazard zones. Hazard is the threat itself. Vulnerability is susceptibility to damage. Disaster is outcome when hazard interacts with vulnerability."
                     },
                     {
-                        text: "“Process, phenomenon or human activity that may cause loss…”",
+                        text: "“A Process, phenomenon or human activity that may cause loss…”",
                         options: [
                             "Exposure",
                             "Vulnerability",
@@ -2818,7 +2818,7 @@ const years = [
                         explanation: "Hazards are potentially damaging events. Exposure is presence in hazard-prone area. Vulnerability is susceptibility to harm. Disaster is realized damage from hazard."
                     },
                     {
-                        text: "“Serious disruption of the functioning of a community…”",
+                        text: "“A Serious disruption of the functioning of a community…”",
                         options: [
                             "Hazard",
                             "Exposure",
@@ -2826,10 +2826,10 @@ const years = [
                             "Disaster"
                         ],
                         answer: 3,
-                        explanation: "Disaster occurs when hazard interacts with exposure and vulnerability, causing losses. Hazard is only the threat. Exposure is objects or people at risk. Vulnerability is degree of susceptibility."
+                        explanation: "The Disaster occurs when hazard interacts with exposure and vulnerability, causing losses. Hazard is only the threat. Exposure is objects or people at risk. Vulnerability is degree of susceptibility."
                     },
                     {
-                        text: "“Strengths, attributes and resources to manage disaster risks”",
+                        text: "“The combination of all the strengths, attributes and resources available within an organisation, community or society to manage and reduce disaster risks and strengthen resilience.” is a definition for",
                         options: [
                             "Contingency",
                             "Disaster management",
@@ -2862,7 +2862,7 @@ const years = [
                         explanation: "IMU is Inertial Measurement Unit, measures acceleration and rotation, critical for navigation and LiDAR positioning. Other options are incorrect terminology."
                     },
                     {
-                        text: "Not a consumptive value",
+                        text: "Which of these is not a consumptive value?",
                         options: [
                             "Timber",
                             "Firewood",
@@ -2873,7 +2873,7 @@ const years = [
                         explanation: "Consumptive values are goods extracted or used directly, like timber, firewood, NTFPs. Education is not a consumptive value."
                     },
                     {
-                        text: "Frequency of flyovers indicates",
+                        text: "The frequency of flyovers is an indicator of",
                         options: [
                             "Spatial resolution",
                             "Spectral resolution",
@@ -2939,7 +2939,7 @@ function loadAssignment(yearIdx, assignIdx) {
     assignment.questions.forEach((q, qi) => {
         const qDiv = document.createElement('div');
         qDiv.className = 'question';
-        qDiv.innerHTML = `<div><b>Q${qi + 1}:</b> ${q.text}</div>`;
+        qDiv.innerHTML = `<div>Q${qi + 1}: ${q.text}</div>`;
         const optsDiv = document.createElement('div');
         optsDiv.className = 'options';
         q.options.forEach((opt, oi) => {
