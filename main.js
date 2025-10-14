@@ -2942,87 +2942,210 @@ const years = [
     // More years can be added, following this structure
 ];
 
-// Populate year dropdown
+
+
+
+
+// const yearSelect = document.getElementById('year');
+// years.forEach((yearObj, i) => {
+//     const opt = document.createElement('option');
+//     opt.value = i;
+//     opt.textContent = yearObj.name;
+//     yearSelect.appendChild(opt);
+// });
+
+// yearSelect.onchange = () => {
+    
+//     if (yearSelect.value === "") {
+//         document.getElementById('assignment-select').style.display = 'none';
+//         return;
+//     }
+//     const yearIdx = parseInt(yearSelect.value);
+//     const assignmentSelectDiv = document.getElementById('assignment-select');
+//     const assignmentSelect = document.getElementById('assignment');
+//     assignmentSelectDiv.style.display = 'block';
+//     assignmentSelect.innerHTML = '<option value="">-- Select Assignment --</option>';
+//     years[yearIdx].assignments.forEach((a, i) => {
+//         const opt = document.createElement('option');
+//         opt.value = i;
+//         opt.textContent = a.name;
+//         assignmentSelect.appendChild(opt);
+//     });
+    
+//     document.getElementById('quiz').innerHTML = '';
+//     document.getElementById('result').innerHTML = '';
+// };
+
+// document.getElementById('load-assignment').onclick = () => {
+//     const yearIdx = parseInt(yearSelect.value);
+//     const assignVal = document.getElementById('assignment').value;
+//     if (assignVal === "") return; 
+//     const assignIdx = parseInt(assignVal);
+//     loadAssignment(yearIdx, assignIdx);
+// };
+
+// function loadAssignment(yearIdx, assignIdx) {
+//     const quizDiv = document.getElementById('quiz');
+//     const resultDiv = document.getElementById('result');
+//     quizDiv.innerHTML = '';
+//     resultDiv.innerHTML = '';
+//     const assignment = years[yearIdx].assignments[assignIdx];
+//     assignment.questions.forEach((q, qi) => {
+//         const qDiv = document.createElement('div');
+//         qDiv.className = 'question';
+//         qDiv.innerHTML = `<div><b>Q${qi + 1}:</b> ${q.text}</div>`;
+//         const optsDiv = document.createElement('div');
+//         optsDiv.className = 'options';
+//         q.options.forEach((opt, oi) => {
+//             const id = `q${qi}_opt${oi}`;
+//             optsDiv.innerHTML += `
+//         <label>
+//           <input type="radio" name="q${qi}" value="${oi}" id="${id}">
+//           ${String.fromCharCode(97 + oi)}) ${opt}
+//         </label>
+//       `;
+//         });
+//         qDiv.appendChild(optsDiv);
+//         quizDiv.appendChild(qDiv);
+//     });
+//     quizDiv.innerHTML += `<button id="submit-quiz">Submit</button>`;
+//     document.getElementById('submit-quiz').onclick = () => submitQuiz(yearIdx, assignIdx);
+// }
+
+// function submitQuiz(yearIdx, assignIdx) {
+//     const assignment = years[yearIdx].assignments[assignIdx];
+//     let score = 0;
+//     let resultHTML = `<div class="score">Your Score: `;
+//     let explanations = '';
+//     assignment.questions.forEach((q, qi) => {
+//         const radios = document.getElementsByName(`q${qi}`);
+//         let selected = -1;
+//         for (let r of radios) {
+//             if (r.checked) selected = parseInt(r.value);
+//         }
+//         const correct = selected === q.answer;
+//         if (correct) score++;
+//         explanations += `
+//       <div>
+//         <b>Q${qi + 1}:</b> ${q.text}<br>
+//         <span class="${correct ? 'correct' : 'incorrect'}">
+//           ${correct ? 'Correct' : 'Incorrect'}
+//         </span><br>
+//         <b>Your answer:</b> ${selected >= 0 ? String.fromCharCode(97 + selected) + ') ' + q.options[selected] : 'No answer'}<br>
+//         <b>Correct answer:</b> ${String.fromCharCode(97 + q.answer)}) ${q.options[q.answer]}<br>
+//         <div class="explanation">${q.explanation}</div>
+//       </div>
+//       <hr>
+//     `;
+//     });
+//     resultHTML += `${score} / ${assignment.questions.length}</div>`;
+//     resultHTML += explanations;
+//     document.getElementById('result').innerHTML = resultHTML;
+//     document.getElementById('submit-quiz').disabled = true;
+// }
+
+
+// --- Helper Shuffle Function ---
+function shuffleArray(array) {
+  for (let i = array.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [array[i], array[j]] = [array[j], array[i]];
+  }
+}
+
+// --- Populate year dropdown ---
 const yearSelect = document.getElementById('year');
 years.forEach((yearObj, i) => {
-    const opt = document.createElement('option');
-    opt.value = i;
-    opt.textContent = yearObj.name;
-    yearSelect.appendChild(opt);
+  const opt = document.createElement('option');
+  opt.value = i;
+  opt.textContent = yearObj.name;
+  yearSelect.appendChild(opt);
 });
 
 yearSelect.onchange = () => {
-    // Reset assignment selector if no year selected
-    if (yearSelect.value === "") {
-        document.getElementById('assignment-select').style.display = 'none';
-        return;
-    }
-    const yearIdx = parseInt(yearSelect.value);
-    const assignmentSelectDiv = document.getElementById('assignment-select');
-    const assignmentSelect = document.getElementById('assignment');
-    assignmentSelectDiv.style.display = 'block';
-    assignmentSelect.innerHTML = '<option value="">-- Select Assignment --</option>';
-    years[yearIdx].assignments.forEach((a, i) => {
-        const opt = document.createElement('option');
-        opt.value = i;
-        opt.textContent = a.name;
-        assignmentSelect.appendChild(opt);
-    });
-    // Hide quiz/result when changing year
-    document.getElementById('quiz').innerHTML = '';
-    document.getElementById('result').innerHTML = '';
+  if (yearSelect.value === "") {
+    document.getElementById('assignment-select').style.display = 'none';
+    return;
+  }
+  const yearIdx = parseInt(yearSelect.value);
+  const assignmentSelectDiv = document.getElementById('assignment-select');
+  const assignmentSelect = document.getElementById('assignment');
+  assignmentSelectDiv.style.display = 'block';
+  assignmentSelect.innerHTML = '<option value="">-- Select Assignment --</option>';
+  years[yearIdx].assignments.forEach((a, i) => {
+    const opt = document.createElement('option');
+    opt.value = i;
+    opt.textContent = a.name;
+    assignmentSelect.appendChild(opt);
+  });
+  document.getElementById('quiz').innerHTML = '';
+  document.getElementById('result').innerHTML = '';
 };
 
 document.getElementById('load-assignment').onclick = () => {
-    const yearIdx = parseInt(yearSelect.value);
-    const assignVal = document.getElementById('assignment').value;
-    if (assignVal === "") return; // Do nothing if "Select Assignment" is chosen
-    const assignIdx = parseInt(assignVal);
-    loadAssignment(yearIdx, assignIdx);
+  const yearIdx = parseInt(yearSelect.value);
+  const assignVal = document.getElementById('assignment').value;
+  if (assignVal === "") return;
+  const assignIdx = parseInt(assignVal);
+  loadAssignmentJumbled(yearIdx, assignIdx);
 };
 
-function loadAssignment(yearIdx, assignIdx) {
-    const quizDiv = document.getElementById('quiz');
-    const resultDiv = document.getElementById('result');
-    quizDiv.innerHTML = '';
-    resultDiv.innerHTML = '';
-    const assignment = years[yearIdx].assignments[assignIdx];
-    assignment.questions.forEach((q, qi) => {
-        const qDiv = document.createElement('div');
-        qDiv.className = 'question';
-        qDiv.innerHTML = `<div><b>Q${qi + 1}:</b> ${q.text}</div>`;
-        const optsDiv = document.createElement('div');
-        optsDiv.className = 'options';
-        q.options.forEach((opt, oi) => {
-            const id = `q${qi}_opt${oi}`;
-            optsDiv.innerHTML += `
+function loadAssignmentJumbled(yearIdx, assignIdx) {
+  const quizDiv = document.getElementById('quiz');
+  const resultDiv = document.getElementById('result');
+  quizDiv.innerHTML = '';
+  resultDiv.innerHTML = '';
+  // Deep copy assignment object to avoid modifying original
+  const assignment = JSON.parse(JSON.stringify(years[yearIdx].assignments[assignIdx]));
+
+  // Shuffle questions
+  shuffleArray(assignment.questions);
+
+  // Shuffle options in each question, track new correct answer index
+  assignment.questions.forEach(q => {
+    const optionIndices = q.options.map((_, idx) => idx);
+    shuffleArray(optionIndices);
+    const shuffledOptions = optionIndices.map(idx => q.options[idx]);
+    const shuffledAnswer = optionIndices.indexOf(q.answer);
+    q.options = shuffledOptions;
+    q.answer = shuffledAnswer;
+  });
+
+  assignment.questions.forEach((q, qi) => {
+    const qDiv = document.createElement('div');
+    qDiv.className = 'question';
+    qDiv.innerHTML = `<div><b>Q${qi + 1}:</b> ${q.text}</div>`;
+    const optsDiv = document.createElement('div');
+    optsDiv.className = 'options';
+    q.options.forEach((opt, oi) => {
+      const id = `q${qi}_opt${oi}`;
+      optsDiv.innerHTML += `
         <label>
           <input type="radio" name="q${qi}" value="${oi}" id="${id}">
           ${String.fromCharCode(97 + oi)}) ${opt}
         </label>
       `;
-        });
-        qDiv.appendChild(optsDiv);
-        quizDiv.appendChild(qDiv);
     });
-    quizDiv.innerHTML += `<button id="submit-quiz">Submit</button>`;
-    document.getElementById('submit-quiz').onclick = () => submitQuiz(yearIdx, assignIdx);
+    qDiv.appendChild(optsDiv);
+    quizDiv.appendChild(qDiv);
+  });
+  quizDiv.innerHTML += `<button id="submit-quiz">Submit</button>`;
+  document.getElementById('submit-quiz').onclick = () => submitQuizJumbled(assignment);
 }
 
-function submitQuiz(yearIdx, assignIdx) {
-    const assignment = years[yearIdx].assignments[assignIdx];
-    let score = 0;
-    let resultHTML = `<div class="score">Your Score: `;
-    let explanations = '';
-    assignment.questions.forEach((q, qi) => {
-        const radios = document.getElementsByName(`q${qi}`);
-        let selected = -1;
-        for (let r of radios) {
-            if (r.checked) selected = parseInt(r.value);
-        }
-        const correct = selected === q.answer;
-        if (correct) score++;
-        explanations += `
+function submitQuizJumbled(assignment) {
+  let score = 0;
+  let resultHTML = `<div class="score">Your Score: `;
+  let explanations = '';
+  assignment.questions.forEach((q, qi) => {
+    const radios = document.getElementsByName(`q${qi}`);
+    let selected = -1;
+    for (let r of radios) {
+      if (r.checked) selected = parseInt(r.value);
+    }
+    const correct = selected === q.answer;
+    if (correct) score++;
+    explanations += `
       <div>
         <b>Q${qi + 1}:</b> ${q.text}<br>
         <span class="${correct ? 'correct' : 'incorrect'}">
@@ -3034,9 +3157,9 @@ function submitQuiz(yearIdx, assignIdx) {
       </div>
       <hr>
     `;
-    });
-    resultHTML += `${score} / ${assignment.questions.length}</div>`;
-    resultHTML += explanations;
-    document.getElementById('result').innerHTML = resultHTML;
-    document.getElementById('submit-quiz').disabled = true;
+  });
+  resultHTML += `${score} / ${assignment.questions.length}</div>`;
+  resultHTML += explanations;
+  document.getElementById('result').innerHTML = resultHTML;
+  document.getElementById('submit-quiz').disabled = true;
 }

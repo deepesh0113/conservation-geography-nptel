@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Practice Mode – Conservation Quiz</title>
+  <link rel="stylesheet" href="practice.css">
+</head>
+<body>
+  <div class="practice-header">
+    <img src="logo.jpg" alt="Logo" class="logo">
+    <div>
+      <span class="banner-title">CONSERVATION GEOGRAPHY QUIZ PRACTICE</span>
+    </div>
+    <div class="user-block">
+      <div><b>Candidate Name:</b> albert</div>
+      <div><b>Subject Name:</b> Conservation Geography</div>
+      <div><b>Remaining Time:</b> <span id="timer">01:00:00</span></div>
+    </div>
+  </div>
+  <div class="practice-body">
+    <div class="practice-left">
+      <div id="question-block"></div>
+      <div id="practice-nav" class="practice-nav"></div>
+    </div>
+    <div class="practice-right">
+      <div class="legend">
+        <div><span class="legend-box legend-not-visited"></span> Not Visited</div>
+        <div><span class="legend-box legend-not-answered"></span> Not Answered</div>
+        <div><span class="legend-box legend-answered"></span> Answered</div>
+        <div><span class="legend-box legend-review"></span> Marked for Review</div>
+      </div>
+      <div id="question-grid" class="question-grid"></div>
+      <button class="submit-btn" id="submit-practice">SUBMIT</button>
+      <div id="practice-result"></div>
+    </div>
+  </div>
+  <script src="practice.js"></script>
+</body>
+</html>
