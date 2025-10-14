@@ -1441,9 +1441,9 @@ const years = [
                     {
                         text: "Which of these is true?",
                         options: [
-                            "Conservation = Preservation",
-                            "Environmentalism = Conservation",
-                            "Preservation = Environmentalism",
+                            "Wildlife conservation is the same as wildlife preservation",
+                            "Wildlife conservation is the same as wildlife ecology",
+                            "Wildlife conservation is the same as environmentalism",
                             "None of these"
                         ],
                         answer: 3,
