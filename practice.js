@@ -1320,7 +1320,1489 @@ const PRACTICE_QUESTIONS = [
                         ],
                         answer: 3,
                         explanation: "Disaster is the realized impact of hazards on vulnerable and exposed populations; hazard is the threat, exposure is presence, vulnerability is susceptibility."
-                    },                  
+                    },               
+                    {
+                        text: "The movement of individuals away from their place of birth or hatching or seed production into a new habitat or area to survive and reproduce is called",
+                        options: [
+                            "Dispersal",
+                            "Translocation",
+                            "Migration",
+                            "Drifting"
+                        ],
+                        answer: 0,
+                        explanation: "Dispersal means spreading of organisms to new areas for survival and reproduction. Translocation is artificial movement by humans. Migration is regular, seasonal movement. Drifting is passive movement by air or water."
+                    },
+                    {
+                        text: "The movement of lions across the Gir landscape is an example of",
+                        options: [
+                            "Secular dispersal",
+                            "Jump dispersal",
+                            "Drifting",
+                            "Diffusion"
+                        ],
+                        answer: 3,
+                        explanation: "Diffusion is the gradual expansion of a species' range over contiguous areas. Secular dispersal is very slow, evolutionary timescale. Jump dispersal is across large, non-contiguous gaps (e.g., islands). Drifting is not active movement."
+                    },
+                    {
+                        text: "The Geographical discipline of Climatology is most closely related to:",
+                        options: [
+                            "Meteorology",
+                            "Geology",
+                            "Hydrology",
+                            "Pedology"
+
+                        ],
+                        answer: 0,
+                        explanation: "Climatology is long-term study of weather patterns; meteorology focuses on short-term atmospheric processes. Geology is study of Earth's crust. Hydrology is study of water. Pedology is study of soils."
+                    },
+                    {
+                        text: "The systematic approach to Geography was developed by:",
+                        options: [
+                            "Karl Ritter",
+                            "Alexander von Humboldt",
+                            "Rene Descartes",
+                            "Eratosthenes"
+
+                        ],
+                        answer: 1,
+                        explanation: "Humboldt focused on systematic geography—relationships between environment and distribution of phenomena. Karl Ritter developed regional geography. Rene Descartes was a philosopher. Eratosthenes coined the term geography, but not the systematic approach."
+                    },
+                    {
+                        text: "Which of these is true?",
+                        options: [
+                            "Wildlife conservation is the same as wildlife preservation",
+                            "Wildlife conservation is the same as wildlife ecology",
+                            "Wildlife conservation is the same as environmentalism",
+                            "None of these"
+                        ],
+                        answer: 3,
+                        explanation: "Conservation ≠ Preservation ≠ Environmentalism: Conservation = sustainable use. Preservation = protection without use. Environmentalism = social movement for environmental protection."
+                    },
+                    {
+                        text: "In the word root for 'conservation,' servare means:",
+                        options: [
+                            "Together",
+                            "House",
+                            "To keep",
+                            "Manage"
+                        ],
+                        answer: 2,
+                        explanation: "Servare (Latin) means to keep or preserve. Together means con. House is eco. Manage is administer."
+                    },
+                    {
+                        text: "“Allowing some places and some creatures to exist without significant human interference” is the definition of:",
+                        options: [
+                            "Conservation",
+                            "Environmentalism",
+                            "Preservation",
+                            "Ecology"
+                        ],
+                        answer: 2,
+                        explanation: "Preservation = protection of nature from human use or change. Conservation is sustainable use. Environmentalism is activism. Ecology is the scientific study of interactions."
+                    },
+                    {
+                        text: "I tried growing vegetables under my teak plantation, but the vegetable plants died out. I should be concerned about",
+                        options: [
+                            "Allelopathy",
+                            "Autophagy",
+                            "Allelophagy",
+                            "Autopathy"
+
+                        ],
+                        answer: 0,
+                        explanation: "Allelopathy is chemical inhibition of one plant by another via toxins. Autophagy is self-digestion. Allelophagy is not a valid term. Autopathy is self-disease."
+                    },
+                    {
+                        text: "The regular, seasonal movement of animals, often along fixed routes is called",
+                        options: [
+                            "Translocation",
+                            "Dispersal",
+                            "Migration",
+                            "Drifting"
+
+                        ],
+                        answer: 2,
+                        explanation: "Migration = periodic movement for feeding, breeding, or climate adaptation. Translocation is human relocation. Dispersal is one-way expansion. Drifting is passive movement."
+                    },
+                    {
+                        text: "In the word root for conservation, con stands for",
+                        options: [
+                            "Together",
+                            "To keep",
+                            "House",
+                            "Manage"
+                        ],
+                        answer: 0,
+                        explanation: "Con (Latin prefix) = together, combined, jointly. To keep is servare. House is eco. Manage is not relevant."
+                    },
+                    {
+                        text: "“Science of relationships between organisms and their environments” is the definition of:",
+                        options: [
+                            "Conservation",
+                            "Preservation",
+                            "Environmentalism",
+                            "Ecology"
+                        ],
+                        answer: 3,
+                        explanation: "Ecology studies interactions between organisms and their environment. Conservation focuses on resource protection, not relationships. Preservation means keeping nature untouched, not studying it. Environmentalism is a social movement, not a scientific discipline."
+                    },
+                    {
+                        text: "The Trinity explosion of 1945 is taken as the beginning of the",
+                        options: [
+                            "Holocene",
+                            "Cenocene",
+                            "Anthropocene",
+                            "Eocene"
+                        ],
+                        answer: 2,
+                        explanation: "Anthropocene is the age of significant human impact on Earth's systems. Holocene began ~11,700 years ago after the Ice Age. Cenocene is not a recognized geological epoch. Eocene occurred around 56 million years ago, long before humans."
+                    },
+                    {
+                        text: "Sustainable harvest of resources falls under the category of:",
+                        options: [
+                            "Conservation",
+                            "Preservation",
+                            "Environmentalism",
+                            "None of the above"
+                        ],
+                        answer: 0,
+                        explanation: "Conservation ensures resource use without depleting them. Preservation prohibits use of natural resources entirely. Environmentalism is advocacy for environmental protection, not resource use. 'None of the above' is incorrect since conservation fits best."
+                    },
+                    {
+                        text: "The quantum of human impacts can be written as",
+                        options: [
+                            "I = P + A + T",
+                            "I = P × A + T",
+                            "I = P × A × T",
+                            "I = P + A × T"
+                        ],
+                        answer: 2,
+                        explanation: "Impact = Population × Affluence × Technology (I = P × A × T). Other options ignore the multiplicative relationship or mix addition and multiplication wrongly."
+                    },
+                    {
+                        text: "The discipline of Demography is most closely related to:",
+                        options: [
+                            "Phytogeography",
+                            "Zoogeography",
+                            "Population Geography",
+                            "Economic Geography"
+                        ],
+                        answer: 2,
+                        explanation: "Population Geography and Demography both study population size, structure, and distribution. Phytogeography deals with plant distribution. Zoogeography deals with animal distribution. Economic Geography focuses on production and resources, not population."
+                    },
+                    {
+                        text: "The rate of any biological process is limited by that factor in least amount relative to requirement, so there is a single limiting factor. This is the statement for",
+                        options: [
+                            "Liebig’s law of the minimum",
+                            "Liebig’s law of the maximum",
+                            "Shelford’s Law of Tolerance",
+                            "Shelford’s Law of Intolerance"
+                        ],
+                        answer: 0,
+                        explanation: "Liebig’s Law of the Minimum: growth depends on the scarcest resource. Law of the Maximum is not a concept; Shelford’s Law of Tolerance talks about tolerance range, not minimum."
+                    },
+                    {
+                        text: "The geographical distribution of a species will be controlled by that environmental factor for which the organism has the narrowest range of tolerance. This is the statement for",
+                        options: [
+                            "Liebig’s Law of Minimum",
+                            "Liebig’s law of the maximum",
+                            "Shelford’s Law of Tolerance",
+                            "Shelford’s Law of Intolerance"
+                        ],
+                        answer: 2,
+                        explanation: "Shelford’s Law of Tolerance emphasizes environmental limits for species survival. Liebig’s Law deals with limiting nutrients, not range. Law of Maximum is invalid. Law of Intolerance is not a defined ecological law."
+                    },
+                    {
+                        text: "The regional approach to Geography was developed by:",
+                        options: [
+                            "Alexander von Humboldt",
+                            "Karl Ritter",
+                            "Rene Descartes",
+                            "Eratosthenes"
+                        ],
+                        answer: 1,
+                        explanation: "Karl Ritter pioneered regional geography based on spatial interrelations. Humboldt emphasized physical geography and natural laws. Descartes was a philosopher, not a geographer. Eratosthenes coined 'Geography' but not the regional approach."
+                    },
+                    {
+                        text: "Good climate is a",
+                        options: [
+                            "Chemical factor",
+                            "Demographic factor",
+                            "Push factor",
+                            "Pull factor"
+                        ],
+                        answer: 3,
+                        explanation: "Good climate attracts people to migrate to favorable regions (pull factor). Chemical factor relates to soil/water chemistry, not migration. Demographic factor deals with population data, not migration cause. Push factor forces people to leave, opposite effect."
+                    },
+                    {
+                        text: "Scarcity of food is a",
+                        options: [
+                            "Chemical factor",
+                            "Demographic factor",
+                            "Push factor",
+                            "Pull factor"
+                        ],
+                        answer: 2,
+                        explanation: "Scarcity of food compels people to migrate away from scarcity areas (push factor). Chemical factor is unrelated to migration. Demographic factor describes population traits, not reasons for movement. Pull factor attracts migration, not repels it."
+                    },
+                    {
+                        text: "In an undisturbed sedimentary strata, bottom layers are older than layers above them. This is known as",
+                        options: [
+                            "Principle of Superposition",
+                            "Original horizontality",
+                            "Lateral continuity",
+                            "Inclusions",
+                        ],
+                        answer: 0,
+                        explanation: "Principle of Superposition – in a sequence of undisturbed layers, older rocks lie below younger. Original horizontality: deposition in horizontal layers. Lateral continuity: horizontal extent of layers. Inclusions: fragments within rock."
+                    },
+                    {
+                        text: "Mount Vesuvius is an example of",
+                        options: [
+                            "Shield volcano",
+                            "Composite volcano",
+                            "Caldera",
+                            "Flood basalt province",
+                        ],
+                        answer: 1,
+                        explanation: "Composite volcano – alternating layers of lava and ash; highly explosive. Shield: gentle slope, non-explosive. Caldera: depression after eruption. Flood basalt: widespread lava, not cones."
+                    },
+                    {
+                        text: "Krakatoa eruption resulted in the formation of",
+                        options: [
+                            "Shield volcano",
+                            "Stratovolcano",
+                            "Caldera",
+                            "Flood basalt province",
+                        ],
+                        answer: 2,
+                        explanation: "Caldera – Krakatoa collapsed into depression after massive eruption. Shield: broad slopes. Stratovolcano: Krakatoa's form before eruption. Flood basalt: unrelated."
+                    },
+                    {
+                        text: "Which of these is not a method of absolute dating?",
+                        options: [
+                            "Radioisotope dating",
+                            "Thermoluminescence dating",
+                            "Inclusion study",
+                            "Fission track dating",
+                        ],
+                        answer: 2,
+                        explanation: "Inclusion study determines relative age, not absolute. Radioisotope, thermoluminescence, fission track are absolute dating methods."
+                    },
+                    {
+                        text: "Which of these is true about S waves?",
+                        options: [
+                            "Longitudinal",
+                            "They are transverse in nature",
+                            "Cannot move through solids, liquids and gases",
+                            "First to reach surface",
+                        ],
+                        answer: 1,
+                        explanation: "S waves are transverse; P waves are longitudinal and arrive first. S waves move only through solids."
+                    },
+                    {
+                        text: "Hawaiian volcanoes are an example of",
+                        options: [
+                            "Shield volcano",
+                            "Stratovolcano",
+                            "Caldera",
+                            "Flood basalt province",
+                        ],
+                        answer: 0,
+                        explanation: "Shield volcanoes: broad, gently sloping, basaltic lava. Others don't fit Hawaiian volcanoes."
+                    },
+                    {
+                        text: "Within a depositional basin, strata are laterally continuous in all directions till the edge of the basin. This is known as",
+                        options: [
+                            "Superposition",
+                            "Original horizontality",
+                            "Principle of Lateral Continuity",
+                            "Inclusions",
+                        ],
+                        answer: 2,
+                        explanation: "Principle of Lateral Continuity: sedimentary layers extend horizontally until they thin or hit barrier. Others: different stratigraphic concepts."
+                    },
+                    {
+                        text: "Which of these is a gas giant?",
+                        options: [
+                            "Mercury",
+                            "Venus",
+                            "Mars",
+                            "Saturn",
+                        ],
+                        answer: 3,
+                        explanation: "Saturn: gas giant. Mercury, Venus, Mars: rocky planets."
+                    },
+                    {
+                        text: "Assemblage of fossils are unique to the time that they lived in, and so can be used to age rocks across a wide geographic distribution. This is known as",
+                        options: [
+                            "Principle of Fossil Succession",
+                            "Original horizontality",
+                            "Superposition",
+                            "Cross-cutting relationships",
+                        ],
+                        answer: 0,
+                        explanation: "Fossil Succession: fossils in chronological order. Others: sedimentary or structural relationships."
+                    },
+                    {
+                        text: "Which of these is an example of a direct source of information about the Earth?",
+                        options: [
+                            "Earthquake",
+                            "Volcanic eruption",
+                            "Magnetic survey",
+                            "Gravity anomaly",
+                        ],
+                        answer: 1,
+                        explanation: "Volcanic eruption provides direct samples from Earth's interior. Others: indirect methods."
+                    },
+                    {
+                        text: "The points where three or more cirques meet is the definition of",
+                        options: [
+                            "Cirque",
+                            "Arete",
+                            "Horn",
+                            "Hanging valley",
+                        ],
+                        answer: 2,
+                        explanation: "Horn – sharp, pyramid-shaped peak formed where several cirques meet. Cirque: bowl-shaped depression. Arete: sharp ridge between two cirques. Hanging valley: smaller valley at higher level."
+                    },
+                    {
+                        text: "Which of these is an example of endogenic process?",
+                        options: [
+                            "Weathering",
+                            "Mass movement",
+                            "Erosion",
+                            "Folding",
+                        ],
+                        answer: 3,
+                        explanation: "Folding – internal Earth forces. Others: surface/external processes."
+                    },
+                    {
+                        text: "Sandstone is an example of",
+                        options: [
+                            "Siliciclastic rock",
+                            "Carbonate rock",
+                            "Evaporite rock",
+                            "Phosphatic rock",
+                        ],
+                        answer: 0,
+                        explanation: "Siliciclastic: silicate minerals cemented together. Carbonate: from calcium carbonate. Evaporite: by evaporation. Phosphatic: phosphate minerals."
+                    },
+                    {
+                        text: "Smooth oval-shaped ridge-like features comprised of glacial till, gravel and sand arranged parallel to the direction of ice movement” is the definition of",
+                        options: [
+                            "Glacial till",
+                            "Outwash deposit",
+                            "Esker",
+                            "Drumlin",
+                        ],
+                        answer: 3,
+                        explanation: "Drumlin: elongated, streamlined glacial landform made of till. Others: different glacial or sedimentary features."
+                    },
+                    {
+                        text: "Which of these is an example of exogenic process?",
+                        options: [
+                            "Volcanism",
+                            "Earthquake",
+                            "Plate tectonics",
+                            "Deposition",
+                        ],
+                        answer: 3,
+                        explanation: "Deposition: external agent deposits sediments. Others are endogenic (internal) processes."
+                    },
+                    {
+                        text: "White or colourless hard mineral virtually insoluble in water” is a description of",
+                        options: [
+                            "Amphiboles",
+                            "Quartz",
+                            "Feldspar",
+                            "Pyroxene",
+                        ],
+                        answer: 1,
+                        explanation: "Quartz: hard (Mohs 7), water-insoluble. Others are less hard/different composition."
+                    },
+                    {
+                        text: "Dolomite is an example of",
+                        options: [
+                            "Siliciclastic",
+                            "Carbonate rock",
+                            "Evaporite",
+                            "Phosphatic",
+                        ],
+                        answer: 1,
+                        explanation: "Dolomite: carbonate composed of CaMg(CO₃)₂. Others: different rock types."
+                    },
+                    {
+                        text: "Green or or black coloured inosilicate minerals forming prism or needle-like crystals is a description of",
+                        options: [
+                            "Amphiboles",
+                            "Feldspar",
+                            "Mica",
+                            "Pyroxene",
+                        ],
+                        answer: 0,
+                        explanation: "Amphiboles: dark green/black, prismatic inosilicates. Others: different color/habit."
+                    },
+                    {
+                        text: "Deep, long and wide troughs or basins with very steep concave to vertically dropping high walls as its head and sides is the definition of",
+                        options: [
+                            "Cirque",
+                            "Arete",
+                            "Horn",
+                            "Hanging valley",
+                        ],
+                        answer: 0,
+                        explanation: "Cirque: amphitheater-like hollow formed by glacial erosion. Others: different glacial features."
+                    },
+                    {
+                        text: "“Magnesium iron silicate; a primary component of the Earth’s upper mantle” is a description of",
+                        options: [
+                            "Amphiboles",
+                            "Feldspar",
+                            "Quartz",
+                            "Olivine",
+                        ],
+                        answer: 3,
+                        explanation: "Olivine: dominant upper mantle mineral, rich in Mg and Fe. Others are crust minerals or absent in mantle."
+                    },
+                    {
+                        text: "Which of these air masses is generally cool and moist?",
+                        options: [
+                            "mP",
+                            "cP",
+                            "cT",
+                            "mT"
+                        ],
+                        answer: 0,
+                        explanation: "Maritime Polar (mP) forms over cold ocean waters; hence cool and moist. cP is cold and dry (continental origin). cT is hot and dry (formed over deserts). mT is warm and moist (tropical oceans)."
+                    },
+                    {
+                        text: "Which of these air masses is generally cold and dry?",
+                        options: [
+                            "cP",
+                            "mP",
+                            "mT",
+                            "cT"
+                        ],
+                        answer: 0,
+                        explanation: "Continental Polar (cP) originates over cold landmasses; cold and dry in nature. cT is warm and dry. mP is cool and moist. mT is warm and moist."
+                    },
+                    {
+                        text: "The ISS orbits in which layer?",
+                        options: [
+                            "Troposphere",
+                            "Stratosphere",
+                            "Thermosphere",
+                            "Mesosphere"
+
+                        ],
+                        answer: 2,
+                        explanation: "The International Space Station orbits around 400 km altitude within the thermosphere. Troposphere is where weather occurs, too low for ISS. Stratosphere includes ozone layer, still below ISS orbit. Mesosphere lies below thermosphere, too low for satellites."
+                    },
+                    {
+                        text: "The government came up with a regulation that incandescent bulbs be replaced by LED bulbs, so that electricity consumption and release of carbon dioxide from power plants is reduced. In the context of climate change, such an action would be calledRegulation to replace incandescent bulbs with LEDs is an example of",
+                        options: [
+                            "Adaptation",
+                            "Mitigation",
+                            "Deceleration",
+                            "Maladaptation"
+                        ],
+                        answer: 1,
+                        explanation: "Mitigation aims to reduce greenhouse gas emissions to slow climate change. Adaptation means adjusting to climate impacts, not reducing causes. Deceleration is not a climate term. Maladaptation refers to poor or counterproductive adaptation."
+                    },
+                    {
+                        text: "Surplus seed and sperm banking is an adaptation option to facilitate",
+                        options: [
+                            "Resilience to climate changes",
+                            "Resistance",
+                            "Response",
+                            "None of these"
+
+                        ],
+                        answer: 0,
+                        explanation: "Resilience to climate changes – helps species recover from population loss and adapt to environmental stress. Resistance means avoiding change, not recovering from it. Response is general; doesn’t imply long-term recovery. None of these is incorrect as resilience fits precisely."
+                    },
+                    {
+                        text: "The classical period for taking climate averages is",
+                        options: [
+                            "30 years",
+                            "20 years",
+                            "40 years",
+                            "10 years"
+                        ],
+                        answer: 0,
+                        explanation: "30 years – as per World Meteorological Organization (WMO) standard for climate normals. 10 and 20 years are too short, 40 years is longer than standard."
+                    },
+                    {
+                        text: "Noctilucent clouds are present in which layer?",
+                        options: [
+                            "Troposphere",
+                            "Mesosphere",
+                            "Stratosphere",
+                            "Thermosphere"
+                        ],
+                        answer: 1,
+                        explanation: "Mesosphere – highest known clouds, form from ice crystals in the mesosphere. Troposphere hosts regular weather clouds. Stratosphere contains ozone but no noctilucent clouds. Thermosphere is too hot and thin for cloud formation."
+                    },
+                    {
+                        text: "Because of climate change, Mudumalai Tiger Reserve is suffering from frequent droughts. The management has built several artificial water holes for animals, and fills them up regularly with tankers. In the context of climate change, such an action would be called",
+                        options: [
+                            "Mitigation",
+                            "Deceleration",
+                            "Adaptation",
+                            "Maladaptation"
+
+                        ],
+                        answer: 2,
+                        explanation: "Adaptation – adjusting to the impacts of climate change to maintain ecosystem function. Mitigation deals with emission reduction, not local coping. Deceleration is not a valid climate term. Maladaptation would worsen vulnerability, not reduce it."
+                    },
+                    {
+                        text: "Which layer is home to the ozone layer?",
+                        options: [
+                            "Stratosphere",
+                            "Troposphere",
+                            "Mesosphere",
+                            "Thermosphere"
+
+                        ],
+                        answer: 0,
+                        explanation: "Stratosphere contains the ozone layer that absorbs harmful UV radiation. Troposphere has weather but little ozone. Mesosphere is above ozone layer, little ozone present. Thermosphere contains ionized gases, not ozone."
+                    },
+                    {
+                        text: "Most weather phenomena occur in",
+                        options: [
+                            "Troposphere",
+                            "Stratosphere",
+                            "Mesosphere",
+                            "Thermosphere"
+
+                        ],
+                        answer: 0,
+                        explanation: "Troposphere is the lowest layer where clouds, rainfall, and storms develop. Stratosphere is a stable layer above weather zone. Mesosphere is too cold and thin for weather. Thermosphere has no weather due to extremely low density."
+                    },
+                    {
+                        text: "Equal density curves are called",
+                        options: [
+                            "Isohaline",
+                            "Isopycnal curves",
+                            "Isotherm",
+                            "Isobuoyant"
+
+                        ],
+                        answer: 1,
+                        explanation: "Isopycnal curves – “pycnal” means density; these lines connect points of equal density in the ocean. Isohaline is equal salinity. Isotherm is equal temperature. Isobuoyant is not a standard oceanographic term."
+                    },
+                    {
+                        text: "Which of these is a minor feature of the ocean floor?",
+                        options: [
+                            "Continental shelf",
+                            "Guyot",
+                            "Continental slope",
+                            "Abyssal plain"
+
+                        ],
+                        answer: 1,
+                        explanation: "Guyot – flat-topped seamounts; smaller features compared to major oceanic structures. Continental shelf, slope, and abyssal plain are major features."
+                    },
+                    {
+                        text: "“Mountains with pointed summits rising from the sea floor, but not reaching the surface of the ocean” is a description of",
+                        options: [
+                            "Oceanic deep/trench",
+                            "Mid-oceanic ridge",
+                            "Atoll",
+                            "Seamount"
+                        ],
+                        answer: 3,
+                        explanation: "Seamount – submarine volcanic mountains that don’t reach the ocean surface. Oceanic deep/trench are long, narrow depressions. Mid-oceanic ridge is a continuous underwater mountain chain. Atoll is a ring-shaped coral island on seamount tops."
+                    },
+                    {
+                        text: "Which of these is the largest habitat on Earth?",
+                        options: [
+                            "Continental shelf",
+                            "Continental slope",
+                            "Abyssal plain",
+                            "Guyot"
+
+                        ],
+                        answer: 2,
+                        explanation: "Abyssal plain covers more than 50% of Earth’s surface; the world’s largest ecosystem. Continental shelf is a shallow margin, not largest. Continental slope is a narrow zone. Guyot is an individual undersea feature."
+                    },
+                    {
+                        text: "Which of these are the largest mountain ranges on Earth?",
+                        options: [
+                            "Oceanic trench",
+                            "Seamount",
+                            "Atoll",
+                            "Mid-oceanic ridge"
+                        ],
+                        answer: 3,
+                        explanation: "Mid-oceanic ridge is a continuous undersea chain (~65,000 km long), the Earth’s longest mountain system. Oceanic trench is a deep narrow depression, not a ridge. Seamount is an isolated peak. Atoll is a coral formation."
+                    },
+                    {
+                        text: "“Deep valleys, often cutting across continental shelves and slopes” is a description of",
+                        options: [
+                            "Oceanic trench",
+                            "Submarine canyon",
+                            "Mid-oceanic ridge",
+                            "Guyot",
+
+                        ],
+                        answer: 1,
+                        explanation: "Submarine canyon – steep-sided underwater valleys carved by turbidity currents. Oceanic trench is found in deep ocean basins. Mid-oceanic ridge is an underwater mountain system. Guyot is a flat-topped volcanic mountain."
+                    },
+                    {
+                        text: "Continental slope has a gradient of",
+                        options: [
+                            "0–1°",
+                            "1–2°",
+                            "2–5 degrees",
+                            "5–10°"
+
+                        ],
+                        answer: 2,
+                        explanation: "2–5 degrees is the typical gradient for continental slope. 0–1° and 1–2° are too gentle, 5–10° is steeper than typical."
+                    },
+                    {
+                        text: "Which of these is not a prominent tidal pattern?",
+                        options: [
+                            "Diurnal",
+                            "Mixed diurnal",
+                            "Mixed semidiurnal",
+                            "Semidiurnal"
+
+                        ],
+                        answer: 1,
+                        explanation: "Mixed diurnal is not a recognized tidal type. Diurnal is one high and one low tide per day. Mixed semidiurnal is two highs and two lows of unequal height. Semidiurnal is two nearly equal highs and lows daily."
+                    },
+                    {
+                        text: "“Relatively steep-sided, narrow, deep basins” is a description of",
+                        options: [
+                            "Mid-oceanic ridge",
+                            "Seamount",
+                            "Atoll",
+                            "Oceanic deep / trench"
+                        ],
+                        answer: 3,
+                        explanation: "Oceanic deep / trench are long, narrow depressions formed by subduction at convergent plate boundaries. Mid-oceanic ridge is an elevated ridge. Seamount is an isolated volcanic mountain. Atoll is a coral ring around a lagoon."
+                    },
+                    {
+                        text: "In the sea, a layer where the temperature decreases rapidly from the mixed upper layer to the cold deeper layer is called",
+                        options: [
+                            "Isopycnal",
+                            "Thermophil",
+                            "Thermohaline",
+                            "Thermocline"
+                        ],
+                        answer: 3,
+                        explanation: "Thermocline is the transition zone between warm surface water and cold deep water. Isopycnal is equal density, not temperature gradient. Thermophil are heat-loving organisms. Thermohaline relates to temperature & salinity together."
+                    },
+                    {
+                        text: "In Köppen classification, which is hot summer temperature?",
+                        options: [
+                            "a",
+                            "h",
+                            "k",
+                            "b"
+                        ],
+                        answer: 0,
+                        explanation: "‘a’ denotes hot summer where the warmest month temperature exceeds 22°C. ‘h’ refers to hot arid (used with deserts). ‘k’ refers to cold arid (used for cold deserts). ‘b’ means warm summer (below 22°C)."
+                    },
+                    {
+                        text: "In Köppen classification, which is desert precipitation?",
+                        options: [
+                            "W",
+                            "S",
+                            "f",
+                            "s"
+                        ],
+                        answer: 0,
+                        explanation: "‘W’ represents desert (arid) climate. ‘S’ means steppe (semi-arid). ‘f’ means no dry season (fully humid). ‘s’ means dry summer."
+                    },
+                    {
+                        text: "India’s location is",
+                        options: [
+                            "Tropical in South, Sub-tropical in North",
+                            "Equatorial in South, Sub-tropical in North",
+                            "Tropical in South, Equatorial in North",
+                            "Sub-tropical in South, Equatorial in North"
+                        ],
+                        answer: 0,
+                        explanation: "Tropical in South, Sub-tropical in North – Tropic of Cancer passes through central India (23.5°N). Other options are incorrect or inverted."
+                    },
+                    {
+                        text: "In Köppen classification, which is cold arid temperature?",
+                        options: [
+                            "h",
+                            "k",
+                            "a",
+                            "b"
+                        ],
+                        answer: 1,
+                        explanation: "‘k’ denotes cold arid (mean annual temperature below 18°C). ‘h’ indicates hot arid (above 18°C). ‘a’ is hot summer type in humid climates. ‘b’ is warm summer, not arid."
+                    },
+                    {
+                        text: "In Köppen classification, which is winter dry precipitation?",
+                        options: [
+                            "S",
+                            "w",
+                            "f",
+                            "s"
+                        ],
+                        answer: 1,
+                        explanation: "‘w’ represents dry winter climate (most rainfall in summer). ‘S’ stands for steppe/semi-arid. ‘f’ is fully humid, no dry season. ‘s’ is dry summer."
+                    },
+                    {
+                        text: "In Köppen classification, which is cool summer temperature?",
+                        options: [
+                            "d",
+                            "F",
+                            "c",
+                            "T"
+                        ],
+                        answer: 2,
+                        explanation: "‘c’ means cool summer, warmest month <22°C but at least 4 months >10°C. ‘d’ is very cold winter (continental/subarctic). ‘F’ is no dry season. ‘T’ is tundra climate, extremely cold."
+                    },
+                    {
+                        text: "Correct sequence of seasons in India",
+                        options: [
+                            "Hot weather season → South-West monsoon → Retreating monsoon → Cold weather season",
+                            "South-West monsoon → Hot weather season → Cold weather season → Retreating monsoon",
+                            "Retreating monsoon → Hot weather season → South-West monsoon → Cold weather season",
+                            "Cold weather season → Hot weather season → South-West monsoon → Retreating monsoon"
+                        ],
+                        answer: 0,
+                        explanation: "Matches India’s actual seasonal pattern (March–May → June–Sept → Oct–Nov → Dec–Feb). Other options mix up or reverse the monsoon order."
+                    },
+                    {
+                        text: "In Köppen classification, which is monsoonal precipitation?",
+                        options: [
+                            "W",
+                            "m",
+                            "S",
+                            "s"
+                        ],
+                        answer: 1,
+                        explanation: "‘m’ denotes monsoonal rainfall, with short dry season and heavy summer rains. ‘W’ is desert. ‘S’ is steppe. ‘s’ is dry summer, Mediterranean type."
+                    },
+                    {
+                        text: "Physiography is the outcome of",
+                        options: [
+                            "Structure",
+                            "Process",
+                            "Stage",
+                            "All of these"
+                        ],
+                        answer: 3,
+                        explanation: "It results from structure (lithology), processes (exogenic & endogenic), and stage of development (cycle of erosion). Each one contributes, but not individually sufficient."
+                    },
+                    {
+                        text: "In Köppen classification, which is equatorial climate?",
+                        options: [
+                            "A",
+                            "B",
+                            "C",
+                            "D"
+                        ],
+                        answer: 0,
+                        explanation: "‘A’ represents tropical (equatorial) climates with all months >18°C and heavy rainfall. ‘B’ is arid. ‘C’ is temperate. ‘D’ is cold/continental."
+                    },
+                    {
+                        text: "Soil formation is dependent upon",
+                        options: [
+                            "Vegetation",
+                            "Time",
+                            "Climate",
+                            "All of the above"
+                        ],
+                        answer: 3,
+                        explanation: "Soil formation (pedogenesis) depends on five major factors — parent material, topography, time, climate, and organisms/vegetation. Each individual factor alone cannot form soil — all interact together."
+                    },
+                    {
+                        text: "Which of these is not a characteristic of pioneer species",
+                        options: [
+                            "Large size",
+                            "Ability to grow on bare rocks",
+                            "Tolerance to extreme conditions",
+                            "Short life span"
+
+                        ],
+                        answer: 0,
+                        explanation: "Pioneer species (like lichens, mosses) are small, hardy, and fast-growing organisms that first colonize barren areas. Large size is not a characteristic."
+                    },
+                    {
+                        text: "“groups of actually or potentially interbreeding natural populations, which are reproductively isolated from other such groups” is a definition of",
+                        options: [
+                            "Species",
+                            "Cells",
+                            "Ecosystems",
+                            "Biomes"
+
+                        ],
+                        answer: 0,
+                        explanation: "This is the Biological Species Concept by Ernst Mayr. Cells are the basic unit of life, not population-level concept. Ecosystems include abiotic + biotic components. Biomes are large ecological regions."
+                    },
+                    {
+                        text: "Mechanical action of ocean waves is an example of",
+                        options: [
+                            "Chemical weathering",
+                            "Physical weathering",
+                            "Biological weathering",
+                            "None of the above",
+
+                        ],
+                        answer: 1,
+                        explanation: "Physical weathering breaks rocks by mechanical force (abrasion, impact) without chemical change. Chemical weathering alters mineral composition. Biological weathering is caused by living organisms."
+                    },
+                    {
+                        text: "The climax near Tindni village is being controlled by disturbance by cattle. This is an example of",
+                        options: [
+                            "Climatic climax",
+                            "Edaphic climax",
+                            "Disclimax",
+                            "Catastrophic climax"
+
+                        ],
+                        answer: 2,
+                        explanation: "Disclimax occurs when human or animal interference (like grazing) prevents the natural climax community. Climatic climax is determined by regional climate, not interference. Edaphic climax is determined by soil conditions. Catastrophic climax is due to disasters."
+                    },
+                    {
+                        text: "Carbonation is an example of",
+                        options: [
+                            "Physical weathering",
+                            "Biological weathering",
+                            "Chemical weathering",
+                            "None"
+
+                        ],
+                        answer: 2,
+                        explanation: "Carbonation involves CO₂ + water forming carbonic acid, which dissolves rocks like limestone (CaCO₃)."
+                    },
+                    {
+                        text: "In soil profile, ‘C’ refers to",
+                        options: [
+                            "Organic surface layer",
+                            "Substratum layer",
+                            "Topsoil",
+                            "Subsoil"
+
+                        ],
+                        answer: 1,
+                        explanation: "The C-horizon is the partially weathered parent material, below A (topsoil) and B (subsoil)."
+                    },
+                    {
+                        text: "A climax caused by wildfires is an example of",
+                        options: [
+                            "Climatic climax",
+                            "Catastrophic climax",
+                            "Edaphic climax",
+                            "Disclimax",
+
+                        ],
+                        answer: 1,
+                        explanation: "Catastrophic climax results when sudden large-scale disturbances like fire or storm reset succession."
+                    },
+                    {
+                        text: "Regur is a term for",
+                        options: [
+                            "Black cotton soil",
+                            "Alluvial soil",
+                            "Saline soil",
+                            "Red and yellow soil"
+
+                        ],
+                        answer: 0,
+                        explanation: "Regur soils are clayey, rich in iron and lime, formed from basalt in the Deccan Plateau — ideal for cotton."
+                    },
+                    {
+                        text: "“The diversity that exists among different geographies” is",
+                        options: [
+                            "Alpha (α) biodiversity",
+                            "Beta (β) biodiversity",
+                            "Delta (δ) biodiversity",
+                            "Gamma (γ) biodiversity"
+                        ],
+                        answer: 3,
+                        explanation: "Gamma diversity refers to overall diversity across regions or landscapes. Alpha is within a particular ecosystem. Beta is difference in species between ecosystems. Delta is not a standard term in ecology."
+                    },
+                    {
+                        text: "The fig tree bears fruits in times when animals do not have much access to food. In this context, it would be a good example of",
+                        options: [
+                            "Least concern species",
+                            "Flagship species",
+                            "Extinct species",
+                            "Keystone species"
+                        ],
+                        answer: 3,
+                        explanation: "Keystone species have a disproportionately large effect on their ecosystem — fig trees sustain animals during food-scarce periods. Least concern is a conservation status, not ecological role. Flagship species are chosen for awareness, not ecosystem impact. Extinct species no longer exist."
+                    },
+                    {
+                        text: "The “subset of physical and biotic environmental factors that permit an animal (or plant) to survive and reproduce” is the definition of",
+                        options: [
+                            "Ecosystem",
+                            "Habitat",
+                            "Biome",
+                            "Biosphere"
+
+                        ],
+                        answer: 1,
+                        explanation: "A habitat provides all conditions and resources necessary for an organism’s survival and reproduction. Ecosystem includes interactions between biotic and abiotic components. Biome is a large ecological region. Biosphere is the global sum of all ecosystems."
+                    },
+                    {
+                        text: "Which of these correctly represents the process of habitat fragmentation and loss?",
+                        options: [
+                            "Original forest → Dissection → Perforation → Fragmentation → Attrition",
+                            "Original forest → Perforation → Dissection → Fragmentation → Attrition",
+                            "Original forest → Fragmentation → Dissection → Perforation → Attrition",
+                            "Original forest → Attrition → Fragmentation → Dissection → Perforation"
+                        ],
+                        answer: 0,
+                        explanation: "This sequence shows gradual breaking up of large habitats into smaller, isolated patches. The real process begins with small cuts (dissection), then holes (perforation), then breakup (fragmentation), and finally disappearance (attrition)."
+                    },
+                    {
+                        text: "Soil formation is an example of",
+                        options: [
+                            "Provisioning service",
+                            "Regulating service",
+                            "Cultural service",
+                            "Supporting service"
+                        ],
+                        answer: 3,
+                        explanation: "Supporting ecosystem services enable other services — e.g., soil formation supports plant growth. Provisioning gives tangible goods. Regulating controls climate, disease, etc. Cultural is non-material benefits."
+                    },
+                    {
+                        text: "Biological control of pest populations is an example of",
+                        options: [
+                            "Provisioning service",
+                            "Supporting service",
+                            "Regulating service",
+                            "Cultural service"
+
+                        ],
+                        answer: 2,
+                        explanation: "Regulating services maintain ecosystem balance, such as pest control, flood regulation, and pollination. Provisioning provides direct products. Supporting underpins all other services. Cultural relates to heritage or tourism."
+                    },
+                    {
+                        text: "The acronym HIPPO does not include",
+                        options: [
+                            "Habitat loss",
+                            "Invasive species",
+                            "Pollination",
+                            "Pollution"
+                        ],
+                        answer: 2,
+                        explanation: "HIPPO = Habitat loss, Invasive species, Pollution, Population, Overexploitation — key biodiversity threats. Pollination is an ecological service, not a threat."
+                    },
+                    {
+                        text: "The tiger has a home range of several square kilometres, regulates the ecosystem through controlling herbivore populations and trophic cascades, and people come to tiger reserves to watch tigers. Thus, the tiger can be called as",
+                        options: [
+                            "Keystone species",
+                            "Umbrella species",
+                            "Flagship species",
+                            "All of the above"
+                        ],
+                        answer: 3,
+                        explanation: "Tiger is a Keystone species (regulates prey), an Umbrella species (protecting it safeguards others), and a Flagship species (symbol for conservation awareness)."
+                    },
+                    {
+                        text: "People come to Sessa orchid sanctuary in Arunachal Pradesh to witness orchids, which in this context would be classified as",
+                        options: [
+                            "Umbrella species",
+                            "Flagship species",
+                            "Keystone species",
+                            "Extinct species"
+
+                        ],
+                        answer: 1,
+                        explanation: "Flagship species are charismatic organisms that attract public attention and conservation funding. Umbrella species indirectly protect others by wide habitat needs. Keystone species are ecologically crucial, not necessarily attractive. Extinct species no longer exist."
+                    },
+                    {
+                        text: "Captive breeding is an example of",
+                        options: [
+                            "In-situ conservation",
+                            "Preservation",
+                            "Ex-situ conservation",
+                            "None of these"
+                        ],
+                        answer: 2,
+                        explanation: "Ex-situ means “outside the natural habitat” — like zoos, botanical gardens, gene banks. In-situ is protecting species in their natural habitats. Preservation implies non-interference, not active conservation."
+                    },
+                    {
+                        text: "We prefer those areas for the creation of a conservation reserve where the level of threat is",
+                        options: [
+                            "Very high",
+                            "Very low",
+                            "Medium",
+                            "Non-existent"
+                        ],
+                        answer: 2,
+                        explanation: "Medium-threat areas have viable ecosystems that can still be restored or maintained. Very high may already be degraded. Very low or non-existent need less urgent intervention."
+                    },
+                    {
+                        text: "According to Malthusian model",
+                        options: [
+                            "Population grows in geometric progression, food supply increases in arithmetic progression",
+                            "Both geometric",
+                            "Both arithmetic",
+                            "Population arithmetic, food geometric"
+
+                        ],
+                        answer: 0,
+                        explanation: "Malthus proposed that population grows exponentially, while food supply grows linearly, leading to scarcity. Both geometric is unrealistic; food production is limited by land/resources. Both arithmetic ignores exponential population potential. Population arithmetic, food geometric is opposite of Malthus’ theory."
+                    },
+                    {
+                        text: "Which of these is commonly observed during humanising of nature?",
+                        options: [
+                            "Possibilism",
+                            "Environmental determinism",
+                            "Neodeterminism",
+                            "Stop and go determinism"
+
+                        ],
+                        answer: 0,
+                        explanation: "Possibilism suggests humans modify and adapt the environment using technology and culture. Environmental determinism is nature controls humans. Neodeterminism is a balance. Stop and go determinism is a modern variant."
+                    },
+                    {
+                        text: "Which of these is a pillar of sustainability",
+                        options: [
+                            "Industrial sustainability",
+                            "Agricultural sustainability",
+                            "Trans-boundary sustainability",
+                            "Social sustainability"
+                        ],
+                        answer: 3,
+                        explanation: "Sustainability stands on three pillars — social, economic, and environmental. Industrial and agricultural are sectoral, not pillars. Trans-boundary relates to boundaries, not the framework."
+                    },
+                    {
+                        text: "Which of these is commonly observed in primitive societies?",
+                        options: [
+                            "Possibilism",
+                            "Environmental determinism",
+                            "Neodeterminism",
+                            "Stop and go determinism"
+
+                        ],
+                        answer: 1,
+                        explanation: "Primitive societies were strongly controlled by nature, climate, and physical surroundings (environmental determinism)."
+                    },
+                    {
+                        text: "The demographic transition sees a society move from",
+                        options: [
+                            "High birth rate, low death rate → low birth rate, high death rate",
+                            "Low birth rate, high death rate → high birth rate, low death rate",
+                            "High birth rate, high death rate → low birth rate, low death rate",
+                            "Low birth rate, low death rate → high birth rate, high death rate"
+                        ],
+                        answer: 2,
+                        explanation: "This model explains population growth through stages of development — from primitive to industrial societies."
+                    },
+                    {
+                        text: "The logistic growth equation curve is",
+                        options: [
+                            "I-shaped",
+                            "J-shaped",
+                            "U-shaped",
+                            "S-shaped"
+                        ],
+                        answer: 3,
+                        explanation: "Logistic growth (Verhulst model) shows population initially growing fast, then slowing as it nears carrying capacity (S-shaped curve)."
+                    },
+                    {
+                        text: "Which of these is a preventive check according to Malthus?",
+                        options: [
+                            "Vice",
+                            "Misery",
+                            "Flood",
+                            "Foresight"
+                        ],
+                        answer: 3,
+                        explanation: "Preventive checks are voluntary measures (like delayed marriage, family planning) to limit population before crisis. Vice and misery are positive checks (increase death rate). Flood is a natural calamity, not preventive."
+                    },
+                    {
+                        text: "Which of these is not a pillar of sustainability?",
+                        options: [
+                            "Environmental sustainability",
+                            "Economic sustainability",
+                            "Trans-boundary sustainability",
+                            "Social sustainability"
+
+                        ],
+                        answer: 2,
+                        explanation: "The recognized three pillars are social, economic, and environmental. Trans-boundary is not a pillar."
+                    },
+                    {
+                        text: "The book An Essay on the Principle of Population was written by",
+                        options: [
+                            "Darwin",
+                            "Spencer",
+                            "Thomas Malthus",
+                            "Owens"
+
+                        ],
+                        answer: 2,
+                        explanation: "Published in 1798, the book warned about unchecked population growth leading to famine and poverty. Darwin developed theory of evolution. Spencer coined “survival of the fittest”. Owens was a social reformer."
+                    },
+                    {
+                        text: "Which of these is a positive check according to Malthus?",
+                        options: [
+                            "Late marriage",
+                            "War",
+                            "Celibacy",
+                            "Moral restraint"
+
+                        ],
+                        answer: 1,
+                        explanation: "Positive checks are factors increasing death rate — war, famine, epidemics. Late marriage, celibacy, moral restraint are preventive checks reducing birth rate."
+                    },
+                    {
+                        text: "Hydrogen for nuclear fusion comes under the category of",
+                        options: [
+                            "Stock resources",
+                            "Potential resources",
+                            "Actual resources",
+                            "Reserve resources"
+
+                        ],
+                        answer: 0,
+                        explanation: "Stock resources are those exist in nature but cannot be used currently due to technology or economics. Potential resources can be developed in future, but stock is not yet usable. Actual resources are currently in use. Reserve resources are portion of actual resources available for future use."
+                    },
+                    {
+                        text: "Which of these is the largest source of ammonia (NH3) in the atmosphere?",
+                        options: [
+                            "Mineral fertiliser",
+                            "Crops and decomposition",
+                            "Animal manure",
+                            "Human waste"
+
+                        ],
+                        answer: 2,
+                        explanation: "Livestock waste releases ammonia directly into the air, making it the major natural source. Mineral fertiliser is a secondary contribution. Crops and decomposition are smaller sources. Human waste is a minor contributor."
+                    },
+                    {
+                        text: "“The part of actual resources that can be developed profitably in the future” is a definition of”",
+                        options: [
+                            "Potential resources",
+                            "Actual resources",
+                            "Stock resources",
+                            "Reserve resources"
+                        ],
+                        answer: 3,
+                        explanation: "Reserves are economically exploitable portions of actual resources. Potential resources are not yet surveyed or quantified. Actual resources are currently used. Stock resources are not usable with current technology."
+                    },
+                    {
+                        text: "Timber from forests that is being harvested can be categorised under",
+                        options: [
+                            "Potential resources",
+                            "Actual resources",
+                            "Reserve resources",
+                            "Stock resources"
+
+                        ],
+                        answer: 1,
+                        explanation: "Resources currently in use are classified as actual. Potential resources are not yet used. Reserve resources are actual resources set aside for future. Stock resources exist but cannot be used now."
+                    },
+                    {
+                        text: "Rain gardens are primarily meant to",
+                        options: [
+                            "Increase recharge to groundwater",
+                            "Reduce water usage",
+                            "Protect existing water sources",
+                            "Increase flow to streams"
+
+                        ],
+                        answer: 0,
+                        explanation: "Rain gardens capture runoff, allowing water to percolate into aquifers. Reduce water usage is an indirect effect. Protect existing water sources is not the primary function. Increase flow to streams is the opposite."
+                    },
+                    {
+                        text: "Oil that has not been drilled can be categorised under",
+                        options: [
+                            "Potential resources",
+                            "Actual resources",
+                            "Reserve resources",
+                            "Stock resources",
+
+                        ],
+                        answer: 0,
+                        explanation: "Potential resources are known to exist but not yet exploited. Actual resources are currently in use. Reserve resources are set aside for future exploitation. Stock resources cannot be used now."
+                    },
+                    {
+                        text: "Which of these is the largest source of nitrogen oxides in the atmosphere?",
+                        options: [
+                            "Electricity generation",
+                            "Mobile sources",
+                            "Industrial processes",
+                            "Waste disposal"
+                        ],
+                        answer: 1,
+                        explanation: "The largest source of nitrogen oxides (NOx) in the atmosphere is mobile sources, primarily from vehicles with internal combustion engines. These emit the majority of NOx pollutants. Electricity generation and industrial processes are also significant sources, but to a lesser extent. Waste disposal contributes a relatively small amount to NOx emissions."
+                    },
+                    {
+                        text: "“Those resources that are currently being used after surveying, quantification and qualification” is a definition of",
+                        options: [
+                            "Potential resources",
+                            "Reserve resources",
+                            "Actual resources",
+                            "Stock resources"
+
+                        ],
+                        answer: 2,
+                        explanation: "These are resources under active utilization. Potential resources are not yet used. Reserve resources are set aside for future. Stock resources exist but are not usable yet."
+                    },
+                    {
+                        text: "“Those resources that may be used in the future” is a definition of",
+                        options: [
+                            "Actual resources",
+                            "Reserve resources",
+                            "Potential resources",
+                            "Stock resources"
+
+                        ],
+                        answer: 2,
+                        explanation: "Potential resources can be exploited in the future once technology or economics allow. Actual resources are already in use. Reserve resources are a subset of actual resources for future use. Stock resources cannot be used with current technology."
+                    },
+                    {
+                        text: "Low concentration ores come in the category of",
+                        options: [
+                            "Potential resources",
+                            "Reserve resources",
+                            "Actual resources",
+                            "Stock resources"
+
+                        ],
+                        answer: 1,
+                        explanation: "Low-grade ores are currently uneconomical, but part of reserves as they may be exploited when extraction becomes profitable. Potential resources refers to unsurveyed or undiscovered. Actual resources are being exploited now. Stock resources exist but cannot be used at all currently."
+                    },
+                    {
+                        text: "New Delhi can best be categorised as",
+                        options: [
+                            "Administrative town",
+                            "Industrial town",
+                            "Transport town",
+                            "Commercial town"
+                        ],
+                        answer: 0,
+                        explanation: "New Delhi is primarily the capital city, hosting central government offices. Industrial, transport, and commercial activities exist, but administration dominates."
+                    },
+                    {
+                        text: "Which of these is a factor governing barrier effect of roads?",
+                        options: [
+                            "Traffic intensity",
+                            "Speed of vehicles",
+                            "Driver sensitivity",
+                            "All of these"
+                        ],
+                        answer: 3,
+                        explanation: "Barrier effect depends on how busy the road is, speed of vehicles, and human response to animals. Choosing any single factor ignores the combined effect."
+                    },
+                    {
+                        text: "Which of these is a factor governing barrier effect of roads?",
+                        options: [
+                            "presence and location of animal crossingse",
+                            " movement pattern of species",
+                            " species specific preference of road use",
+                            "All of these"
+                        ],
+                        answer: 3,
+                        explanation: "Wildlife road use is influenced by crossings, movement behaviour, and species-specific habits. Single factors alone are insufficient."
+                    },
+                    {
+                        text: "Varanasi can best be categorised as",
+                        options: [
+                            "Religious town",
+                            "Mining town",
+                            "Garrison town",
+                            "Educational town"
+                            
+                        ],
+                        answer: 0,
+                        explanation: "Varanasi is famous for temples and pilgrimage. Mining and garrison roles are not significant. Educational is secondary; religious tourism dominates."
+                    },
+                    {
+                        text: "“The ability to produce a good using fewer inputs than another producer”is ",
+                        options: [
+                            "Comparative advantage",
+                            "Absolute advantage",
+                            "Production advantage",
+                            "Resource advantage"
+                            
+                        ],
+                        answer: 1,
+                        explanation: "Absolute advantage = higher productivity with same resources. Comparative advantage is based on lower opportunity cost, not absolute efficiency. Production/resource advantage are not standard economic terms."
+                    },
+                    {
+                        text: "The price of a good that prevails in the world market for that good” is the definition of",
+                        options: [
+                            "Export price",
+                            "World price",
+                            "Import price",
+                            "Domestic price"
+                            
+                        ],
+                        answer: 1,
+                        explanation: "World price reflects global market equilibrium. Export price is when selling abroad, may differ from world price. Import price is price paid when buying abroad. Domestic price is internal market price."
+                    },
+                    {
+                        text: "Visakhapatnam can best be categorised as",
+                        options: [
+                            "Administrative town",
+                            "Industrial town",
+                            "Transport town",
+                            "Commercial town"
+                            
+                        ],
+                        answer: 2,
+                        explanation: "Visakhapatnam is a major port city, facilitating trade and movement of goods. Administrative, industrial, and commercial roles exist but transport dominates."
+                    },
+                    {
+                        text: "Which of these is / are example(s) of mitigation measures to mitigate impacts of linear infrastructure on wildlife?",
+                        options: [
+                            "Land bridges",
+                            "Canopy bridges",
+                            "Glider poles",
+                            "All of these"
+                        ],
+                        answer: 3,
+                        explanation: "These structures help animals safely cross roads or railways, reducing mortality. Choosing any one alone is insufficient for all species."
+                    },
+                    {
+                        text: "Bhilai can best be categorised as",
+                        options: [
+                            "Industrial town",
+                            "Administrative town",
+                            "Transport town",
+                            "Commercial town",
+                            
+                        ],
+                        answer: 0,
+                        explanation: "Bhilai is known for steel plants and heavy industries. Administrative, transport, and commercial roles are secondary."
+                    },
+                    {
+                        text: "“The ability to produce a good at a lower opportunity cost than another producer” is a definition of",
+                        options: [
+                            "Real advantage",
+                            "Comparative advantage",
+                            "Monetary advantage",
+                            "Opportunity advantage"
+                            
+                        ],
+                        answer: 1,
+                        explanation: "Comparative advantage = lower sacrifice of other goods for production, forms basis of trade. Real/Monetary/Opportunity advantage are not standard economic definitions."
+                    },
+                    {
+                        text: "The time of flight for LiDAR is 0.00001 sec. Find the distance of the object from the instrument.",
+                        options: [
+                            "500 m",
+                            "1000 m",
+                            "1500 m",
+                            "2000 m"
+                            
+                        ],
+                        answer: 2,
+                        explanation: "Distance = (Speed of light × Time) ÷ 2 = (3 × 10⁸ × 0.00001) ÷ 2 = 1500 m. Other options are calculation mismatches."
+                    },
+                    {
+                        text: "Which of these uses imputed willingness to pay?",
+                        options: [
+                            "Market price method",
+                            "Replacement cost method",
+                            "Travel cost method",
+                            "Contingent valuation method"
+                        ],
+                        answer: 1,
+                        explanation: "Replacement cost method estimates value based on costs to replace; market price uses actual prices, travel cost uses visits, contingent valuation uses surveys."
+                    },
+                    {
+                        text: "“The Situation of people, infrastructure… in hazard-prone areas”",
+                        options: [
+                            "Hazard",
+                            "Vulnerability",
+                            "Disaster",
+                            "Exposure"
+                        ],
+                        answer: 3,
+                        explanation: "Exposure measures what and who are present in hazard zones. Hazard is the threat itself. Vulnerability is susceptibility to damage. Disaster is outcome when hazard interacts with vulnerability."
+                    },
+                    {
+                        text: "“A Process, phenomenon or human activity that may cause loss…”",
+                        options: [
+                            "Exposure",
+                            "Vulnerability",
+                            "Hazard",
+                            "Disaster"
+                            
+                        ],
+                        answer: 2,
+                        explanation: "Hazards are potentially damaging events. Exposure is presence in hazard-prone area. Vulnerability is susceptibility to harm. Disaster is realized damage from hazard."
+                    },
+                    {
+                        text: "“A Serious disruption of the functioning of a community…”",
+                        options: [
+                            "Hazard",
+                            "Disaster",
+                            "Exposure",
+                            "Vulnerability",
+                            
+                        ],
+                        answer: 1,
+                        explanation: "The Disaster occurs when hazard interacts with exposure and vulnerability, causing losses. Hazard is only the threat. Exposure is objects or people at risk. Vulnerability is degree of susceptibility."
+                    },
+                    {
+                        text: "“The combination of all the strengths, attributes and resources available within an organisation, community or society to manage and reduce disaster risks and strengthen resilience.” is a definition for",
+                        options: [
+                            "Contingency",
+                            "Disaster management",
+                            "Vulnerability",
+                            "Capacity"
+                        ],
+                        answer: 3,
+                        explanation: "Capacity is the ability of community/organization to cope, adapt and recover. Contingency is plan for unexpected events. Disaster management is process of planning and response. Vulnerability is susceptibility to harm."
+                    },
+                    {
+                        text: "Bathymetric LiDAR uses",
+                        options: [
+                            "Green light",
+                            "Far infrared",
+                            "Near infrared",
+                            "Orange"
+                            
+                        ],
+                        answer: 0,
+                        explanation: "Green wavelength penetrates water for mapping underwater topography. Far infrared, near infrared, orange are absorbed by water, unsuitable for bathymetry."
+                    },
+                    {
+                        text: "IMU stands for",
+                        options: [
+                            "Imperial metering unit",
+                            "Imperial measurement unit",
+                            "Inertial metering unit",
+                            "Inertial Measurement Unit"
+                        ],
+                        answer: 3,
+                        explanation: "IMU is Inertial Measurement Unit, measures acceleration and rotation, critical for navigation and LiDAR positioning. Other options are incorrect terminology."
+                    },
+                    {
+                        text: "Which of these is not a consumptive value?",
+                        options: [
+                            "Timber",
+                            "Education",
+                            "Firewood",
+                            "Non-timber forest products"
+                            
+                        ],
+                        answer: 1,
+                        explanation: "Consumptive values are goods extracted or used directly, like timber, firewood, NTFPs. Education is not a consumptive value."
+                    },
+                    {
+                        text: "The frequency of flyovers is an indicator of",
+                        options: [
+                            "Temporal resolution",
+                            "Spatial resolution",
+                            "Spectral resolution",
+                            "Radiometric resolution"
+                            
+                        ],
+                        answer: 0,
+                        explanation: "Temporal resolution = how often a satellite revisits a location. Spatial resolution is pixel size on ground. Spectral is wavelength sensitivity. Radiometric is ability to detect slight differences in energy."
+                    },
 
 ];
 
