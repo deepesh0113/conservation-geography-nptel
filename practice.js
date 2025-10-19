@@ -2711,7 +2711,7 @@ const PRACTICE_QUESTIONS = [
                         explanation: "Replacement cost method estimates value based on costs to replace; market price uses actual prices, travel cost uses visits, contingent valuation uses surveys."
                     },
                     {
-                        text: "“The Situation of people, infrastructure… in hazard-prone areas”",
+                        text: "“The situation of people, infrastructure, housing, production capacities and other tangible human assets located in hazard-prone areas.” is a definition for",
                         options: [
                             "Hazard",
                             "Vulnerability",
@@ -2722,7 +2722,7 @@ const PRACTICE_QUESTIONS = [
                         explanation: "Exposure measures what and who are present in hazard zones. Hazard is the threat itself. Vulnerability is susceptibility to damage. Disaster is outcome when hazard interacts with vulnerability."
                     },
                     {
-                        text: "“A Process, phenomenon or human activity that may cause loss…”",
+                        text: "“A process, phenomenon or human activity that may cause loss of life, injury or other health impacts, property damage, social and economic disruption or environmental degradation.” is a definition for",
                         options: [
                             "Exposure",
                             "Vulnerability",
@@ -2734,7 +2734,7 @@ const PRACTICE_QUESTIONS = [
                         explanation: "Hazards are potentially damaging events. Exposure is presence in hazard-prone area. Vulnerability is susceptibility to harm. Disaster is realized damage from hazard."
                     },
                     {
-                        text: "“A Serious disruption of the functioning of a community…”",
+                        text: "“A serious disruption of the functioning of a community or a society at any scale due to hazardous events interacting with conditions of exposure, vulnerability and capacity, leading to one or more of the following: human, material, economic and environmental losses and impacts.” is a definition for",
                         options: [
                             "Hazard",
                             "Disaster",
