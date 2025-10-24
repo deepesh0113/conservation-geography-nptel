@@ -2981,6 +2981,53 @@ function submitPractice() {
   document.getElementById('practice-nav').innerHTML = '';
   document.getElementById('question-grid').innerHTML = '';
   document.getElementById('submit-practice').disabled = true;
+
+  // Show popup message based on score
+  showScorePopup(score);
+}
+
+// --- Score popup function ---
+function showScorePopup(score) {
+  const popup = document.createElement('div');
+  popup.classList.add('score-popup');
+
+  if (score === 50) {
+    popup.textContent = "🎉 Excellent! Perfect Score: 50/50";
+    popup.style.background = "#28a745";  // green
+  } else if (score >= 45) {
+    popup.textContent = `👏 Great Job! Score: ${score}/50`;
+    popup.style.background = "#007bff";  // blue
+  } else {
+    popup.textContent = `💪 Keep Practicing! Score: ${score}/50`;
+    popup.style.background = "#f39c12";  // orange
+  }
+
+  popup.style.cssText += `
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    font-size: 1.1rem;
+    font-weight: 600;
+    padding: 12px 20px;
+    border-radius: 8px;
+    z-index: 9999;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    opacity: 0;
+    transition: opacity 0.4s ease;
+  `;
+
+  document.body.appendChild(popup);
+
+  // Fade in
+  setTimeout(() => popup.style.opacity = 1, 100);
+
+  // Fade out and remove after 4 seconds
+  setTimeout(() => {
+    popup.style.opacity = 0;
+    setTimeout(() => popup.remove(), 400);
+  }, 4000);
 }
 
 // --- Start practice on page load ---
