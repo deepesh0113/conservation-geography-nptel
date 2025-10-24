@@ -2807,14 +2807,13 @@ const PRACTICE_QUESTIONS = [
 ];
 
 
-
-let shuffledQuestions = []; // Holds 50 questions for the attempt
-let userResponses = []; // -1 (not visited), null (not answered), index (chosen)
-let userStatus = []; // "not-visited", "not-answered", "answered", "review"
+let shuffledQuestions = [];  // Holds 100 questions for current attempt
+let userResponses = [];      // null = not answered, else option index chosen
+let userStatus = [];         // "not-visited", "not-answered", "answered", "review"
 let currentIdx = 0;
 let practiceTimer = null, secondsLeft = 3600;
 
-// --- Shuffle function
+// Fisher-Yates shuffle to randomly shuffle array in place
 function shuffleArray(array) {
   for (let i = array.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
@@ -2822,12 +2821,19 @@ function shuffleArray(array) {
   }
 }
 
-// --- INITIALIZE PRACTICE MODE ---
+// Initialize practice session
 function startPractice() {
-  const arr = PRACTICE_QUESTIONS.slice();
-  shuffleArray(arr);
+  // Make a copy of all questions
+  const allQuestionsCopy = PRACTICE_QUESTIONS.slice();
 
-  shuffledQuestions = arr.slice(0, 50).map(q => {
+  // Shuffle entire question pool
+  shuffleArray(allQuestionsCopy);
+
+  // Select first 50 unique questions (no repeats guaranteed by slicing after shuffle)
+  const practiceSet = allQuestionsCopy.slice(0, 100);
+
+  // For each question, shuffle its options and update answer index accordingly
+  shuffledQuestions = practiceSet.map(q => {
     const optIdx = q.options.map((_, idx) => idx);
     shuffleArray(optIdx);
     const newOpts = optIdx.map(idx => q.options[idx]);
@@ -2839,8 +2845,8 @@ function startPractice() {
     };
   });
 
-  userResponses = Array(50).fill(null);
-  userStatus = Array(50).fill("not-visited");
+  userResponses = Array(shuffledQuestions.length).fill(null);
+  userStatus = Array(shuffledQuestions.length).fill("not-visited");
   currentIdx = 0;
   secondsLeft = 3600;
   renderPractice();
@@ -2864,10 +2870,9 @@ function updateTimer() {
   const h = Math.floor(secondsLeft / 3600);
   const m = Math.floor((secondsLeft % 3600) / 60);
   const s = secondsLeft % 60;
-  document.getElementById('timer').textContent = 
-    `${h < 10 ? '0' : ''}${h}:${m < 10 ? '0' : ''}${m}:${s < 10 ? '0' : ''}${s}`;
+  document.getElementById('timer').textContent =
+    `${h.toString().padStart(2, "0")}:${m.toString().padStart(2, "0")}:${s.toString().padStart(2, "0")}`;
 }
-
 // --- RENDER PRACTICE INTERFACE ---
 function renderPractice() {
   renderQuestion(currentIdx);
@@ -2967,13 +2972,35 @@ function submitPractice() {
   shuffledQuestions.forEach((q, qi) => {
     const correct = userResponses[qi] === q.answer;
     if (correct) score++;
-    html += `<div>
-      <b>Q${qi + 1}:</b> ${q.text}<br>
-      <span class="${correct ? 'correct' : 'incorrect'}">${correct ? 'Correct' : 'Incorrect'}</span><br>
-      <b>Your answer:</b> ${userResponses[qi] !== null ? String.fromCharCode(97 + userResponses[qi]) + ") " + q.options[userResponses[qi]] : 'No answer'}<br>
-      <b>Correct answer:</b> ${String.fromCharCode(97 + q.answer)}) ${q.options[q.answer]}<br>
-      <div class="explanation">${q.explanation}</div>
-    </div><hr>`;
+
+    // Build options list with highlights
+    let optionsHtml = '<ul style="list-style:none; padding-left:0;">';
+    q.options.forEach((opt, idx) => {
+      let optionLetter = String.fromCharCode(97 + idx);
+      let style = '';
+      if (idx === q.answer) {
+        style = 'color: green; font-weight: 600;'; // correct answer in green bold
+      }
+      if (idx === userResponses[qi] && idx !== q.answer) {
+        style = 'color: red; font-weight: 600;'; // user's wrong choice in red bold
+      }
+      optionsHtml += `<li style="${style}">${optionLetter}) ${opt}</li>`;
+    });
+    optionsHtml += '</ul>';
+
+    html += `
+      <div>
+        <b>Q${qi + 1}:</b> ${q.text}<br>
+        <span class="${correct ? 'correct' : 'incorrect'}">
+          ${correct ? 'Correct' : 'Incorrect'}
+        </span><br>
+        ${optionsHtml}
+        <b>Your answer:</b> ${userResponses[qi] !== null ? String.fromCharCode(97 + userResponses[qi]) + ') ' + q.options[userResponses[qi]] : 'No answer'}<br>
+        <b>Correct answer:</b> ${String.fromCharCode(97 + q.answer)}) ${q.options[q.answer]}<br>
+        <div class="explanation">${q.explanation}</div>
+      </div>
+      <hr>
+    `;
   });
   html = `<div class="score">Your Score: <strong>${score} / ${shuffledQuestions.length}</strong></div>` + html;
   document.getElementById('practice-result').innerHTML = html;
@@ -2982,9 +3009,9 @@ function submitPractice() {
   document.getElementById('question-grid').innerHTML = '';
   document.getElementById('submit-practice').disabled = true;
 
-  // Show popup message based on score
   showScorePopup(score);
 }
+
 
 // --- Score popup function ---
 function showScorePopup(score) {
