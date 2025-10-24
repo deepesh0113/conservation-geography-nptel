@@ -2457,9 +2457,9 @@ const years = [
                         text: "According to Malthusian model",
                         options: [
                             "Population grows in geometric progression, food supply increases in arithmetic progression",
-                            "Both geometric",
-                            "Both arithmetic",
-                            "Population arithmetic, food geometric"
+                            "Population grows in geometric progression, food supply increases in geometric progression",
+                            "Population grows in arithmetic progression, food supply increases in arithmetic progression",
+                            "Population grows in arithmetic progression, food supply increases in geometric progression"
 
                         ],
                         answer: 0,
@@ -2546,7 +2546,7 @@ const years = [
                         explanation: "The recognized three pillars are social, economic, and environmental. Trans-boundary is not a pillar."
                     },
                     {
-                        text: "The book An Essay on the Principle of Population was written by",
+                        text: "The book \"An Essay on the Principle of Population\" was written by",
                         options: [
                             "Darwin",
                             "Spencer",
