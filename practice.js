@@ -2341,9 +2341,9 @@ const PRACTICE_QUESTIONS = [
                         text: "According to Malthusian model",
                         options: [
                             "Population grows in geometric progression, food supply increases in arithmetic progression",
-                            "Both geometric",
-                            "Both arithmetic",
-                            "Population arithmetic, food geometric"
+                            "Population grows in geometric progression, food supply increases in geometric progression",
+                            "Population grows in arithmetic progression, food supply increases in arithmetic progression",
+                            "Population grows in arithmetic progression, food supply increases in geometric progression"
 
                         ],
                         answer: 0,
@@ -2430,7 +2430,7 @@ const PRACTICE_QUESTIONS = [
                         explanation: "The recognized three pillars are social, economic, and environmental. Trans-boundary is not a pillar."
                     },
                     {
-                        text: "The book An Essay on the Principle of Population was written by",
+                        text: "The \"book An Essay on the Principle of Population\" was written by",
                         options: [
                             "Darwin",
                             "Spencer",
@@ -2969,40 +2969,53 @@ document.getElementById("submit-practice").onclick = function() {
 function submitPractice() {
   let score = 0;
   let html = `<div class="score">Practice Results for <strong>albert</strong>:</div>`;
+  let incorrectCount = 0;
+  
+  // Filter for questions user answered incorrectly
   shuffledQuestions.forEach((q, qi) => {
-    const correct = userResponses[qi] === q.answer;
-    if (correct) score++;
-
-    // Build options list with highlights
-    let optionsHtml = '<ul style="list-style:none; padding-left:0;">';
-    q.options.forEach((opt, idx) => {
-      let optionLetter = String.fromCharCode(97 + idx);
-      let style = '';
-      if (idx === q.answer) {
-        style = 'color: green; font-weight: 600;'; // correct answer in green bold
-      }
-      if (idx === userResponses[qi] && idx !== q.answer) {
-        style = 'color: red; font-weight: 600;'; // user's wrong choice in red bold
-      }
-      optionsHtml += `<li style="${style}">${optionLetter}) ${opt}</li>`;
-    });
-    optionsHtml += '</ul>';
-
-    html += `
-      <div>
-        <b>Q${qi + 1}:</b> ${q.text}<br>
-        <span class="${correct ? 'correct' : 'incorrect'}">
-          ${correct ? 'Correct' : 'Incorrect'}
-        </span><br>
-        ${optionsHtml}
-        <b>Your answer:</b> ${userResponses[qi] !== null ? String.fromCharCode(97 + userResponses[qi]) + ') ' + q.options[userResponses[qi]] : 'No answer'}<br>
-        <b>Correct answer:</b> ${String.fromCharCode(97 + q.answer)}) ${q.options[q.answer]}<br>
-        <div class="explanation">${q.explanation}</div>
-      </div>
-      <hr>
-    `;
+    const isCorrect = userResponses[qi] === q.answer;
+    if (isCorrect) score++;
   });
-  html = `<div class="score">Your Score: <strong>${score} / ${shuffledQuestions.length}</strong></div>` + html;
+  
+  html += `<div class="score">Your Score: <strong>${score} / ${shuffledQuestions.length}</strong></div>`;
+  
+  // Show only incorrectly answered questions with full details
+  shuffledQuestions.forEach((q, qi) => {
+    const isCorrect = userResponses[qi] === q.answer;
+    if (!isCorrect) {
+      incorrectCount++;
+      let optionsHtml = '<ul style="list-style:none; padding-left:0;">';
+      q.options.forEach((opt, idx) => {
+        let optionLetter = String.fromCharCode(97 + idx);
+        let style = '';
+        if (idx === q.answer) {
+          style = 'color: green; font-weight: 600;';   // correct answer green bold
+        }
+        if (idx === userResponses[qi] && idx !== q.answer) {
+          style = 'color: red; font-weight: 600;';     // user's wrong choice red bold
+        }
+        optionsHtml += `<li style="${style}">${optionLetter}) ${opt}</li>`;
+      });
+      optionsHtml += '</ul>';
+
+      html += `
+        <div>
+          <b>Q${qi + 1}:</b> ${q.text}<br>
+          <span class="incorrect">Incorrect</span><br>
+          ${optionsHtml}
+          <b>Your answer:</b> ${userResponses[qi] !== null ? String.fromCharCode(97 + userResponses[qi]) + ') ' + q.options[userResponses[qi]] : 'No answer'}<br>
+          <b>Correct answer:</b> ${String.fromCharCode(97 + q.answer)}) ${q.options[q.answer]}<br>
+          <div class="explanation">${q.explanation}</div>
+        </div>
+        <hr>
+      `;
+    }
+  });
+
+  if (incorrectCount === 0) {
+    html += "<div>All answers were correct! Well done!</div>";
+  }
+  
   document.getElementById('practice-result').innerHTML = html;
   document.getElementById('question-block').innerHTML = '';
   document.getElementById('practice-nav').innerHTML = '';
@@ -3013,19 +3026,20 @@ function submitPractice() {
 }
 
 
+
 // --- Score popup function ---
 function showScorePopup(score) {
   const popup = document.createElement('div');
   popup.classList.add('score-popup');
 
-  if (score === 50) {
-    popup.textContent = "🎉 Excellent! Perfect Score: 50/50";
+  if (score === 100) {
+    popup.textContent = "🎉 Excellent! Perfect Score: 100/100";
     popup.style.background = "#28a745";  // green
-  } else if (score >= 45) {
-    popup.textContent = `👏 Great Job! Score: ${score}/50`;
+  } else if (score >= 95) {
+    popup.textContent = `👏 Great Job! Score: ${score}/100`;
     popup.style.background = "#007bff";  // blue
   } else {
-    popup.textContent = `💪 Keep Practicing! Score: ${score}/50`;
+    popup.textContent = `💪 Keep Practicing! Score: ${score}/100`;
     popup.style.background = "#f39c12";  // orange
   }
 
