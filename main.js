@@ -2166,10 +2166,10 @@ const years = [
                     {
                         text: "Correct sequence of seasons in India",
                         options: [
-                            "Hot weather season → South-West monsoon → Retreating monsoon → Cold weather season",
-                            "South-West monsoon → Hot weather season → Cold weather season → Retreating monsoon",
-                            "Retreating monsoon → Hot weather season → South-West monsoon → Cold weather season",
-                            "Cold weather season → Hot weather season → South-West monsoon → Retreating monsoon"
+                            "Hot weather season → South-West monsoon season → Retreating monsoon season → Cold weather season",
+                            "Hot weather season → Retreating monsoon season → South-West monsoon season → Cold weather season",
+                            "Hot weather season → Cold weather season → South-West monsoon season → Retreating monsoon season",
+                            "Hot weather season → South-West monsoon season → Cold weather season → Retreating monsoon season"
                         ],
                         answer: 0,
                         explanation: "Matches India’s actual seasonal pattern (March–May → June–Sept → Oct–Nov → Dec–Feb). Other options mix up or reverse the monsoon order."
