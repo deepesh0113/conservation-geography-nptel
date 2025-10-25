@@ -1,5 +1,285 @@
 const PRACTICE_QUESTIONS = [
     {
+        text: "The main source of magma is",
+        options: ["Crust", "Mantle", "Outer core", "Inner core"],
+        answer: 1,
+        explanation: "Magma originates mainly from the partial melting of rocks in the mantle."
+    },
+    {
+        text: "Deccan traps are an example of",
+        options: ["Shield volcano", "Stratovolcano", "Caldera", "Flood basalt province"],
+        answer: 3,
+        explanation: "Deccan Traps are large igneous provinces formed by extensive flood basalt eruptions."
+    },
+    {
+        text: "Moho discontinuity occurs between",
+        options: ["Crust and mantle", "Mantle and outer core", "Outer core and inner core", "Oceanic crust and continental crust"],
+        answer: 0,
+        explanation: "The Mohorovičić discontinuity (Moho) separates the Earth's crust from the mantle."
+    },
+    {
+        text: "“Light cream to salmon pink coloured tectosilicate minerals forming half of the Earth’s crust” is a description of",
+        options: ["amphiboles", "feldspar", "mica", "olivine"],
+        answer: 1,
+        explanation: "Feldspars are the most abundant minerals in the Earth’s crust and often appear pinkish or cream-colored."
+    },
+    {
+        text: "Which of these is correct?",
+        options: [
+            "Intrusive rocks: formed outside crust, often coarse grained",
+            "Intrusive rocks: formed inside crust, often fine grained",
+            "Extrusive rocks: formed outside crust, often fine grained",
+            "Extrusive rocks: formed inside crust, often coarse grained"
+        ],
+        answer: 2,
+        explanation: "Extrusive igneous rocks form from lava cooling quickly on the surface, producing fine-grained textures."
+    },
+    {
+        text: "Cryofracturing is an example of",
+        options: ["chemical weathering", "physical weathering", "biological weathering", "none of the above"],
+        answer: 1,
+        explanation: "Cryofracturing involves physical breaking of rocks due to freezing and thawing of water."
+    },
+    {
+        text: "Mudrock is an example of",
+        options: ["siliciclastic rock", "carbonate rock", "evaporite rock", "phosphatic rock"],
+        answer: 0,
+        explanation: "Mudrocks are fine-grained siliciclastic sedimentary rocks derived from silicate minerals."
+    },
+    {
+        text: "“Sheet silicate minerals with pearly, vitreous lustre” is a description of",
+        options: ["pyroxene", "feldspar", "mica", "quartz"],
+        answer: 2,
+        explanation: "Mica minerals have a sheet-like structure and exhibit pearly to vitreous luster."
+    },
+    {
+        text: "Hydrolysis is an example of",
+        options: ["chemical weathering", "physical weathering", "biological weathering", "none of the above"],
+        answer: 0,
+        explanation: "Hydrolysis is a chemical weathering process involving reactions between minerals and water."
+    },
+    {
+        text: "Most meteors burn in which layer?",
+        options: ["Troposphere", "Stratosphere", "Mesosphere", "Thermosphere"],
+        answer: 2,
+        explanation: "Meteors burn up due to friction in the mesosphere."
+    },
+    {
+        text: "Which of these air masses is generally warm and moist?",
+        options: ["cP", "cT", "mP", "mT"],
+        answer: 3,
+        explanation: "Maritime Tropical (mT) air masses are warm and moist as they form over tropical oceans."
+    },
+    {
+        text: "Aurora borealis occurs in which layer?",
+        options: ["Troposphere", "Stratosphere", "Mesosphere", "Thermosphere"],
+        answer: 3,
+        explanation: "Auroras occur in the thermosphere due to interaction of charged particles with Earth’s magnetic field."
+    },
+    {
+        text: "Which of these air masses is generally hot and dry?",
+        options: ["cP", "cT", "mP", "mT"],
+        answer: 1,
+        explanation: "Continental Tropical (cT) air masses form over hot, dry land regions."
+    },
+    {
+        text: "Continental shelf has a gradient of",
+        options: ["0–1 degree", "1–2 degree", "2–5 degree", "5–10 degree"],
+        answer: 0,
+        explanation: "Continental shelves are gently sloping areas extending from the coastline with gradients of about 0–1°."
+    },
+    {
+        text: "Continental slope has a gradient of",
+        options: ["0–1 degree", "1–2 degree", "2–5 degree", "5–10 degree"],
+        answer: 2,
+        explanation: "The continental slope descends steeply from the shelf with gradients typically between 2–5°."
+    },
+    {
+        text: "A flat-topped seamount is called",
+        options: ["trench", "plateau", "guyot", "ridge"],
+        answer: 2,
+        explanation: "Guyots are flat-topped seamounts eroded by wave action before submergence."
+    },
+    {
+        text: "In Koeppen classification, which is polar frost temperature?",
+        options: ["c", "d", "F", "T"],
+        answer: 2,
+        explanation: "‘F’ in Koeppen classification stands for polar frost climates."
+    },
+    {
+        text: "Which of these are factors determining the climate of India?",
+        options: ["the latitudinal extent", "the Himalayas forming a climatic divide", "distribution of land and water", "all of these"],
+        answer: 3,
+        explanation: "All these factors significantly influence India’s diverse climatic conditions."
+    },
+    {
+        text: "Winter rains are common in",
+        options: ["Western coastal region of India", "Eastern coastal region of India", "Interiors of peninsular India", "Northern plains of India"],
+        answer: 1,
+        explanation: "The eastern coastal region (especially Tamil Nadu) receives winter rains from northeast monsoon winds."
+    },
+    {
+        text: "Which of these are geological regions of India?",
+        options: ["The mountains", "The peninsular block", "The Indo-Ganga-Brahmaputra plain", "all of these"],
+        answer: 3,
+        explanation: "India is divided into three major geological regions: mountains, plains, and the peninsular block."
+    },
+    {
+        text: "In Koeppen classification, which is extremely continental temperature?",
+        options: ["c", "d", "F", "T"],
+        answer: 1,
+        explanation: "‘d’ in Koeppen classification indicates extremely continental temperature regimes."
+    },
+    {
+        text: "Bangar is a type of",
+        options: ["black cotton soil", "alluvial soil", "saline soil", "red and yellow soil"],
+        answer: 1,
+        explanation: "Bangar refers to the older alluvial soil found above the flood plains."
+    },
+    {
+        text: "Self-ploughing character is seen in",
+        options: ["black cotton soil", "alluvial soil", "saline soil", "red and yellow soil"],
+        answer: 0,
+        explanation: "Black cotton soil swells and contracts on wetting and drying, leading to self-ploughing."
+    },
+    {
+        text: "“The cost of impacts caused by emission of carbon dioxide” is known as",
+        options: ["cost of carbon", "economic cost of carbon", "social cost of carbon", "cultural cost of carbon"],
+        answer: 2,
+        explanation: "The social cost of carbon estimates the economic damages per ton of CO₂ emissions."
+    },
+    {
+        text: "Nutrient cycling is an example of",
+        options: ["provisioning service", "regulating service", "supporting service", "cultural service"],
+        answer: 2,
+        explanation: "Supporting services include processes like nutrient cycling that sustain ecosystems."
+    },
+    {
+        text: "Which of these is a stochastic factor?",
+        options: ["birth rate", "death rate", "population structure", "environmental fluctuation"],
+        answer: 3,
+        explanation: "Stochastic factors like environmental fluctuations are random events affecting populations."
+    },
+    {
+        text: "Supply of medicines is an example of",
+        options: ["provisioning service", "regulating service", "supporting service", "cultural service"],
+        answer: 0,
+        explanation: "Provisioning services provide material goods such as food, water, and medicines."
+    },
+    {
+        text: "Which of these is not a use value?",
+        options: ["direct value", "indirect value", "option value", "existence value"],
+        answer: 3,
+        explanation: "Existence value is a non-use value representing the satisfaction from knowing a resource exists."
+    },
+    {
+        text: "Which of these is not a non-use value?",
+        options: ["direct value", "existence value", "altruistic value", "bequest value"],
+        answer: 0,
+        explanation: "Direct value arises from actual use of environmental goods, not a non-use value."
+    },
+    {
+        text: "The value of leaving use and non-use values for offspring’s or future generations is called",
+        options: ["altruistic value", "bequest value", "existence value", "option value"],
+        answer: 1,
+        explanation: "Bequest value is the value placed on preserving resources for future generations."
+    },
+    {
+        text: "Which of these are created by the interaction of body waves with surface rocks?",
+        options: ["P waves", "S waves", "Body waves", "Surface waves"],
+        answer: 3,
+        explanation: "Surface waves are generated when body waves interact with the Earth's surface layers, causing strong ground motion."
+    },
+    {
+        text: "Which of these is correct?",
+        options: [
+            "Intrusive rocks: formed outside crust, often coarse grained",
+            "Intrusive rocks: formed inside crust, often fine grained",
+            "Extrusive rocks: formed outside crust, often fine grained",
+            "Extrusive rocks: formed inside crust, often coarse grained"
+        ],
+        answer: 2,
+        explanation: "Extrusive igneous rocks form when magma cools quickly on the surface, producing fine-grained textures."
+    },
+    {
+        text: "“Sheet silicate minerals with pearly, vitreous lustre” is a description of",
+        options: ["pyroxene", "feldspar", "mica", "quartz"],
+        answer: 2,
+        explanation: "Mica minerals are sheet silicates known for their pearly to vitreous luster."
+    },
+    {
+        text: "“Stratified and assorted deposits comprised of fine matter with rounded edges” is the definition of",
+        options: ["glacial till", "outwash deposit", "esker", "drumlin"],
+        answer: 1,
+        explanation: "Outwash deposits are formed by glacial meltwater, sorting sediments into stratified layers of rounded particles."
+    },
+    {
+        text: "Carbon sequestration in geological sites is an option for",
+        options: ["mitigation", "adaptation", "both of these", "none of these"],
+        answer: 0,
+        explanation: "Geological carbon sequestration is a mitigation strategy to reduce atmospheric CO₂ concentrations."
+    },
+    {
+        text: "Which of these create the best suited conditions for atmosphere on a planet?",
+        options: ["high gravity, high temperature", "low gravity, high temperature", "low gravity, low temperature", "high gravity, low temperature"],
+        answer: 3,
+        explanation: "High gravity helps retain gases, and low temperature reduces their escape, favoring atmospheric stability."
+    },
+    {
+        text: "Which of these are geological regions of India?",
+        options: ["The mountains", "The peninsular block", "The Indo-Ganga-Brahmaputra plain", "all of these"],
+        answer: 3,
+        explanation: "India’s geology is divided into three major regions: mountains, plains, and the peninsular block."
+    },
+    {
+        text: "In Koeppen classification, which is desert precipitation?",
+        options: ["W", "S", "f", "s"],
+        answer: 0,
+        explanation: "‘W’ denotes desert (arid) precipitation in the Köppen climate classification."
+    },
+    {
+        text: "There is more biodiversity in areas with",
+        options: ["less competition, less predation", "less competition, more predation", "more competition, more predation", "more competition, less predation"],
+        answer: 2,
+        explanation: "Moderate levels of competition and predation promote species diversity through ecological balance."
+    },
+    {
+        text: "Supply of medicines is an example of",
+        options: ["provisioning service", "regulating service", "supporting service", "cultural service"],
+        answer: 0,
+        explanation: "Provisioning services provide tangible goods such as food, water, and medicines from ecosystems."
+    },
+    {
+        text: "Which of these is a stochastic factor?",
+        options: ["birth rate", "death rate", "population structure", "environmental fluctuation"],
+        answer: 3,
+        explanation: "Environmental fluctuations are stochastic (random) factors that can unpredictably influence population dynamics."
+    },
+    {
+        text: "“The cost of impacts caused by emission of carbon dioxide” is known as",
+        options: ["cost of carbon", "economic cost of carbon", "social cost of carbon", "cultural cost of carbon"],
+        answer: 2,
+        explanation: "The social cost of carbon measures economic damages associated with emitting one ton of CO₂."
+    },
+    {
+        text: "Which of these is / are example(s) of mitigation measures to mitigate impacts of linear infrastructure on wildlife?",
+        options: ["bridge underpasses", "box culverts", "pipe culverts", "all of these"],
+        answer: 3,
+        explanation: "All these structures serve as wildlife crossings to reduce fragmentation caused by linear infrastructure."
+    },
+    {
+        text: "Mhow can best be categorised as",
+        options: ["mining town", "garrison town", "educational town", "religious town"],
+        answer: 1,
+        explanation: "Mhow is primarily a garrison town, established as a military cantonment during British rule."
+    },
+    {
+        text: "Which of these is / are example(s) of mitigation measures to mitigate impacts of linear infrastructure on wildlife?",
+        options: ["land bridges", "canopy bridges", "glider poles", "all of these"],
+        answer: 3,
+        explanation: "All these structures facilitate wildlife movement over or around linear infrastructure, reducing mortality."
+    },
+    {
         text: "Which of these is true about P waves?",
         options: [
             "They are longitudinal in nature",

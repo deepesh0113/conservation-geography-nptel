@@ -1,5 +1,307 @@
 const years = [
     {
+        name: "2022",
+        assignments: [
+            {
+                name: "Distinct Questions (2024-25)",
+                questions: [
+                    {
+                        text: "The main source of magma is",
+                        options: ["Crust", "Mantle", "Outer core", "Inner core"],
+                        answer: 1,
+                        explanation: "Magma originates mainly from the partial melting of rocks in the mantle."
+                    },
+                    {
+                        text: "Deccan traps are an example of",
+                        options: ["Shield volcano", "Stratovolcano", "Caldera", "Flood basalt province"],
+                        answer: 3,
+                        explanation: "Deccan Traps are large igneous provinces formed by extensive flood basalt eruptions."
+                    },
+                    {
+                        text: "Moho discontinuity occurs between",
+                        options: ["Crust and mantle", "Mantle and outer core", "Outer core and inner core", "Oceanic crust and continental crust"],
+                        answer: 0,
+                        explanation: "The Mohorovičić discontinuity (Moho) separates the Earth's crust from the mantle."
+                    },
+                    {
+                        text: "“Light cream to salmon pink coloured tectosilicate minerals forming half of the Earth’s crust” is a description of",
+                        options: ["amphiboles", "feldspar", "mica", "olivine"],
+                        answer: 1,
+                        explanation: "Feldspars are the most abundant minerals in the Earth’s crust and often appear pinkish or cream-colored."
+                    },
+                    {
+                        text: "Which of these is correct?",
+                        options: [
+                            "Intrusive rocks: formed outside crust, often coarse grained",
+                            "Intrusive rocks: formed inside crust, often fine grained",
+                            "Extrusive rocks: formed outside crust, often fine grained",
+                            "Extrusive rocks: formed inside crust, often coarse grained"
+                        ],
+                        answer: 2,
+                        explanation: "Extrusive igneous rocks form from lava cooling quickly on the surface, producing fine-grained textures."
+                    },
+                    {
+                        text: "Cryofracturing is an example of",
+                        options: ["chemical weathering", "physical weathering", "biological weathering", "none of the above"],
+                        answer: 1,
+                        explanation: "Cryofracturing involves physical breaking of rocks due to freezing and thawing of water."
+                    },
+                    {
+                        text: "Mudrock is an example of",
+                        options: ["siliciclastic rock", "carbonate rock", "evaporite rock", "phosphatic rock"],
+                        answer: 0,
+                        explanation: "Mudrocks are fine-grained siliciclastic sedimentary rocks derived from silicate minerals."
+                    },
+                    {
+                        text: "“Sheet silicate minerals with pearly, vitreous lustre” is a description of",
+                        options: ["pyroxene", "feldspar", "mica", "quartz"],
+                        answer: 2,
+                        explanation: "Mica minerals have a sheet-like structure and exhibit pearly to vitreous luster."
+                    },
+                    {
+                        text: "Hydrolysis is an example of",
+                        options: ["chemical weathering", "physical weathering", "biological weathering", "none of the above"],
+                        answer: 0,
+                        explanation: "Hydrolysis is a chemical weathering process involving reactions between minerals and water."
+                    },
+                    {
+                        text: "Most meteors burn in which layer?",
+                        options: ["Troposphere", "Stratosphere", "Mesosphere", "Thermosphere"],
+                        answer: 2,
+                        explanation: "Meteors burn up due to friction in the mesosphere."
+                    },
+                    {
+                        text: "Which of these air masses is generally warm and moist?",
+                        options: ["cP", "cT", "mP", "mT"],
+                        answer: 3,
+                        explanation: "Maritime Tropical (mT) air masses are warm and moist as they form over tropical oceans."
+                    },
+                    {
+                        text: "Aurora borealis occurs in which layer?",
+                        options: ["Troposphere", "Stratosphere", "Mesosphere", "Thermosphere"],
+                        answer: 3,
+                        explanation: "Auroras occur in the thermosphere due to interaction of charged particles with Earth’s magnetic field."
+                    },
+                    {
+                        text: "Which of these air masses is generally hot and dry?",
+                        options: ["cP", "cT", "mP", "mT"],
+                        answer: 1,
+                        explanation: "Continental Tropical (cT) air masses form over hot, dry land regions."
+                    },
+                    {
+                        text: "Continental shelf has a gradient of",
+                        options: ["0–1 degree", "1–2 degree", "2–5 degree", "5–10 degree"],
+                        answer: 0,
+                        explanation: "Continental shelves are gently sloping areas extending from the coastline with gradients of about 0–1°."
+                    },
+                    {
+                        text: "Continental slope has a gradient of",
+                        options: ["0–1 degree", "1–2 degree", "2–5 degree", "5–10 degree"],
+                        answer: 2,
+                        explanation: "The continental slope descends steeply from the shelf with gradients typically between 2–5°."
+                    },
+                    {
+                        text: "A flat-topped seamount is called",
+                        options: ["trench", "plateau", "guyot", "ridge"],
+                        answer: 2,
+                        explanation: "Guyots are flat-topped seamounts eroded by wave action before submergence."
+                    },
+                    {
+                        text: "In Koeppen classification, which is polar frost temperature?",
+                        options: ["c", "d", "F", "T"],
+                        answer: 2,
+                        explanation: "‘F’ in Koeppen classification stands for polar frost climates."
+                    },
+                    {
+                        text: "Which of these are factors determining the climate of India?",
+                        options: ["the latitudinal extent", "the Himalayas forming a climatic divide", "distribution of land and water", "all of these"],
+                        answer: 3,
+                        explanation: "All these factors significantly influence India’s diverse climatic conditions."
+                    },
+                    {
+                        text: "Winter rains are common in",
+                        options: ["Western coastal region of India", "Eastern coastal region of India", "Interiors of peninsular India", "Northern plains of India"],
+                        answer: 1,
+                        explanation: "The eastern coastal region (especially Tamil Nadu) receives winter rains from northeast monsoon winds."
+                    },
+                    {
+                        text: "Which of these are geological regions of India?",
+                        options: ["The mountains", "The peninsular block", "The Indo-Ganga-Brahmaputra plain", "all of these"],
+                        answer: 3,
+                        explanation: "India is divided into three major geological regions: mountains, plains, and the peninsular block."
+                    },
+                    {
+                        text: "In Koeppen classification, which is extremely continental temperature?",
+                        options: ["c", "d", "F", "T"],
+                        answer: 1,
+                        explanation: "‘d’ in Koeppen classification indicates extremely continental temperature regimes."
+                    },
+                    {
+                        text: "Bangar is a type of",
+                        options: ["black cotton soil", "alluvial soil", "saline soil", "red and yellow soil"],
+                        answer: 1,
+                        explanation: "Bangar refers to the older alluvial soil found above the flood plains."
+                    },
+                    {
+                        text: "Self-ploughing character is seen in",
+                        options: ["black cotton soil", "alluvial soil", "saline soil", "red and yellow soil"],
+                        answer: 0,
+                        explanation: "Black cotton soil swells and contracts on wetting and drying, leading to self-ploughing."
+                    },
+                    {
+                        text: "“The cost of impacts caused by emission of carbon dioxide” is known as",
+                        options: ["cost of carbon", "economic cost of carbon", "social cost of carbon", "cultural cost of carbon"],
+                        answer: 2,
+                        explanation: "The social cost of carbon estimates the economic damages per ton of CO₂ emissions."
+                    },
+                    {
+                        text: "Nutrient cycling is an example of",
+                        options: ["provisioning service", "regulating service", "supporting service", "cultural service"],
+                        answer: 2,
+                        explanation: "Supporting services include processes like nutrient cycling that sustain ecosystems."
+                    },
+                    {
+                        text: "Which of these is a stochastic factor?",
+                        options: ["birth rate", "death rate", "population structure", "environmental fluctuation"],
+                        answer: 3,
+                        explanation: "Stochastic factors like environmental fluctuations are random events affecting populations."
+                    },
+                    {
+                        text: "Supply of medicines is an example of",
+                        options: ["provisioning service", "regulating service", "supporting service", "cultural service"],
+                        answer: 0,
+                        explanation: "Provisioning services provide material goods such as food, water, and medicines."
+                    },
+                    {
+                        text: "Which of these is not a use value?",
+                        options: ["direct value", "indirect value", "option value", "existence value"],
+                        answer: 3,
+                        explanation: "Existence value is a non-use value representing the satisfaction from knowing a resource exists."
+                    },
+                    {
+                        text: "Which of these is not a non-use value?",
+                        options: ["direct value", "existence value", "altruistic value", "bequest value"],
+                        answer: 0,
+                        explanation: "Direct value arises from actual use of environmental goods, not a non-use value."
+                    },
+                    {
+                        text: "The value of leaving use and non-use values for offspring’s or future generations is called",
+                        options: ["altruistic value", "bequest value", "existence value", "option value"],
+                        answer: 1,
+                        explanation: "Bequest value is the value placed on preserving resources for future generations."
+                    }
+                ]
+
+            },
+        ]
+    },
+    {
+        name: "2023",
+        assignments: [
+            {
+                name: "Distinct Questions (2024–25)",
+                questions: [
+                    {
+                        text: "Which of these are created by the interaction of body waves with surface rocks?",
+                        options: ["P waves", "S waves", "Body waves", "Surface waves"],
+                        answer: 3,
+                        explanation: "Surface waves are generated when body waves interact with the Earth's surface layers, causing strong ground motion."
+                    },
+                    {
+                        text: "Which of these is correct?",
+                        options: [
+                            "Intrusive rocks: formed outside crust, often coarse grained",
+                            "Intrusive rocks: formed inside crust, often fine grained",
+                            "Extrusive rocks: formed outside crust, often fine grained",
+                            "Extrusive rocks: formed inside crust, often coarse grained"
+                        ],
+                        answer: 2,
+                        explanation: "Extrusive igneous rocks form when magma cools quickly on the surface, producing fine-grained textures."
+                    },
+                    {
+                        text: "“Sheet silicate minerals with pearly, vitreous lustre” is a description of",
+                        options: ["pyroxene", "feldspar", "mica", "quartz"],
+                        answer: 2,
+                        explanation: "Mica minerals are sheet silicates known for their pearly to vitreous luster."
+                    },
+                    {
+                        text: "“Stratified and assorted deposits comprised of fine matter with rounded edges” is the definition of",
+                        options: ["glacial till", "outwash deposit", "esker", "drumlin"],
+                        answer: 1,
+                        explanation: "Outwash deposits are formed by glacial meltwater, sorting sediments into stratified layers of rounded particles."
+                    },
+                    {
+                        text: "Carbon sequestration in geological sites is an option for",
+                        options: ["mitigation", "adaptation", "both of these", "none of these"],
+                        answer: 0,
+                        explanation: "Geological carbon sequestration is a mitigation strategy to reduce atmospheric CO₂ concentrations."
+                    },
+                    {
+                        text: "Which of these create the best suited conditions for atmosphere on a planet?",
+                        options: ["high gravity, high temperature", "low gravity, high temperature", "low gravity, low temperature", "high gravity, low temperature"],
+                        answer: 3,
+                        explanation: "High gravity helps retain gases, and low temperature reduces their escape, favoring atmospheric stability."
+                    },
+                    {
+                        text: "Which of these are geological regions of India?",
+                        options: ["The mountains", "The peninsular block", "The Indo-Ganga-Brahmaputra plain", "all of these"],
+                        answer: 3,
+                        explanation: "India’s geology is divided into three major regions: mountains, plains, and the peninsular block."
+                    },
+                    {
+                        text: "In Koeppen classification, which is desert precipitation?",
+                        options: ["W", "S", "f", "s"],
+                        answer: 0,
+                        explanation: "‘W’ denotes desert (arid) precipitation in the Köppen climate classification."
+                    },
+                    {
+                        text: "There is more biodiversity in areas with",
+                        options: ["less competition, less predation", "less competition, more predation", "more competition, more predation", "more competition, less predation"],
+                        answer: 2,
+                        explanation: "Moderate levels of competition and predation promote species diversity through ecological balance."
+                    },
+                    {
+                        text: "Supply of medicines is an example of",
+                        options: ["provisioning service", "regulating service", "supporting service", "cultural service"],
+                        answer: 0,
+                        explanation: "Provisioning services provide tangible goods such as food, water, and medicines from ecosystems."
+                    },
+                    {
+                        text: "Which of these is a stochastic factor?",
+                        options: ["birth rate", "death rate", "population structure", "environmental fluctuation"],
+                        answer: 3,
+                        explanation: "Environmental fluctuations are stochastic (random) factors that can unpredictably influence population dynamics."
+                    },
+                    {
+                        text: "“The cost of impacts caused by emission of carbon dioxide” is known as",
+                        options: ["cost of carbon", "economic cost of carbon", "social cost of carbon", "cultural cost of carbon"],
+                        answer: 2,
+                        explanation: "The social cost of carbon measures economic damages associated with emitting one ton of CO₂."
+                    },
+                    {
+                        text: "Which of these is / are example(s) of mitigation measures to mitigate impacts of linear infrastructure on wildlife?",
+                        options: ["bridge underpasses", "box culverts", "pipe culverts", "all of these"],
+                        answer: 3,
+                        explanation: "All these structures serve as wildlife crossings to reduce fragmentation caused by linear infrastructure."
+                    },
+                    {
+                        text: "Mhow can best be categorised as",
+                        options: ["mining town", "garrison town", "educational town", "religious town"],
+                        answer: 1,
+                        explanation: "Mhow is primarily a garrison town, established as a military cantonment during British rule."
+                    },
+                    {
+                        text: "Which of these is / are example(s) of mitigation measures to mitigate impacts of linear infrastructure on wildlife?",
+                        options: ["land bridges", "canopy bridges", "glider poles", "all of these"],
+                        answer: 3,
+                        explanation: "All these structures facilitate wildlife movement over or around linear infrastructure, reducing mortality."
+                    }
+                ]
+
+            },
+        ]
+    },
+    {
         name: "2024",
         assignments: [
             {
@@ -2737,7 +3039,7 @@ const years = [
                             "Mining town",
                             "Garrison town",
                             "Educational town"
-                            
+
                         ],
                         answer: 0,
                         explanation: "Varanasi is famous for temples and pilgrimage. Mining and garrison roles are not significant. Educational is secondary; religious tourism dominates."
@@ -2749,7 +3051,7 @@ const years = [
                             "Absolute advantage",
                             "Production advantage",
                             "Resource advantage"
-                            
+
                         ],
                         answer: 1,
                         explanation: "Absolute advantage = higher productivity with same resources. Comparative advantage is based on lower opportunity cost, not absolute efficiency. Production/resource advantage are not standard economic terms."
@@ -2761,7 +3063,7 @@ const years = [
                             "World price",
                             "Import price",
                             "Domestic price"
-                            
+
                         ],
                         answer: 1,
                         explanation: "World price reflects global market equilibrium. Export price is when selling abroad, may differ from world price. Import price is price paid when buying abroad. Domestic price is internal market price."
@@ -2773,7 +3075,7 @@ const years = [
                             "Industrial town",
                             "Transport town",
                             "Commercial town"
-                            
+
                         ],
                         answer: 2,
                         explanation: "Visakhapatnam is a major port city, facilitating trade and movement of goods. Administrative, industrial, and commercial roles exist but transport dominates."
@@ -2796,7 +3098,7 @@ const years = [
                             "Administrative town",
                             "Transport town",
                             "Commercial town",
-                            
+
                         ],
                         answer: 0,
                         explanation: "Bhilai is known for steel plants and heavy industries. Administrative, transport, and commercial roles are secondary."
@@ -2808,7 +3110,7 @@ const years = [
                             "Comparative advantage",
                             "Monetary advantage",
                             "Opportunity advantage"
-                            
+
                         ],
                         answer: 1,
                         explanation: "Comparative advantage = lower sacrifice of other goods for production, forms basis of trade. Real/Monetary/Opportunity advantage are not standard economic definitions."
@@ -2825,7 +3127,7 @@ const years = [
                             "1000 m",
                             "1500 m",
                             "2000 m"
-                            
+
                         ],
                         answer: 2,
                         explanation: "Distance = (Speed of light × Time) ÷ 2 = (3 × 10⁸ × 0.00001) ÷ 2 = 1500 m. Other options are calculation mismatches."
@@ -2859,7 +3161,7 @@ const years = [
                             "Vulnerability",
                             "Hazard",
                             "Disaster"
-                            
+
                         ],
                         answer: 2,
                         explanation: "Hazards are potentially damaging events. Exposure is presence in hazard-prone area. Vulnerability is susceptibility to harm. Disaster is realized damage from hazard."
@@ -2871,7 +3173,7 @@ const years = [
                             "Disaster",
                             "Exposure",
                             "Vulnerability",
-                            
+
                         ],
                         answer: 1,
                         explanation: "The Disaster occurs when hazard interacts with exposure and vulnerability, causing losses. Hazard is only the threat. Exposure is objects or people at risk. Vulnerability is degree of susceptibility."
@@ -2894,7 +3196,7 @@ const years = [
                             "Far infrared",
                             "Near infrared",
                             "Orange"
-                            
+
                         ],
                         answer: 0,
                         explanation: "Green wavelength penetrates water for mapping underwater topography. Far infrared, near infrared, orange are absorbed by water, unsuitable for bathymetry."
@@ -2917,7 +3219,7 @@ const years = [
                             "Education",
                             "Firewood",
                             "Non-timber forest products"
-                            
+
                         ],
                         answer: 1,
                         explanation: "Consumptive values are goods extracted or used directly, like timber, firewood, NTFPs. Education is not a consumptive value."
@@ -2929,7 +3231,7 @@ const years = [
                             "Spatial resolution",
                             "Spectral resolution",
                             "Radiometric resolution"
-                            
+
                         ],
                         answer: 0,
                         explanation: "Temporal resolution = how often a satellite revisits a location. Spatial resolution is pixel size on ground. Spectral is wavelength sensitivity. Radiometric is ability to detect slight differences in energy."
@@ -2944,119 +3246,119 @@ const years = [
 
 // --- Helper Shuffle Function ---
 function shuffleArray(array) {
-  for (let i = array.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [array[i], array[j]] = [array[j], array[i]];
-  }
+    for (let i = array.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]];
+    }
 }
 
 // --- Populate year dropdown ---
 const yearSelect = document.getElementById('year');
 years.forEach((yearObj, i) => {
-  const opt = document.createElement('option');
-  opt.value = i;
-  opt.textContent = yearObj.name;
-  yearSelect.appendChild(opt);
+    const opt = document.createElement('option');
+    opt.value = i;
+    opt.textContent = yearObj.name;
+    yearSelect.appendChild(opt);
 });
 
 yearSelect.onchange = () => {
-  if (yearSelect.value === "") {
-    document.getElementById('assignment-select').style.display = 'none';
-    return;
-  }
-  const yearIdx = parseInt(yearSelect.value);
-  const assignmentSelectDiv = document.getElementById('assignment-select');
-  const assignmentSelect = document.getElementById('assignment');
-  assignmentSelectDiv.style.display = 'block';
-  assignmentSelect.innerHTML = '<option value="">-- Select Assignment --</option>';
-  years[yearIdx].assignments.forEach((a, i) => {
-    const opt = document.createElement('option');
-    opt.value = i;
-    opt.textContent = a.name;
-    assignmentSelect.appendChild(opt);
-  });
-  document.getElementById('quiz').innerHTML = '';
-  document.getElementById('result').innerHTML = '';
+    if (yearSelect.value === "") {
+        document.getElementById('assignment-select').style.display = 'none';
+        return;
+    }
+    const yearIdx = parseInt(yearSelect.value);
+    const assignmentSelectDiv = document.getElementById('assignment-select');
+    const assignmentSelect = document.getElementById('assignment');
+    assignmentSelectDiv.style.display = 'block';
+    assignmentSelect.innerHTML = '<option value="">-- Select Assignment --</option>';
+    years[yearIdx].assignments.forEach((a, i) => {
+        const opt = document.createElement('option');
+        opt.value = i;
+        opt.textContent = a.name;
+        assignmentSelect.appendChild(opt);
+    });
+    document.getElementById('quiz').innerHTML = '';
+    document.getElementById('result').innerHTML = '';
 };
 
 document.getElementById('load-assignment').onclick = () => {
-  const yearIdx = parseInt(yearSelect.value);
-  const assignVal = document.getElementById('assignment').value;
-  if (assignVal === "") return;
-  const assignIdx = parseInt(assignVal);
-  loadAssignmentJumbled(yearIdx, assignIdx);
+    const yearIdx = parseInt(yearSelect.value);
+    const assignVal = document.getElementById('assignment').value;
+    if (assignVal === "") return;
+    const assignIdx = parseInt(assignVal);
+    loadAssignmentJumbled(yearIdx, assignIdx);
 };
 
 function loadAssignmentJumbled(yearIdx, assignIdx) {
-  const quizDiv = document.getElementById('quiz');
-  const resultDiv = document.getElementById('result');
-  quizDiv.innerHTML = '';
-  resultDiv.innerHTML = '';
-  // Deep copy assignment object to avoid modifying original
-  const assignment = JSON.parse(JSON.stringify(years[yearIdx].assignments[assignIdx]));
+    const quizDiv = document.getElementById('quiz');
+    const resultDiv = document.getElementById('result');
+    quizDiv.innerHTML = '';
+    resultDiv.innerHTML = '';
+    // Deep copy assignment object to avoid modifying original
+    const assignment = JSON.parse(JSON.stringify(years[yearIdx].assignments[assignIdx]));
 
-  // Shuffle questions
-  shuffleArray(assignment.questions);
+    // Shuffle questions
+    shuffleArray(assignment.questions);
 
-  // Shuffle options in each question, track new correct answer index
-  assignment.questions.forEach(q => {
-    const optionIndices = q.options.map((_, idx) => idx);
-    shuffleArray(optionIndices);
-    const shuffledOptions = optionIndices.map(idx => q.options[idx]);
-    const shuffledAnswer = optionIndices.indexOf(q.answer);
-    q.options = shuffledOptions;
-    q.answer = shuffledAnswer;
-  });
+    // Shuffle options in each question, track new correct answer index
+    assignment.questions.forEach(q => {
+        const optionIndices = q.options.map((_, idx) => idx);
+        shuffleArray(optionIndices);
+        const shuffledOptions = optionIndices.map(idx => q.options[idx]);
+        const shuffledAnswer = optionIndices.indexOf(q.answer);
+        q.options = shuffledOptions;
+        q.answer = shuffledAnswer;
+    });
 
-  assignment.questions.forEach((q, qi) => {
-    const qDiv = document.createElement('div');
-    qDiv.className = 'question';
-    qDiv.innerHTML = `<div><b>Q${qi + 1}:</b> ${q.text}</div>`;
-    const optsDiv = document.createElement('div');
-    optsDiv.className = 'options';
-    q.options.forEach((opt, oi) => {
-      const id = `q${qi}_opt${oi}`;
-      optsDiv.innerHTML += `
+    assignment.questions.forEach((q, qi) => {
+        const qDiv = document.createElement('div');
+        qDiv.className = 'question';
+        qDiv.innerHTML = `<div><b>Q${qi + 1}:</b> ${q.text}</div>`;
+        const optsDiv = document.createElement('div');
+        optsDiv.className = 'options';
+        q.options.forEach((opt, oi) => {
+            const id = `q${qi}_opt${oi}`;
+            optsDiv.innerHTML += `
          <label>
            <input type="radio" name="q${qi}" value="${oi}" id="${id}">
            ${String.fromCharCode(97 + oi)}) ${opt}
          </label>
       `;
+        });
+        qDiv.appendChild(optsDiv);
+        quizDiv.appendChild(qDiv);
     });
-    qDiv.appendChild(optsDiv);
-    quizDiv.appendChild(qDiv);
-  });
-  quizDiv.innerHTML += `<button id="submit-quiz">Submit</button>`;
-  document.getElementById('submit-quiz').onclick = () => submitQuizJumbled(assignment);
+    quizDiv.innerHTML += `<button id="submit-quiz">Submit</button>`;
+    document.getElementById('submit-quiz').onclick = () => submitQuizJumbled(assignment);
 }
 
 function submitQuizJumbled(assignment) {
-  let score = 0;
-  let resultHTML = `<div class="score">Your Score: `;
-  let explanations = '';
-  assignment.questions.forEach((q, qi) => {
-    const radios = document.getElementsByName(`q${qi}`);
-    let selected = -1;
-    for (let r of radios) {
-      if (r.checked) selected = parseInt(r.value);
-    }
-    const correct = selected === q.answer;
-    if (correct) score++;
-    let optionsHtml = '<ul style="list-style-type:none; padding-left:0;">';
-    q.options.forEach((opt, idx) => {
-      let optionLetter = String.fromCharCode(97 + idx);
-      let style = '';
-      if (idx === q.answer) {
-        style = 'color: green; font-weight: 600;';
-      }
-      if (idx === selected && selected !== q.answer) {
-        style = 'color: red; font-weight: 600;';
-      }
-      optionsHtml += `<li style="${style}">${optionLetter}) ${opt}</li>`;
-    });
-    optionsHtml += '</ul>';
+    let score = 0;
+    let resultHTML = `<div class="score">Your Score: `;
+    let explanations = '';
+    assignment.questions.forEach((q, qi) => {
+        const radios = document.getElementsByName(`q${qi}`);
+        let selected = -1;
+        for (let r of radios) {
+            if (r.checked) selected = parseInt(r.value);
+        }
+        const correct = selected === q.answer;
+        if (correct) score++;
+        let optionsHtml = '<ul style="list-style-type:none; padding-left:0;">';
+        q.options.forEach((opt, idx) => {
+            let optionLetter = String.fromCharCode(97 + idx);
+            let style = '';
+            if (idx === q.answer) {
+                style = 'color: green; font-weight: 600;';
+            }
+            if (idx === selected && selected !== q.answer) {
+                style = 'color: red; font-weight: 600;';
+            }
+            optionsHtml += `<li style="${style}">${optionLetter}) ${opt}</li>`;
+        });
+        optionsHtml += '</ul>';
 
-    explanations += `
+        explanations += `
       <div>
         <b>Q${qi + 1}:</b> ${q.text}<br>
         <span class="${correct ? 'correct' : 'incorrect'}">
@@ -3067,9 +3369,9 @@ function submitQuizJumbled(assignment) {
       </div>
       <hr>
     `;
-  });
-  resultHTML += `${score} / ${assignment.questions.length}</div>`;
-  resultHTML += explanations;
-  document.getElementById('result').innerHTML = resultHTML;
-  document.getElementById('submit-quiz').disabled = true;
+    });
+    resultHTML += `${score} / ${assignment.questions.length}</div>`;
+    resultHTML += explanations;
+    document.getElementById('result').innerHTML = resultHTML;
+    document.getElementById('submit-quiz').disabled = true;
 }
