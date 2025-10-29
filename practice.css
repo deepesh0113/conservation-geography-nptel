@@ -244,3 +244,123 @@ hr {
   background: #1d6de0;
   border-radius: 3px;
 }
+
+
+#theme-toggle {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  border: none;
+  background-image: url('light.png');  
+  background-size: 60% 60%;
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+  box-shadow: 0 3px 8px rgba(30, 90, 200, 0.4);
+  transition: background-image 0.3s ease, background-color 0.3s ease;
+  z-index: 999;
+}
+
+#theme-toggle:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(30, 90, 200, 0.6);
+}
+
+
+body.dark-mode {
+  background: radial-gradient(circle at 30% 80%, #182045 0%, #090e1b 100%);
+  color: #e3e7f3;
+  transition: background 0.8s, color 0.8s;
+}
+
+body.dark-mode .practice-header {
+  background: linear-gradient(90deg, #d172e7, #7ddcff);
+  color: #121212;
+  box-shadow: 0 2px 10px rgba(18, 18, 18, 0.5);
+}
+
+body.dark-mode .practice-body, 
+body.dark-mode .practice-left, 
+body.dark-mode .practice-right {
+  background: linear-gradient(135deg, #253765 60%, #1d233d 100%);
+  color: #d7dbe5;
+  box-shadow: 0 10px 30px rgba(22, 40, 72, 0.58);
+  border-radius: 22px;
+}
+
+body.dark-mode .logo {
+  background: #44518d;
+  border: 2px solid #7ddcff;
+}
+
+body.dark-mode #question-block {
+  color: #aee1fc;
+}
+
+body.dark-mode .options label {
+  background: linear-gradient(90deg, #151d2e 70%, #24295c 100%);
+  border: 1.5px solid #282e4e;
+  color: #f6f5fb;
+  transition: all 0.2s cubic-bezier(0.41, 0.31, 0.77, 1.08);
+}
+
+body.dark-mode .options label:hover,
+body.dark-mode .options input[type="radio"]:focus + label {
+  background: linear-gradient(90deg, #a96fef 0%, #2b4be7 100%);
+  border-color: #d172e7;
+  color: #ffffff;
+}
+
+body.dark-mode .practice-nav button,
+body.dark-mode .submit-btn {
+  background: linear-gradient(90deg, #d172e7 0%, #3078ff 100%);
+  color: #f7f8fa;
+  box-shadow: 0 4px 18px rgba(96, 35, 220, 0.15);
+}
+
+body.dark-mode .practice-nav button:hover,
+body.dark-mode .submit-btn:hover {
+  background: linear-gradient(90deg, #9168f0 0%, #2b4be7 100%);
+}
+
+
+body.dark-mode #theme-toggle {
+  background-image: url('dark.png');  
+}
+
+
+@media (max-width: 600px) {
+  #theme-toggle {
+    width: 40px;
+    height: 40px;
+    top: 12px;
+    right: 12px;
+    background-size: 70% 70%;
+  }
+}
+
+.practice-right,
+.practice-right .legend,
+.practice-right .legend div {
+  color: #161515; 
+}
+
+#practice-result {
+  color: #191919; 
+  font-weight: 600;
+}
+
+
+body.dark-mode .practice-right,
+body.dark-mode .practice-right .legend,
+body.dark-mode .practice-right .legend div {
+  color: #e3e7f3;
+}
+
+body.dark-mode #practice-result {
+  color: #7ddcff;
+  font-weight: 600;
+}

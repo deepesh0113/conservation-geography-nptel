@@ -3289,6 +3289,25 @@ document.getElementById('load-assignment').onclick = () => {
     loadAssignmentJumbled(yearIdx, assignIdx);
 };
 
+const toggle = document.getElementById('theme-toggle');
+
+// Load saved theme preference or default to light mode
+const savedTheme = localStorage.getItem('theme');
+if (savedTheme === 'dark') {
+  document.body.classList.add('dark-mode');
+} else {
+  document.body.classList.add('light-mode');
+}
+
+toggle.addEventListener('click', () => {
+  const isDark = document.body.classList.toggle('dark-mode');
+  document.body.classList.toggle('light-mode', !isDark);
+
+  // Save preference
+  localStorage.setItem('theme', isDark ? 'dark' : 'light');
+});
+
+
 function loadAssignmentJumbled(yearIdx, assignIdx) {
     const quizDiv = document.getElementById('quiz');
     const resultDiv = document.getElementById('result');

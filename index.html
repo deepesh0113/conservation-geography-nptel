@@ -23,6 +23,8 @@
 </head>
 
 <body>
+  <img src="home_bg.jpg" alt="Background Wallpaper"
+    style="position:fixed;top:0;left:0;width:100vw;height:100vh;object-fit:cover;z-index:-1;">
   <div class="container">
     <h1><u>Conservation Geography Assignments</u></h1>
     <h1><u>(Practice purposes)</u></h1>
@@ -44,11 +46,10 @@
     <button id="practice-mode" onclick="window.open('practice.html', '_blank')">
       Launch Practice Exam
     </button>
-
-
     <div id="quiz"></div>
     <div id="result"></div>
   </div>
+  <button id="theme-toggle" aria-label="Toggle Theme" class="theme-button"></button>
 
   <script src="main.js"></script>
 </body>

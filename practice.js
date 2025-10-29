@@ -2637,6 +2637,7 @@ document.getElementById("submit-practice").onclick = function () {
         submitPractice();
     }
 };
+
 function submitPractice() {
     let score = 0;
     let html = `<div class="score">Practice Results for <strong>albert</strong>:</div>`;
@@ -2696,6 +2697,22 @@ function submitPractice() {
     showScorePopup(score);
 }
 
+const toggleBtn = document.getElementById('theme-toggle');
+const savedTheme = localStorage.getItem('practiceTheme');
+
+if (savedTheme) {
+  document.body.classList.add(savedTheme);
+}
+
+toggleBtn.addEventListener('click', () => {
+  if(document.body.classList.contains('dark-mode')) {
+    document.body.classList.remove('dark-mode');
+    localStorage.setItem('practiceTheme', '');
+  } else {
+    document.body.classList.add('dark-mode');
+    localStorage.setItem('practiceTheme', 'dark-mode');
+  }
+});
 
 
 // --- Score popup function ---
